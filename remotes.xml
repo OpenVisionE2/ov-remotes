@@ -115,6 +115,7 @@
 	<remote model="ixussone" rcType="0" codeName="ixuss" displayName="Ixuss One" />
 	<remote model="ixusszero" rcType="0" codeName="ixuss" displayName="Ixuss Zero" />
 	<remote model="iziboxelite4k" rcType="0" codeName="izibox2" displayName="Izibox Elite 4K" />
+	<remote model="iziboxone4kplus" rcType="0" codeName="izibox2" displayName="Izibox One 4K Plus" />
 	<remote model="iziboxx3" rcType="0" codeName="izibox1" displayName="Izibox X3" />
 	<remote model="k1plus" rcType="0" codeName="k1pro" displayName="K1 Plus" />
 	<remote model="k1plusv2" rcType="0" codeName="k1pro" displayName="K1 Plus V2" />
@@ -179,7 +180,8 @@
 	<remote model="sf228" rcType="0" codeName="sf2x8" displayName="SF228" />
 	<remote model="sf238" rcType="0" codeName="sf2x8" displayName="SF238" />
 	<remote model="sf8008" rcType="0" codeName="sf8008" displayName="SF8008" />
-	<remote model="sf8008m" rcType="0" codeName="sf8008" displayName="SF8008m" />
+	<remote model="sf8008m" rcType="0" codeName="sf8008" displayName="SF8008 Mini" />
+	<remote model="sf8008opt" rcType="0" codeName="sf8008" displayName="SF8008 Optima" />
 	<remote model="sf98" rcType="0" codeName="sf98" displayName="SF98" />
 	<remote model="singleboxlcd" rcType="0" codeName="red2" displayName="Single Box LCD" />
 	<remote model="sogno8800hd" rcType="0" codeName="sogno" displayName="Sogno 8800HD" />
@@ -219,6 +221,7 @@
 	<remote model="ventonhdx" rcType="0" codeName="ini0" displayName="Venton HDx" />
 	<remote model="viper4k" rcType="0" codeName="amiko4" displayName="Viper 4K" />
 	<remote model="viper4kv20" rcType="0" codeName="amiko6" displayName="Viper 4K V20" />
+	<remote model="viper4kv40" rcType="0" codeName="amiko6" displayName="Viper 4K V40" />
 	<remote model="vipersingle" rcType="0" codeName="amiko6" displayName="Viper Single" />
 	<remote model="vuduo" rcType="0" codeName="vu" displayName="VU+ DUO" />
 	<remote model="vuduo2" rcType="0" codeName="vu3" displayName="VU+ DUO 2" />
