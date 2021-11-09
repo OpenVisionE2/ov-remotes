@@ -341,7 +341,8 @@
 	<remote model="h7" rcType="21" codeName="zgemma3" displayName="AirDigital Zgemma H7 - Old model" />
 	<remote model="novacombo" rcType="21" codeName="evo7" displayName="Nova Combo" />
 	<remote model="novatwin" rcType="21" codeName="evo7" displayName="Nova Twin" />
-	<remote model="opt9600" rcType="21" codeName="opt9600" displayName="Opt 9600" />
+	<remote model="opt9600" rcType="21" codeName="opt9600" displayName="Opticum 9600" />
+	<remote model="opt9600mini" rcType="21" codeName="opt9600" displayName="Opticum 9600 Mini" />
 	<remote model="cuberevo_250hd" rcType="22" codeName="cuberevo" displayName="Cuberevo 250HD" />
 	<remote model="i55" rcType="22" codeName="zgemma5" displayName="AirDigital Zgemma i55" />
 	<remote model="novaip" rcType="22" codeName="evo6" displayName="Novaip" />
