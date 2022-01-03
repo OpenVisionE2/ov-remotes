@@ -31,16 +31,12 @@
 	<remote model="beyonwizv2" rcType="0" codeName="beyonwiz2" displayName="Beyonwiz V2" />
 	<remote model="bre2ze" rcType="0" codeName="wwio1" displayName="Bre2ze" />
 	<remote model="bwidowx" rcType="0" codeName="ini6" displayName="Bwidowx" />
-	<remote model="bwidowx2" rcType="0" codeName="ini6" displayName="Bwidowx 2" />
 	<remote model="cube" rcType="0" codeName="cube" displayName="Cube" />
 	<remote model="dinobot4k" rcType="0" codeName="dinobot1" displayName="Dinobot 4K" />
-	<remote model="dinobot4kl" rcType="0" codeName="dinobot1" displayName="Dinobot 4K L" />
 	<remote model="dinobot4kmini" rcType="0" codeName="dinobot1" displayName="Dinobot 4K Mini" />
 	<remote model="dinobot4kplus" rcType="0" codeName="dinobot1" displayName="Dinobot 4K Plus" />
-	<remote model="dinobot4kpro" rcType="0" codeName="dinobot1" displayName="Dinobot 4K Pro" />
 	<remote model="dinobot4kse" rcType="0" codeName="dinobot1" displayName="Dinobot 4K SE" />
 	<remote model="dinobot4ktwin" rcType="0" codeName="dinobot2" displayName="Dinobot 4K Twin" />
-	<remote model="dinoboth265" rcType="0" codeName="dinobot1" displayName="Dinobot H265" />
 	<remote model="dinobotu43" rcType="0" codeName="turing" displayName="Dinobot U43" />
 	<remote model="dinobotu55" rcType="0" codeName="dinobot1" displayName="Dinobot U55" />
 	<remote model="dm500hd" rcType="0" codeName="dmm1" displayName="Dream Multimedia 500HD" />
@@ -183,14 +179,10 @@
 	<remote model="sf238" rcType="0" codeName="sf2x8" displayName="SF238" />
 	<remote model="sf8008" rcType="0" codeName="sf8008" displayName="SF8008" />
 	<remote model="sf8008m" rcType="0" codeName="sf8008" displayName="SF8008 Mini" />
-	<remote model="sf8008opt" rcType="0" codeName="sf8008" displayName="SF8008 Optima" />
 	<remote model="sf98" rcType="0" codeName="sf98" displayName="SF98" />
 	<remote model="singleboxlcd" rcType="0" codeName="red2" displayName="Single Box LCD" />
 	<remote model="sogno8800hd" rcType="0" codeName="sogno" displayName="Sogno 8800HD" />
 	<remote model="spycat" rcType="0" codeName="xcore1" displayName="Spycat" />
-	<remote model="spycat4k" rcType="0" codeName="xcore1" displayName="Spycat 4K" />
-	<remote model="spycat4kcombo" rcType="0" codeName="xcore1" displayName="Spycat 4K Combo" />
-	<remote model="spycat4kmini" rcType="0" codeName="xcore1" displayName="Spycat 4K Mini" />
 	<remote model="spycatmini" rcType="0" codeName="xcore1" displayName="Spycat Mini" />
 	<remote model="spycatminiplus" rcType="0" codeName="xcore1" displayName="Spycat Mini Plus" />
 	<remote model="su980" rcType="0" codeName="dmm1" displayName="SU 980" />
@@ -216,7 +208,6 @@
 	<remote model="twinboxlcdci5" rcType="0" codeName="red2" displayName="Twinbox LCD CI5" />
 	<remote model="tyrant" rcType="0" codeName="tyrant" displayName="Tyrant" />
 	<remote model="ufc960" rcType="0" codeName="spark" displayName="Ufc 960" />
-	<remote model="ultrabox" rcType="0" codeName="triplex" displayName="Ultrabox" />
 	<remote model="uniboxhde" rcType="0" codeName="uniboxhde" displayName="Unibox HDe" />
 	<remote model="ustym4kpro" rcType="0" codeName="uclan" displayName="Ustym 4K Pro" />
 	<remote model="valalinux" rcType="0" codeName="vala" displayName="Vala Linux" />
@@ -301,7 +292,6 @@
 	<remote model="xp1000" rcType="14" codeName="xp1000" displayName="XP1000" />
 	<remote model="adb_2850" rcType="15" codeName="adb_xmp" displayName="Adb 2850" />
 	<remote model="adb_box" rcType="15" codeName="adb_xmp" displayName="Adb Box" />
-	<remote model="axultra" rcType="16" codeName="ax51" displayName="AX Ultra" />
 	<remote model="et7x00" rcType="16" codeName="et7x00" displayName="Xtrend ET7X00" />
 	<remote model="et8500" rcType="16" codeName="et8000" displayName="Xtrend ET8500" />
 	<remote model="hd11" rcType="16" codeName="hd1100" displayName="Mutant HD11" />
@@ -388,5 +378,4 @@
 	<remote model="beyonwizu4" rcType="508" codeName="beyonwiz1,ini7" displayName="Beyonwiz U4 - 0x02F2 Code set" />
 	<remote model="beyonwizu4" rcType="509" codeName="ini7" displayName="Beyonwiz U4 - 0x02F3 Code set" />
 	<remote model="beyonwizu4" rcType="510" codeName="ini7" displayName="Beyonwiz U4 - 0x02F4 Code set" />
-	<remote model="sf5008" rcType="511" codeName="sf5008" displayName="Octagon SF5008" />
 </remotes>
