@@ -186,6 +186,7 @@
 	<remote model="spycatmini" rcType="0" codeName="xcore1" displayName="Spycat Mini" />
 	<remote model="spycatminiplus" rcType="0" codeName="xcore1" displayName="Spycat Mini Plus" />
 	<remote model="su980" rcType="0" codeName="dmm1" displayName="SU 980" />
+	<remote model="sx988" rcType="0" codeName="octagon2" displayName="SX988 4K DUAL OS" />
 	<remote model="t2cable" rcType="0" codeName="evo4" displayName="T2 Cable" />
 	<remote model="tiviaraplus" rcType="0" codeName="tiviar1" displayName="Tiviara Plus" />
 	<remote model="tiviarmin" rcType="0" codeName="tiviar1" displayName="Tiviarmin" />
@@ -209,13 +210,15 @@
 	<remote model="tyrant" rcType="0" codeName="tyrant" displayName="Tyrant" />
 	<remote model="ufc960" rcType="0" codeName="spark" displayName="Ufc 960" />
 	<remote model="uniboxhde" rcType="0" codeName="uniboxhde" displayName="Unibox HDe" />
-	<remote model="ustym4kpro" rcType="0" codeName="uclan" displayName="Ustym 4K Pro" />
+	<remote model="ustym4kottpremium" rcType="0" codeName="uclan2" displayName="Ustym 4K OTT Premium" />
+	<remote model="ustym4kpro" rcType="0" codeName="uclan1" displayName="Ustym 4K Pro" />
 	<remote model="valalinux" rcType="0" codeName="vala" displayName="Vala Linux" />
 	<remote model="ventonhdx" rcType="0" codeName="ini0" displayName="Venton HDx" />
 	<remote model="viper4k" rcType="0" codeName="amiko4" displayName="Viper 4K" />
 	<remote model="viper4kv20" rcType="0" codeName="amiko6" displayName="Viper 4K V20" />
 	<remote model="viper4kv40" rcType="0" codeName="amiko6" displayName="Viper 4K V40" />
 	<remote model="vipersingle" rcType="0" codeName="amiko6" displayName="Viper Single" />
+	<remote model="vipertwin" rcType="0" codeName="amiko6" displayName="Viper Twin E2" />
 	<remote model="vuduo" rcType="0" codeName="vu" displayName="VU+ DUO" />
 	<remote model="vuduo2" rcType="0" codeName="vu3" displayName="VU+ DUO 2" />
 	<remote model="vuduo4k" rcType="0" codeName="vu4" displayName="VU+ DUO 4K" />
@@ -358,7 +361,7 @@
 	<remote model="h9combose" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H9 Combo SE" />
 	<remote model="h9se" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H9 SE" />
 	<remote model="h10" rcType="28" codeName="zgemma7" displayName="AirDigital Zgemma H10" />
-	<remote model="h11" rcType="28" codeName="zgemma7" displayName="AirDigital Zgemma H11" />
+	<remote model="h11" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H11" />
 	<remote model="i55plusse" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma i55 Plus SE" />
 	<remote model="bre2zet2c" rcType="500" codeName="wwio1" displayName="WWIO BRE2ZE T2C" />
 	<remote model="sf128" rcType="501" codeName="sf3038" displayName="Octagon SF4128" />
