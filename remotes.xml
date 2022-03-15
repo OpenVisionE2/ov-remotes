@@ -138,6 +138,7 @@
 	<remote model="odin2hybrid" rcType="0" codeName="ax1" displayName="Odin 2 Hybrid" />
 	<remote model="odinplus" rcType="0" codeName="ax1" displayName="Odin Plus" />
 	<remote model="odroidc2" rcType="0" codeName="hardkernel" displayName="Odroid C2" />
+	<remote model="og2ott4k" rcType="0" codeName="qviart6" displayName="OG2 OTT 4K" />
 	<remote model="opticumtt" rcType="0" codeName="ini8" displayName="Opticumtt" />
 	<remote model="optimussos" rcType="0" codeName="optimuss1" displayName="Optimussos" />
 	<remote model="optimussos1" rcType="0" codeName="optimuss1" displayName="Optimussos 1" />
@@ -336,6 +337,7 @@
 	<remote model="novatwin" rcType="21" codeName="evo7" displayName="Nova Twin" />
 	<remote model="opt9600" rcType="21" codeName="opt9600" displayName="Opticum 9600" />
 	<remote model="opt9600mini" rcType="21" codeName="opt9600" displayName="Opticum 9600 Mini" />
+	<remote model="opt9600prima" rcType="21" codeName="opt9600" displayName="Opticum 9600 Prima" />
 	<remote model="cuberevo_250hd" rcType="22" codeName="cuberevo" displayName="Cuberevo 250HD" />
 	<remote model="i55" rcType="22" codeName="zgemma5" displayName="AirDigital Zgemma i55" />
 	<remote model="novaip" rcType="22" codeName="evo6" displayName="Novaip" />
@@ -352,6 +354,7 @@
 	<remote model="hd61" rcType="26" codeName="ax4" displayName="Protek/AX HD61" />
 	<remote model="protek4k" rcType="26" codeName="protek2" displayName="Protek X1 4K UHD" />
 	<remote model="hd60" rcType="27" codeName="hd60" displayName="Mutant HD60" />
+	<remote model="hd66se" rcType="27" codeName="hd66se" displayName="Mutant HD66 SE" />
 	<remote model="multibox" rcType="27" codeName="maxytec1" displayName="MultiBox" />
 	<remote model="multiboxse" rcType="27" codeName="maxytec1" displayName="MultiBox SE" />
 	<remote model="h7" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H7 - New model" />
