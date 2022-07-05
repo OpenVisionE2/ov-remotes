@@ -10,7 +10,7 @@
 	<remote model="arivacombo" rcType="0" codeName="ariva" displayName="Ariva Combo" />
 	<remote model="arivalink200" rcType="0" codeName="spark" displayName="Ariva Link 200" />
 	<remote model="arivatwin" rcType="0" codeName="ariva" displayName="Ariva Twin" />
-	<remote model="atemio520" rcType="0" codeName="spark" displayName="Atemio 520" />
+	<remote model="atemio520" rcType="0" codeName="atemio520" displayName="Atemio 520" />
 	<remote model="atemio530" rcType="0" codeName="spark" displayName="Atemio 530" />
 	<remote model="atemio5x00" rcType="0" codeName="ini4" displayName="Atemio 5X00" />
 	<remote model="atemio6000" rcType="0" codeName="ini4" displayName="Atemio 6000" />
