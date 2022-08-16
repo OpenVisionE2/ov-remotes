@@ -31,7 +31,7 @@ from os.path import isfile, join as pathjoin
 from sys import argv
 from xml.etree.cElementTree import ParseError, parse, fromstring
 
-VERSION = "1.2  -  9-Jul-2021"
+VERSION = "1.21  -  16-Aug-2022"
 
 LOG_SILENT = 0
 LOG_PROGRAM = 1
@@ -80,7 +80,6 @@ LOG_LEVEL = LOG_INFORMATION
 SORT_ORDER = SORT_POSITION
 FORMAT_LABELS = FORMAT_CAPITALISE
 FORMAT_TITLES = FORMAT_CAPITALISE
-USE_ALLIANCE_PATH = False
 
 KEYIDS = {
 	"KEY_RESERVED": 0,
@@ -891,9 +890,12 @@ def loadRemoteXML(filename):
 			if name in AUTO_CORRECT:
 				logMessage(LOG_NOTE, "Auto correcting button name '%s' to '%s'." % (name, AUTO_CORRECT[name]))
 				name = AUTO_CORRECT[name]
-			for keyId, names in KEYDESCRIPTIONS[index].items():
-				if names[0] == name:
-					break
+			try:
+				for keyId, names in KEYDESCRIPTIONS[index].items():
+					if names[0] == name:
+						break
+			except:
+				pass
 			else:
 				logMessage(LOG_ERROR, "The keyId can't be derived from the name '%s'!" % name)
 				continue
@@ -1047,19 +1049,20 @@ def checkShape(shape, coords, keyId, id):
 def sortButtons(sortOrder, rcButtons):
 	buttonOrder = []
 	nonButtons = []
-	for sequence in rcButtons.keys():
-		try:
-			sequence = int(sequence)
-			if sortOrder == SORT_SEQUENCE:
-				buttonOrder.append("%04d" % sequence)
-			elif sortOrder == SORT_POSITION:
-				buttonOrder.append("%s%04d" % (rcButtons[sequence].get("position", "999999"), sequence))
-			elif sortOrder == SORT_KEYID:
-				buttonOrder.append("%04d%04d" % (rcButtons[sequence].get("keyId", 9999), sequence))
-			elif sortOrder == SORT_LABEL:
-				buttonOrder["%s%04d" % (rcButtons[sequence].get("label", "ZZZZZZ"), sequence)] = sequence
-		except ValueError:
-			nonButtons.append((sequence, rcButtons[sequence]))
+	if rcButtons:
+		for sequence in rcButtons.keys():
+			try:
+				sequence = int(sequence)
+				if sortOrder == SORT_SEQUENCE:
+					buttonOrder.append("%04d" % sequence)
+				elif sortOrder == SORT_POSITION:
+					buttonOrder.append("%s%04d" % (rcButtons[sequence].get("position", "999999"), sequence))
+				elif sortOrder == SORT_KEYID:
+					buttonOrder.append("%04d%04d" % (rcButtons[sequence].get("keyId", 9999), sequence))
+				elif sortOrder == SORT_LABEL:
+					buttonOrder["%s%04d" % (rcButtons[sequence].get("label", "ZZZZZZ"), sequence)] = sequence
+			except ValueError:
+				nonButtons.append((sequence, rcButtons[sequence]))
 	buttonList = []
 	for button in sorted(buttonOrder):
 		sequence = int(button[-4:])
@@ -1096,9 +1099,13 @@ def findDuplicates(buttonList, rcButtons):
 def buildXML(filename, buttonList, rcButtons):
 	xml = []
 	xml.append("<rcs>")
-	id = rcButtons.get("id", 2)
-	image = rcButtons.get("image")
-	xml.append("\t<rc image=\"%s\">" % image if image else "\t<rc>")
+	if rcButtons:
+		id = rcButtons.get("id", 2)
+		image = rcButtons.get("image")
+	if image:
+		xml.append("\t<rc image=\"%s\">" % image)
+	else:
+		xml.append("\t<rc image=\"%s\">" % "\t<rc>")
 	for button in buttonList:
 		attribs = []
 		id = rcButtons[button].get("id", "KEY_RESERVED")
@@ -1121,13 +1128,14 @@ def buildXML(filename, buttonList, rcButtons):
 		xml.append("\t\t<button %s />" % " ".join(attribs))
 	xml.append("\t</rc>")
 	xml.append("</rcs>")
-	logMessage(LOG_REPORT, "%d buttons loaded, %d buttons verified and written to the XML file." % (len(rcButtons.get("buttons")), len(buttonList)))
+	if rcButtons:
+		logMessage(LOG_REPORT, "%d buttons loaded, %d buttons verified and written to the XML file." % (len(rcButtons.get("buttons")), len(buttonList)))
 	saveFile(filename, xml)
 	return
 
 
 def saveFile(filename, content):
-	filename = "%s.new.xml" % filename
+	filename = "%s-new" % filename
 	try:
 		with open(filename, "w") as fd:
 			for line in content:
@@ -1172,6 +1180,7 @@ for filename in sorted(args):
 	rcButtons = loadRemoteXML(filename)
 	buttonList = sortButtons(SORT_ORDER, rcButtons)
 	findDuplicates(buttonList, rcButtons)
-	buildXML(filename, buttonList, rcButtons)
+	if rcButtons:
+		buildXML(filename, buttonList, rcButtons)
 logMessage(LOG_PROGRAM, "\nProcessing complete.")
 exit(0)
