@@ -31,10 +31,7 @@ from os.path import isfile, join as pathjoin
 from sys import argv
 from xml.etree.cElementTree import ParseError, parse, fromstring
 
-from KeyBindings import keyDescriptions
-from keyids import KEYIDS, KEYIDNAMES
-
-VERSION = "1.1  -  26-May-2021"
+VERSION = "1.2  -  9-Jul-2021"
 
 LOG_SILENT = 0
 LOG_PROGRAM = 1
@@ -77,7 +74,6 @@ FORMATS = [
 	"uppercased"
 ]
 
-ALLIANCE_IMAGE_PATH = "/static/remotes/"
 REMOTE_IMAGE_PATH = "/images/remotes/"
 
 LOG_LEVEL = LOG_INFORMATION
@@ -85,6 +81,687 @@ SORT_ORDER = SORT_POSITION
 FORMAT_LABELS = FORMAT_CAPITALISE
 FORMAT_TITLES = FORMAT_CAPITALISE
 USE_ALLIANCE_PATH = False
+
+KEYIDS = {
+	"KEY_RESERVED": 0,
+	"KEY_ESC": 1,
+	"KEY_1": 2,
+	"KEY_2": 3,
+	"KEY_3": 4,
+	"KEY_4": 5,
+	"KEY_5": 6,
+	"KEY_6": 7,
+	"KEY_7": 8,
+	"KEY_8": 9,
+	"KEY_9": 10,
+	"KEY_0": 11,
+	"KEY_MINUS": 12,
+	"KEY_EQUAL": 13,
+	"KEY_BACKSPACE": 14,
+	"KEY_TAB": 15,
+	"KEY_Q": 16,
+	"KEY_W": 17,
+	"KEY_E": 18,
+	"KEY_R": 19,
+	"KEY_T": 20,
+	"KEY_Y": 21,
+	"KEY_U": 22,
+	"KEY_I": 23,
+	"KEY_O": 24,
+	"KEY_P": 25,
+	"KEY_LEFTBRACE": 26,
+	"KEY_RIGHTBRACE": 27,
+	"KEY_ENTER": 28,
+	"KEY_LEFTCTRL": 29,
+	"KEY_A": 30,
+	"KEY_S": 31,
+	"KEY_D": 32,
+	"KEY_F": 33,
+	"KEY_G": 34,
+	"KEY_H": 35,
+	"KEY_J": 36,
+	"KEY_K": 37,
+	"KEY_L": 38,
+	"KEY_SEMICOLON": 39,
+	"KEY_APOSTROPHE": 40,
+	"KEY_GRAVE": 41,
+	"KEY_LEFTSHIFT": 42,
+	"KEY_BACKSLASH": 43,
+	"KEY_Z": 44,
+	"KEY_X": 45,
+	"KEY_C": 46,
+	"KEY_V": 47,
+	"KEY_B": 48,
+	"KEY_N": 49,
+	"KEY_M": 50,
+	"KEY_COMMA": 51,
+	"KEY_DOT": 52,
+	"KEY_SLASH": 53,
+	"KEY_RIGHTSHIFT": 54,
+	"KEY_KPASTERISK": 55,
+	"KEY_LEFTALT": 56,
+	"KEY_SPACE": 57,
+	"KEY_CAPSLOCK": 58,
+	"KEY_F1": 59,
+	"KEY_F2": 60,
+	"KEY_F3": 61,
+	"KEY_F4": 62,
+	"KEY_F5": 63,
+	"KEY_F6": 64,
+	"KEY_F7": 65,
+	"KEY_F8": 66,
+	"KEY_F9": 67,
+	"KEY_F10": 68,
+	"KEY_NUMLOCK": 69,
+	"KEY_SCROLLLOCK": 70,
+	"KEY_KP7": 71,
+	"KEY_KP8": 72,
+	"KEY_KP9": 73,
+	"KEY_KPMINUS": 74,
+	"KEY_KP4": 75,
+	"KEY_KP5": 76,
+	"KEY_KP6": 77,
+	"KEY_KPPLUS": 78,
+	"KEY_KP1": 79,
+	"KEY_KP2": 80,
+	"KEY_KP3": 81,
+	"KEY_KP0": 82,
+	"KEY_KPDOT": 83,
+	"KEY_103RD": 84,
+	"KEY_F13": 85,
+	"KEY_102ND": 86,
+	"KEY_F11": 87,
+	"KEY_F12": 88,
+	"KEY_F14": 89,
+	"KEY_F15": 90,
+	"KEY_F16": 91,
+	"KEY_F17": 92,
+	"KEY_F18": 93,
+	"KEY_F19": 94,
+	"KEY_F20": 95,
+	"KEY_KPENTER": 96,
+	"KEY_RIGHTCTRL": 97,
+	"KEY_KPSLASH": 98,
+	"KEY_SYSRQ": 99,
+	"KEY_RIGHTALT": 100,
+	"KEY_LINEFEED": 101,
+	"KEY_HOME": 102,
+	"KEY_UP": 103,
+	"KEY_PAGEUP": 104,
+	"KEY_LEFT": 105,
+	"KEY_RIGHT": 106,
+	"KEY_END": 107,
+	"KEY_DOWN": 108,
+	"KEY_PAGEDOWN": 109,
+	"KEY_INSERT": 110,
+	"KEY_DELETE": 111,
+	"KEY_MACRO": 112,
+	"KEY_MUTE": 113,
+	"KEY_VOLUMEDOWN": 114,
+	"KEY_VOLUMEUP": 115,
+	"KEY_POWER": 116,
+	"KEY_KPEQUAL": 117,
+	"KEY_KPPLUSMINUS": 118,
+	"KEY_PAUSE": 119,
+	"KEY_F21": 120,
+	"KEY_F22": 121,
+	"KEY_F23": 122,
+	"KEY_F24": 123,
+	"KEY_KPCOMMA": 124,
+	"KEY_LEFTMETA": 125,
+	"KEY_RIGHTMETA": 126,
+	"KEY_COMPOSE": 127,
+	"KEY_STOP": 128,
+	"KEY_AGAIN": 129,
+	"KEY_PROPS": 130,
+	"KEY_UNDO": 131,
+	"KEY_FRONT": 132,
+	"KEY_COPY": 133,
+	"KEY_OPEN": 134,
+	"KEY_PASTE": 135,
+	"KEY_FIND": 136,
+	"KEY_CUT": 137,
+	"KEY_HELP": 138,
+	"KEY_MENU": 139,
+	"KEY_CALC": 140,
+	"KEY_SETUP": 141,
+	"KEY_SLEEP": 142,
+	"KEY_WAKEUP": 143,
+	"KEY_FILE": 144,
+	"KEY_SENDFILE": 145,
+	"KEY_DELETEFILE": 146,
+	"KEY_XFER": 147,
+	"KEY_PROG1": 148,
+	"KEY_PROG2": 149,
+	"KEY_WWW": 150,
+	"KEY_MSDOS": 151,
+	"KEY_COFFEE": 152,
+	"KEY_DIRECTION": 153,
+	"KEY_CYCLEWINDOWS": 154,
+	"KEY_MAIL": 155,
+	"KEY_BOOKMARKS": 156,
+	"KEY_COMPUTER": 157,
+	"KEY_BACK": 158,
+	"KEY_FORWARD": 159,
+	"KEY_CLOSECD": 160,
+	"KEY_EJECTCD": 161,
+	"KEY_EJECTCLOSECD": 162,
+	"KEY_NEXTSONG": 163,
+	"KEY_PLAYPAUSE": 164,
+	"KEY_PREVIOUSSONG": 165,
+	"KEY_STOPCD": 166,
+	"KEY_RECORD": 167,
+	"KEY_REWIND": 168,
+	"KEY_PHONE": 169,
+	"KEY_ISO": 170,
+	"KEY_CONFIG": 171,
+	"KEY_HOMEPAGE": 172,
+	"KEY_REFRESH": 173,
+	"KEY_EXIT": 174,
+	"KEY_MOVE": 175,
+	"KEY_EDIT": 176,
+	"KEY_SCROLLUP": 177,
+	"KEY_SCROLLDOWN": 178,
+	"KEY_KPLEFTPAREN": 179,
+	"KEY_KPRIGHTPAREN": 180,
+	"KEY_INTL1": 181,
+	"KEY_INTL2": 182,
+	"KEY_INTL3": 183,
+	"KEY_INTL4": 184,
+	"KEY_INTL5": 185,
+	"KEY_INTL6": 186,
+	"KEY_INTL7": 187,
+	"KEY_INTL8": 188,
+	"KEY_INTL9": 189,
+	"KEY_LANG1": 190,
+	"KEY_LANG2": 191,
+	"KEY_LANG3": 192,
+	"KEY_LANG4": 193,
+	"KEY_LANG5": 194,
+	"KEY_LANG6": 195,
+	"KEY_LANG7": 196,
+	"KEY_LANG8": 197,
+	"KEY_LANG9": 198,
+	"KEY_PLAYCD": 200,
+	"KEY_PAUSECD": 201,
+	"KEY_PROG3": 202,
+	"KEY_PROG4": 203,
+	"KEY_SUSPEND": 205,
+	"KEY_CLOSE": 206,
+	"KEY_PLAY": 207,
+	"KEY_FASTFORWARD": 208,
+	"KEY_BASSBOOST": 209,
+	"KEY_PRINT": 210,
+	"KEY_HP": 211,
+	"KEY_CAMERA": 212,
+	"KEY_SOUND": 213,
+	"KEY_QUESTION": 214,
+	"KEY_EMAIL": 215,
+	"KEY_CHAT": 216,
+	"KEY_SEARCH": 217,
+	"KEY_CONNECT": 218,
+	"KEY_FINANCE": 219,
+	"KEY_SPORT": 220,
+	"KEY_SHOP": 221,
+	"KEY_ALTERASE": 222,
+	"KEY_CANCEL": 223,
+	"KEY_BRIGHTNESSDOWN": 224,
+	"KEY_BRIGHTNESSUP": 225,
+	"KEY_MEDIA": 226,
+	"KEY_VMODE": 227,  # Deprecated, retained for backwards compatibility.
+	"KEY_SWITCHVIDEOMODE": 227,
+	"KEY_LAN": 238,
+	"KEY_UNKNOWN": 240,
+	"BTN_0": 256,
+	"BTN_1": 257,
+	"BtnA": 304,
+	"BtnB": 305,
+	"BtnC": 306,
+	"BtnX": 307,
+	"BtnY": 308,
+	"BtnZ": 309,
+	"BtnTL": 310,
+	"BtnTR": 311,
+	"BtnTL2": 312,
+	"BtnTR2": 313,
+	"BtnSelect": 314,
+	"BtnStart": 315,
+	"KEY_SHIFT": 351,  # This is not a transmitted key but rather a place holder for remote controls that have a SHIFT function.
+	"KEY_OK": 352,
+	"KEY_SELECT": 353,
+	"KEY_GOTO": 354,
+	"KEY_CLEAR": 355,
+	"KEY_POWER2": 356,
+	"KEY_OPTION": 357,
+	"KEY_INFO": 358,
+	"KEY_TIME": 359,
+	"KEY_VENDOR": 360,
+	"KEY_ARCHIVE": 361,
+	"KEY_PROGRAM": 362,
+	"KEY_CHANNEL": 363,
+	"KEY_FAVORITES": 364,
+	"KEY_EPG": 365,
+	"KEY_PVR": 366,
+	"KEY_MHP": 367,
+	"KEY_LANGUAGE": 368,
+	"KEY_TITLE": 369,
+	"KEY_SUBTITLE": 370,
+	"KEY_ANGLE": 371,
+	"KEY_ZOOM": 372,
+	"KEY_MODE": 373,
+	"KEY_KEYBOARD": 374,
+	"KEY_SCREEN": 375,
+	"KEY_PC": 376,
+	"KEY_TV": 377,
+	"KEY_TV2": 378,
+	"KEY_VCR": 379,
+	"KEY_VCR2": 380,
+	"KEY_SAT": 381,
+	"KEY_SAT2": 382,
+	"KEY_CD": 383,
+	"KEY_TAPE": 384,
+	"KEY_RADIO": 385,
+	"KEY_TUNER": 386,
+	"KEY_PLAYER": 387,
+	"KEY_TEXT": 388,
+	"KEY_DVD": 389,
+	"KEY_AUX": 390,
+	"KEY_MP3": 391,
+	"KEY_AUDIO": 392,
+	"KEY_VIDEO": 393,
+	"KEY_DIRECTORY": 394,
+	"KEY_LIST": 395,
+	"KEY_MEMO": 396,
+	"KEY_CALENDAR": 397,
+	"KEY_RED": 398,
+	"KEY_GREEN": 399,
+	"KEY_YELLOW": 400,
+	"KEY_BLUE": 401,
+	"KEY_CHANNELUP": 402,
+	"KEY_CHANNELDOWN": 403,
+	"KEY_FIRST": 404,
+	"KEY_LAST": 405,
+	"KEY_AB": 406,
+	"KEY_NEXT": 407,
+	"KEY_RESTART": 408,
+	"KEY_SLOW": 409,
+	"KEY_SHUFFLE": 410,
+	"KEY_BREAK": 411,
+	"KEY_PREVIOUS": 412,
+	"KEY_DIGITS": 413,
+	"KEY_TEEN": 414,
+	"KEY_TWEN": 415,
+	"KEY_CONTEXT_MENU": 438,
+	"KEY_DEL_EOL": 448,
+	"KEY_DEL_EOS": 449,
+	"KEY_INS_LINE": 450,
+	"KEY_DEL_LINE": 451,
+	"KEY_ASCII": 510,
+	"KEY_MAX": 511,
+	"KEY_TOUCHPAD_TOGGLE": 530,
+	"KEY_MOUSE": 530,
+	"KEY_VOD": 627
+}
+
+KNOWN_ALISAES = {
+	227: ("KEY_SWITCHVIDEOMODE", "KEY_VMODE"),
+	530: ("KEY_MOUSE", "KEY_TOUCHPAD_TOGGLE")
+}
+
+def invertKeyIds():
+	invKeyIds = {}
+	for key, value in KEYIDS.items():
+		if value not in invKeyIds:
+			invKeyIds[value] = key
+		else:
+			if value in KNOWN_ALISAES and key in KNOWN_ALISAES[value]:
+				invKeyIds[value] = KNOWN_ALISAES[value][0]
+			else:
+				print("[keyids] Error: Key code %d is mapped to both '%s' and '%s'!" % (value, invKeyIds[value], key))
+	return invKeyIds
+
+
+KEYIDNAMES = invertKeyIds()
+
+KEYDESCRIPTIONS = [{  # id=0 - dmm0 remote directory, DM8000.
+	# However, the dmm0 rcpositions.xml file should define
+	# an <rc id=0 /> element, but it does not, it only has
+	# an <rc id=2 /> element.
+	#
+	# The rcpositions.xml file defines <button/> elements,
+	# but they do not appear to emit codes.
+	KEYIDS["BTN_0"]: ("UP", "fp"),
+	KEYIDS["BTN_1"]: ("DOWN", "fp"),
+	KEYIDS["KEY_0"]: ("0",),
+	KEYIDS["KEY_1"]: ("1",),
+	KEYIDS["KEY_2"]: ("2",),
+	KEYIDS["KEY_3"]: ("3",),
+	KEYIDS["KEY_4"]: ("4",),
+	KEYIDS["KEY_5"]: ("5",),
+	KEYIDS["KEY_6"]: ("6",),
+	KEYIDS["KEY_7"]: ("7",),
+	KEYIDS["KEY_8"]: ("8",),
+	KEYIDS["KEY_9"]: ("9",),
+	KEYIDS["KEY_AUDIO"]: ("YELLOW",),
+	KEYIDS["KEY_BLUE"]: ("BLUE",),
+	KEYIDS["KEY_BOOKMARKS"]: ("PLUGIN",),
+	KEYIDS["KEY_CHANNELDOWN"]: ("BOUQUET-",),
+	KEYIDS["KEY_CHANNELUP"]: ("BOUQUET+",),
+	KEYIDS["KEY_DOWN"]: ("DOWN",),
+	KEYIDS["KEY_EDIT"]: ("EPGSETUP",),
+	KEYIDS["KEY_EPG"]: ("EPG",),
+	KEYIDS["KEY_EXIT"]: ("EXIT",),
+	KEYIDS["KEY_FASTFORWARD"]: ("FORWARD",),
+	KEYIDS["KEY_FAVORITES"]: ("FAV",),
+	KEYIDS["KEY_GREEN"]: ("GREEN",),
+	KEYIDS["KEY_HELP"]: ("HELP",),
+	KEYIDS["KEY_INFO"]: ("INFO",),
+	KEYIDS["KEY_LAST"]: ("BACK",),
+	KEYIDS["KEY_LEFT"]: ("LEFT",),
+	KEYIDS["KEY_MEDIA"]: ("MEDIA",),
+	KEYIDS["KEY_MENU"]: ("MENU",),
+	KEYIDS["KEY_MUTE"]: ("MUTE",),
+	KEYIDS["KEY_NEXT"]: ("ARROWRIGHT",),
+	KEYIDS["KEY_NEXTSONG"]: ("NEXTSONG",),
+	KEYIDS["KEY_OK"]: ("OK",),
+	KEYIDS["KEY_PLAY"]: ("PLAY",),
+	KEYIDS["KEY_PLAYPAUSE"]: ("PLAYPAUSE",),
+	KEYIDS["KEY_POWER"]: ("POWER",),
+	KEYIDS["KEY_PREVIOUS"]: ("ARROWLEFT",),
+	KEYIDS["KEY_PREVIOUSSONG"]: ("PREVIOUSSONG",),
+	KEYIDS["KEY_PROGRAM"]: ("TIMER",),
+	KEYIDS["KEY_RADIO"]: ("RADIO",),
+	KEYIDS["KEY_RECORD"]: ("RECORD",),
+	KEYIDS["KEY_RED"]: ("RED",),
+	KEYIDS["KEY_RIGHT"]: ("RIGHT",),
+	KEYIDS["KEY_SCREEN"]: ("SCREEN",),
+	KEYIDS["KEY_SEARCH"]: ("WWW",),
+	KEYIDS["KEY_SLEEP"]: ("SLEEP",),
+	KEYIDS["KEY_STOP"]: ("STOP",),
+	KEYIDS["KEY_SUBTITLE"]: ("SUBTITLE",),
+	KEYIDS["KEY_TEXT"]: ("TEXT",),
+	KEYIDS["KEY_TV"]: ("TV",),
+	KEYIDS["KEY_UP"]: ("UP",),
+	KEYIDS["KEY_VIDEO"]: ("PVR",),
+	KEYIDS["KEY_VOLUMEDOWN"]: ("VOL-",),
+	KEYIDS["KEY_VOLUMEUP"]: ("VOL+",),
+	KEYIDS["KEY_YELLOW"]: ("YELLOW",)
+}, {  # id=1 - dmm0 remote directory, other than DM8000.
+	# However, the dmm0 rcpositions.xml file should define
+	# an <rc id=1 /> element, but it does not, it only has
+	# an <rc id=2 /> element.
+	#
+	# The rcpositions.xml file defines <button/> elements,
+	# but they do not appear to emit codes.
+	KEYIDS["BTN_0"]: ("UP", "fp"),
+	KEYIDS["BTN_1"]: ("DOWN", "fp"),
+	KEYIDS["KEY_0"]: ("0",),
+	KEYIDS["KEY_1"]: ("1",),
+	KEYIDS["KEY_2"]: ("2",),
+	KEYIDS["KEY_3"]: ("3",),
+	KEYIDS["KEY_4"]: ("4",),
+	KEYIDS["KEY_5"]: ("5",),
+	KEYIDS["KEY_6"]: ("6",),
+	KEYIDS["KEY_7"]: ("7",),
+	KEYIDS["KEY_8"]: ("8",),
+	KEYIDS["KEY_9"]: ("9",),
+	KEYIDS["KEY_AUDIO"]: ("AUDIO",),
+	KEYIDS["KEY_BLUE"]: ("BLUE",),
+	KEYIDS["KEY_BOOKMARKS"]: ("PLUGIN",),
+	KEYIDS["KEY_CHANNELDOWN"]: ("BOUQUET-",),
+	KEYIDS["KEY_CHANNELUP"]: ("BOUQUET+",),
+	KEYIDS["KEY_DOWN"]: ("DOWN",),
+	KEYIDS["KEY_EDIT"]: ("EPGSETUP",),
+	KEYIDS["KEY_EPG"]: ("EPG",),
+	KEYIDS["KEY_EXIT"]: ("EXIT",),
+	KEYIDS["KEY_FASTFORWARD"]: ("BLUE", "SHIFT"),
+	KEYIDS["KEY_FAVORITES"]: ("FAV",),
+	KEYIDS["KEY_GREEN"]: ("GREEN",),
+	KEYIDS["KEY_HELP"]: ("HELP",),
+	KEYIDS["KEY_INFO"]: ("INFO",),
+	KEYIDS["KEY_LAST"]: ("BACK",),
+	KEYIDS["KEY_LEFT"]: ("LEFT",),
+	KEYIDS["KEY_MEDIA"]: ("MEDIA",),
+	KEYIDS["KEY_MENU"]: ("MENU",),
+	KEYIDS["KEY_MUTE"]: ("MUTE",),
+	KEYIDS["KEY_NEXT"]: ("ARROWRIGHT",),
+	KEYIDS["KEY_OK"]: ("OK",),
+	KEYIDS["KEY_PLAY"]: ("GREEN", "SHIFT"),
+	KEYIDS["KEY_PAUSE"]: ("YELLOW", "SHIFT"),
+	KEYIDS["KEY_POWER"]: ("POWER",),
+	KEYIDS["KEY_PREVIOUS"]: ("ARROWLEFT",),
+	KEYIDS["KEY_PROGRAM"]: ("TIMER",),
+	KEYIDS["KEY_RADIO"]: ("RADIO",),
+	KEYIDS["KEY_RECORD"]: ("RADIO", "SHIFT"),
+	KEYIDS["KEY_RED"]: ("RED",),
+	KEYIDS["KEY_REWIND"]: ("RED", "SHIFT"),
+	KEYIDS["KEY_RIGHT"]: ("RIGHT",),
+	KEYIDS["KEY_SCREEN"]: ("SCREEN",),
+	KEYIDS["KEY_SEARCH"]: ("WWW",),
+	KEYIDS["KEY_SLEEP"]: ("SLEEP",),
+	KEYIDS["KEY_STOP"]: ("TV", "SHIFT"),
+	KEYIDS["KEY_SUBTITLE"]: ("SUBTITLE",),
+	KEYIDS["KEY_TEXT"]: ("TEXT",),
+	KEYIDS["KEY_TV"]: ("TV",),
+	KEYIDS["KEY_UP"]: ("UP",),
+	KEYIDS["KEY_VIDEO"]: ("PVR",),
+	KEYIDS["KEY_VOLUMEDOWN"]: ("VOL-",),
+	KEYIDS["KEY_VOLUMEUP"]: ("VOL+",),
+	KEYIDS["KEY_YELLOW"]: ("YELLOW",)
+}, {  # id=2 - Everything else.
+	KEYIDS["BTN_0"]: ("UP", "fp"),
+	KEYIDS["BTN_1"]: ("DOWN", "fp"),
+	KEYIDS["KEY_0"]: ("0",),
+	KEYIDS["KEY_1"]: ("1",),
+	KEYIDS["KEY_2"]: ("2",),
+	KEYIDS["KEY_3"]: ("3",),
+	KEYIDS["KEY_4"]: ("4",),
+	KEYIDS["KEY_5"]: ("5",),
+	KEYIDS["KEY_6"]: ("6",),
+	KEYIDS["KEY_7"]: ("7",),
+	KEYIDS["KEY_8"]: ("8",),
+	KEYIDS["KEY_9"]: ("9",),
+	KEYIDS["KEY_ARCHIVE"]: ("HISTORY",),
+	KEYIDS["KEY_AUDIO"]: ("AUDIO",),
+	KEYIDS["KEY_AUX"]: ("WIZTV",),
+	KEYIDS["KEY_BACK"]: ("RECALL",),
+	KEYIDS["KEY_BLUE"]: ("BLUE",),
+	KEYIDS["KEY_BOOKMARKS"]: ("PLUGIN",),
+	KEYIDS["KEY_CALENDAR"]: ("AUTOTIMER",),
+	KEYIDS["KEY_CHANNELDOWN"]: ("BOUQUET-",),
+	KEYIDS["KEY_CHANNELUP"]: ("BOUQUET+",),
+	KEYIDS["KEY_CONTEXT_MENU"]: ("CONTEXT",),
+	KEYIDS["KEY_DOWN"]: ("DOWN",),
+	KEYIDS["KEY_EJECTCD"]: ("EJECTCD",),
+	KEYIDS["KEY_END"]: ("END",),
+	KEYIDS["KEY_ENTER"]: ("ENTER", "kbd"),
+	KEYIDS["KEY_EPG"]: ("EPG",),
+	KEYIDS["KEY_EXIT"]: ("EXIT",),
+	KEYIDS["KEY_F1"]: ("F1",),
+	KEYIDS["KEY_F2"]: ("F2",),
+	KEYIDS["KEY_F3"]: ("F3",),
+	KEYIDS["KEY_F4"]: ("F4",),
+	KEYIDS["KEY_FASTFORWARD"]: ("FASTFORWARD",),
+	KEYIDS["KEY_FAVORITES"]: ("FAV",),
+	KEYIDS["KEY_FILE"]: ("LIST",),
+	KEYIDS["KEY_GREEN"]: ("GREEN",),
+	KEYIDS["KEY_GOTO"]: ("GOTO",),  # Missing.
+	KEYIDS["KEY_HELP"]: ("HELP",),
+	KEYIDS["KEY_HOME"]: ("HOME",),
+	KEYIDS["KEY_HOMEPAGE"]: ("HOMEPAGE",),
+	KEYIDS["KEY_INFO"]: ("INFO",),
+	KEYIDS["KEY_KEYBOARD"]: ("KEYBOARD",),
+	KEYIDS["KEY_LAST"]: ("BACK",),
+	KEYIDS["KEY_LEFT"]: ("LEFT",),
+	KEYIDS["KEY_LIST"]: ("PLAYLIST",),
+	KEYIDS["KEY_MEDIA"]: ("MEDIA",),
+	KEYIDS["KEY_MENU"]: ("MENU",),
+	KEYIDS["KEY_MODE"]: ("VKEY",),
+	KEYIDS["KEY_MUTE"]: ("MUTE",),
+	KEYIDS["KEY_NEXT"]: ("ARROWRIGHT",),
+	KEYIDS["KEY_NEXTSONG"]: ("NEXTSONG",),
+	KEYIDS["KEY_OK"]: ("OK",),
+	KEYIDS["KEY_OPTION"]: ("OPTION",),
+	KEYIDS["KEY_PAGEDOWN"]: ("PAGEDOWN",),
+	KEYIDS["KEY_PAGEUP"]: ("PAGEUP",),
+	KEYIDS["KEY_PAUSE"]: ("PAUSE",),
+	KEYIDS["KEY_PC"]: ("LAN",),
+	KEYIDS["KEY_PLAY"]: ("PLAY",),
+	KEYIDS["KEY_PLAYPAUSE"]: ("PLAYPAUSE",),
+	KEYIDS["KEY_POWER"]: ("POWER",),
+	KEYIDS["KEY_PREVIOUS"]: ("ARROWLEFT",),
+	KEYIDS["KEY_PREVIOUSSONG"]: ("PREVIOUSSONG",),
+	KEYIDS["KEY_PROGRAM"]: ("TIMER",),
+	KEYIDS["KEY_PVR"]: ("PVR",),
+	KEYIDS["KEY_QUESTION"]: ("ABOUT",),
+	KEYIDS["KEY_RADIO"]: ("RADIO",),
+	KEYIDS["KEY_RECORD"]: ("RECORD",),
+	KEYIDS["KEY_RED"]: ("RED",),
+	KEYIDS["KEY_REWIND"]: ("REWIND",),
+	KEYIDS["KEY_RIGHT"]: ("RIGHT",),
+	KEYIDS["KEY_SAT"]: ("SAT",),
+	KEYIDS["KEY_SCREEN"]: ("SCREEN",),
+	KEYIDS["KEY_SEARCH"]: ("WWW",),
+	KEYIDS["KEY_SETUP"]: ("SETUP",),
+	KEYIDS["KEY_SLEEP"]: ("SLEEP",),
+	KEYIDS["KEY_SLOW"]: ("SLOW",),
+	KEYIDS["KEY_STOP"]: ("STOP",),
+	KEYIDS["KEY_SUBTITLE"]: ("SUBTITLE",),
+	KEYIDS["KEY_SWITCHVIDEOMODE"]: ("VMODE",),
+	KEYIDS["KEY_TEXT"]: ("TEXT",),
+	KEYIDS["KEY_TIME"]: ("TIMESHIFT",),
+	KEYIDS["KEY_TV"]: ("TV",),
+	KEYIDS["KEY_UP"]: ("UP",),
+	KEYIDS["KEY_VIDEO"]: ("VIDEO",),
+	# KEYIDS["KEY_VMODE"]: ("VMODE",),  # This value is deprecated use KEY_SWITCHVIDEOMODE instead.
+	KEYIDS["KEY_VOLUMEDOWN"]: ("VOL-",),
+	KEYIDS["KEY_VOLUMEUP"]: ("VOL+",),
+	KEYIDS["KEY_YELLOW"]: ("YELLOW",),
+	KEYIDS["KEY_ZOOM"]: ("ZOOM",),
+	# Discrete power codes
+	KEYIDS["KEY_POWER2"]: ("POWER2",),
+	KEYIDS["KEY_SUSPEND"]: ("SUSPEND",),
+	KEYIDS["KEY_WAKEUP"]: ("WAKEUP",),
+	# Placeholder definition to assist with remote control updates.
+	KEYIDS["KEY_RESERVED"]: ("UNKNOWN",)
+
+}, {  # id=3 - XP1000.
+	# The xp1000/rcpositions file defines PLAY and PAUSE
+	# at the same location where it should just define
+	# PLAYPAUSE there. It has similar overlayed incorrect
+	# definitions for play & pause rather than play/pause
+	# in remote.html.
+	KEYIDS["BTN_0"]: ("UP", "fp"),
+	KEYIDS["BTN_1"]: ("DOWN", "fp"),
+	KEYIDS["KEY_0"]: ("0",),
+	KEYIDS["KEY_1"]: ("1",),
+	KEYIDS["KEY_2"]: ("2",),
+	KEYIDS["KEY_3"]: ("3",),
+	KEYIDS["KEY_4"]: ("4",),
+	KEYIDS["KEY_5"]: ("5",),
+	KEYIDS["KEY_6"]: ("6",),
+	KEYIDS["KEY_7"]: ("7",),
+	KEYIDS["KEY_8"]: ("8",),
+	KEYIDS["KEY_9"]: ("9",),
+	KEYIDS["KEY_AUDIO"]: ("AUDIO",),
+	KEYIDS["KEY_BLUE"]: ("BLUE",),
+	KEYIDS["KEY_BOOKMARKS"]: ("PORTAL",),
+	KEYIDS["KEY_CHANNELDOWN"]: ("BOUQUET-",),
+	KEYIDS["KEY_CHANNELUP"]: ("BOUQUET+",),
+	KEYIDS["KEY_DOWN"]: ("DOWN",),
+	KEYIDS["KEY_EPG"]: ("EPG",),
+	KEYIDS["KEY_EXIT"]: ("EXIT",),
+	KEYIDS["KEY_FASTFORWARD"]: ("FASTFORWARD",),
+	KEYIDS["KEY_GREEN"]: ("GREEN",),
+	KEYIDS["KEY_HELP"]: ("HELP",),
+	KEYIDS["KEY_INFO"]: ("INFO",),
+	KEYIDS["KEY_LEFT"]: ("LEFT",),
+	KEYIDS["KEY_MENU"]: ("MENU",),
+	KEYIDS["KEY_MUTE"]: ("MUTE",),
+	KEYIDS["KEY_NEXT"]: ("ARROWRIGHT",),
+	KEYIDS["KEY_NEXTSONG"]: ("NEXTSONG",),
+	KEYIDS["KEY_OK"]: ("OK",),
+	KEYIDS["KEY_PLAY"]: ("PLAY",),
+	KEYIDS["KEY_PLAYPAUSE"]: ("PLAYPAUSE",),
+	KEYIDS["KEY_POWER"]: ("POWER",),
+	KEYIDS["KEY_PREVIOUS"]: ("ARROWLEFT",),
+	KEYIDS["KEY_PREVIOUSSONG"]: ("PREVIOUSSONG",),
+	KEYIDS["KEY_PROGRAM"]: ("TIMER",),
+	KEYIDS["KEY_RADIO"]: ("RADIO",),
+	KEYIDS["KEY_RECORD"]: ("RECORD",),
+	KEYIDS["KEY_RED"]: ("RED",),
+	KEYIDS["KEY_REWIND"]: ("REWIND",),
+	KEYIDS["KEY_RIGHT"]: ("RIGHT",),
+	KEYIDS["KEY_SLEEP"]: ("SLEEP",),
+	KEYIDS["KEY_STOP"]: ("STOP",),
+	KEYIDS["KEY_SUBTITLE"]: ("SUBTITLE",),
+	KEYIDS["KEY_SWITCHVIDEOMODE"]: ("VMODE",),
+	KEYIDS["KEY_TEXT"]: ("TEXT",),
+	KEYIDS["KEY_TV"]: ("TV",),
+	KEYIDS["KEY_UP"]: ("UP",),
+	KEYIDS["KEY_VIDEO"]: ("PVR",),
+	# KEYIDS["KEY_VMODE"]: ("VMODE",),  # This value is deprecated use KEY_SWITCHVIDEOMODE instead.
+	KEYIDS["KEY_VOLUMEDOWN"]: ("VOL-",),
+	KEYIDS["KEY_VOLUMEUP"]: ("VOL+",),
+	KEYIDS["KEY_YELLOW"]: ("YELLOW",)
+}, {  # id=4 - Formuler F1/F3.
+	# The formuler1 rcpositions file seems to define
+	# the FF and REW keys as FASTFORWARD and KEY_REWIND,
+	# but the remote.xml file issues KEY_PREVIOUSSONG
+	# and KEY_NEXTSONG.
+	KEYIDS["BTN_0"]: ("UP", "fp"),
+	KEYIDS["BTN_1"]: ("DOWN", "fp"),
+	KEYIDS["KEY_0"]: ("0",),
+	KEYIDS["KEY_1"]: ("1",),
+	KEYIDS["KEY_2"]: ("2",),
+	KEYIDS["KEY_3"]: ("3",),
+	KEYIDS["KEY_4"]: ("4",),
+	KEYIDS["KEY_5"]: ("5",),
+	KEYIDS["KEY_6"]: ("6",),
+	KEYIDS["KEY_7"]: ("7",),
+	KEYIDS["KEY_8"]: ("8",),
+	KEYIDS["KEY_9"]: ("9",),
+	KEYIDS["KEY_AUDIO"]: ("AUDIO",),
+	KEYIDS["KEY_BACK"]: ("RECALL",),
+	KEYIDS["KEY_BLUE"]: ("BLUE",),
+	KEYIDS["KEY_BOOKMARKS"]: ("PLAYLIST",),
+	KEYIDS["KEY_CHANNELDOWN"]: ("BOUQUET-",),
+	KEYIDS["KEY_CHANNELUP"]: ("BOUQUET+",),
+	KEYIDS["KEY_CONTEXT_MENU"]: ("CONTEXT",),
+	KEYIDS["KEY_DOWN"]: ("DOWN",),
+	KEYIDS["KEY_EPG"]: ("EPG",),
+	KEYIDS["KEY_EXIT"]: ("EXIT",),
+	KEYIDS["KEY_F1"]: ("F1",),
+	KEYIDS["KEY_F2"]: ("F2",),
+	KEYIDS["KEY_F3"]: ("F3",),
+	KEYIDS["KEY_FASTFORWARD"]: ("FASTFORWARD",),
+	KEYIDS["KEY_FAVORITES"]: ("FAVORITES",),
+	KEYIDS["KEY_GREEN"]: ("GREEN",),
+	KEYIDS["KEY_HELP"]: ("HELP",),
+	KEYIDS["KEY_INFO"]: ("INFO",),
+	KEYIDS["KEY_LEFT"]: ("LEFT",),
+	KEYIDS["KEY_MENU"]: ("MENU",),
+	KEYIDS["KEY_MUTE"]: ("MUTE",),
+	KEYIDS["KEY_NEXT"]: ("ARROWRIGHT",),
+	KEYIDS["KEY_OK"]: ("OK",),
+	KEYIDS["KEY_PAUSE"]: ("PAUSE",),
+	KEYIDS["KEY_PLAY"]: ("PLAY",),
+	KEYIDS["KEY_POWER"]: ("POWER",),
+	KEYIDS["KEY_PREVIOUS"]: ("ARROWLEFT",),
+	KEYIDS["KEY_RADIO"]: ("RADIO",),
+	KEYIDS["KEY_RECORD"]: ("RECORD",),
+	KEYIDS["KEY_RED"]: ("RED",),
+	KEYIDS["KEY_REWIND"]: ("REWIND",),
+	KEYIDS["KEY_RIGHT"]: ("RIGHT",),
+	KEYIDS["KEY_STOP"]: ("STOP",),
+	KEYIDS["KEY_TEXT"]: ("TEXT",),
+	KEYIDS["KEY_TV"]: ("TV",),
+	KEYIDS["KEY_UP"]: ("UP",),
+	KEYIDS["KEY_VIDEO"]: ("PVR",),
+	KEYIDS["KEY_VOLUMEDOWN"]: ("VOL-",),
+	KEYIDS["KEY_VOLUMEUP"]: ("VOL+",),
+	KEYIDS["KEY_YELLOW"]: ("YELLOW",)
+}]
 
 AUTO_CORRECT = {
 	"CH-": "BOUQUET-",
@@ -174,8 +851,7 @@ def loadRemoteXML(filename):
 		rcButtons["id"] = 2
 	image = rc.attrib.get("image")
 	if image:
-		if not USE_ALLIANCE_PATH and image.startswith(ALLIANCE_IMAGE_PATH):
-			image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
+		image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
 		rcButtons["image"] = image
 	rcButtons["buttons"] = []
 	sequence = 0
@@ -215,7 +891,7 @@ def loadRemoteXML(filename):
 			if name in AUTO_CORRECT:
 				logMessage(LOG_NOTE, "Auto correcting button name '%s' to '%s'." % (name, AUTO_CORRECT[name]))
 				name = AUTO_CORRECT[name]
-			for keyId, names in keyDescriptions[index].items():
+			for keyId, names in KEYDESCRIPTIONS[index].items():
 				if names[0] == name:
 					break
 			else:
@@ -417,23 +1093,12 @@ def findDuplicates(buttonList, rcButtons):
 
 # Create the XML button definition file.
 #
-def buildXML(filename, type, buttonList, rcButtons):
+def buildXML(filename, buttonList, rcButtons):
 	xml = []
 	xml.append("<rcs>")
 	id = rcButtons.get("id", 2)
 	image = rcButtons.get("image")
-	if type == "New":
-		if image:
-			xml.append("\t<rc image=\"%s\">" % image)
-		else:
-			xml.append("\t<rc>")
-	elif type == "Old":
-		xml.append("\t<rc id=\"%d\">" % id)
-	else:
-		if image:
-			xml.append("\t<rc id=\"%d\" image=\"%s\">" % (id, image))
-		else:
-			xml.append("\t<rc id=\"%d\">" % id)
+	xml.append("\t<rc image=\"%s\">" % image if image else "\t<rc>")
 	for button in buttonList:
 		attribs = []
 		id = rcButtons[button].get("id", "KEY_RESERVED")
@@ -442,33 +1107,27 @@ def buildXML(filename, type, buttonList, rcButtons):
 		if remap:
 			attribs.append("id=\"%s\"" % remap)
 			attribs.append("remap=\"%s\"" % id)
-		elif type in ("Hybrid", "New"):
+		else:
 			attribs.append("id=\"%s\"" % id)
-		if type in ("Hybrid", "Old"):
-			attribs.append("name=\"%s\"" % rcButtons[button].get("name", ""))
-		if type in ("Hybrid", "New"):
-			attribs.append("label=\"%s\"" % rcButtons[button].get("label", ""))
+		attribs.append("label=\"%s\"" % rcButtons[button].get("label", ""))
 		attribs.append("pos=\"%s\"" % ",".join([str(x) for x in rcButtons[button].get("pos", "")]))
 		title = rcButtons[button].get("title", "")
 		shape = rcButtons[button].get("shape", "")
 		coords = rcButtons[button].get("coords", "")
-		if type in ("Hybrid", "New") and title and shape and coords:
+		if title and shape and coords:
 			attribs.append("title=\"%s\"" % title)
 			attribs.append("shape=\"%s\"" % shape)
 			attribs.append("coords=\"%s\"" % ",".join([str(x) for x in coords]))
-		if type == "Old" and button < 0:
-			xml.append("\t\t<!-- <button %s /> -->" % " ".join(attribs))
-		else:
-			xml.append("\t\t<button %s />" % " ".join(attribs))
+		xml.append("\t\t<button %s />" % " ".join(attribs))
 	xml.append("\t</rc>")
 	xml.append("</rcs>")
-	logMessage(LOG_REPORT, "%d buttons loaded, %d buttons verified and written to %s format XML file." % (len(rcButtons.get("buttons")), len(buttonList), type.lower()))
-	saveFile(filename, "-%s" % type, xml)
+	logMessage(LOG_REPORT, "%d buttons loaded, %d buttons verified and written to the XML file." % (len(rcButtons.get("buttons")), len(buttonList)))
+	saveFile(filename, xml)
 	return
 
 
-def saveFile(filename, suffix, content):
-	filename = "%s%s" % (filename, suffix)
+def saveFile(filename, content):
+	filename = "%s.new.xml" % filename
 	try:
 		with open(filename, "w") as fd:
 			for line in content:
@@ -513,6 +1172,6 @@ for filename in sorted(args):
 	rcButtons = loadRemoteXML(filename)
 	buttonList = sortButtons(SORT_ORDER, rcButtons)
 	findDuplicates(buttonList, rcButtons)
-	buildXML(filename, "New", buttonList, rcButtons)
+	buildXML(filename, buttonList, rcButtons)
 logMessage(LOG_PROGRAM, "\nProcessing complete.")
 exit(0)
