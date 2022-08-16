@@ -1,0 +1,40 @@
+<rcs>
+	<rc id="2" image="/images/remotes/ufs910.png.png">
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="36,32" />
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="114,32" />
+		<button id="KEY_1" name="1" label="1" pos="37,61" />
+		<button id="KEY_2" name="2" label="2" pos="74,59" />
+		<button id="KEY_3" name="3" label="3" pos="114,61" />
+		<button id="KEY_4" name="4" label="4" pos="37,89" />
+		<button id="KEY_5" name="5" label="5" pos="74,87" />
+		<button id="KEY_6" name="6" label="6" pos="99,89" />
+		<button id="KEY_7" name="7" label="7" pos="39,118" />
+		<button id="KEY_8" name="8" label="8" pos="74,116" />
+		<button id="KEY_9" name="9" label="9" pos="112,118" />
+		<button id="KEY_MENU" name="MENU" label="MENU" pos="40,147" />
+		<button id="KEY_0" name="0" label="0" pos="75,145" />
+		<button id="KEY_TEXT" name="TEXT" label="TEXT" pos="113,147" />
+		<button id="KEY_RED" name="RED" label="RED" pos="35,184" />
+		<button id="KEY_GREEN" name="GREEN" label="GREEN" pos="61,182" />
+		<button id="KEY_YELLOW" name="YELLOW" label="YELLOW" pos="89,182" />
+		<button id="KEY_BLUE" name="BLUE" label="BLUE" pos="116,184" />
+		<button id="KEY_VOLUMEUP" name="VOLUMEUP" label="VOLUMEUP" pos="42,218" />
+		<button id="KEY_INFO" name="INFO" label="INFO" pos="75,219" />
+		<button id="KEY_CHANNELUP" name="CHANNELUP" label="CHANNELUP" pos="110,218" />
+		<button id="KEY_VOLUMEDOWN" name="VOLUMEDOWN" label="VOLUMEDOWN" pos="41,255" />
+		<button id="KEY_UP" name="UP" label="UP" pos="75,256" />
+		<button id="KEY_CHANNELDOWN" name="CHANNELDOWN" label="CHANNELDOWN" pos="110,255" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="41,286" />
+		<button id="KEY_OK" name="OK" label="OK" pos="75,286" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="110,286" />
+		<button id="KEY_EXIT" name="EXIT" label="EXIT" pos="41,316" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="75,318" />
+		<button id="KEY_EPG" name="EPG" label="EPG" pos="110,316" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="40,348" />
+		<button id="KEY_PLAY" name="PLAY" label="PLAY" pos="75,351" />
+		<button id="KEY_FASTFORWARD" name="FASTFORWARD" label="FASTFORWARD" pos="113,348" />
+		<button id="KEY_PAUSE" name="PAUSE" label="PAUSE" pos="40,377" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="75,379" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="113,377" />
+	</rc>
+</rcs>

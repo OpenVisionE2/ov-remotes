@@ -1,0 +1,42 @@
+<img border="0" src="/images/remotes/ufs912.png.png" usemap="#map" />
+<map name="map">
+	<area title="?" shape="rect" coords="28,34,48,42" onclick="pressMenuRemote('138');" />
+	<area title="On/off" shape="rect" coords="57,34,108,42" onclick="pressMenuRemote('116');" />
+	<area title="1" shape="rect" coords="28,58,48,75" onclick="pressMenuRemote('2');" />
+	<area title="2" shape="rect" coords="58,58,78,75" onclick="pressMenuRemote('3');" />
+	<area title="3" shape="rect" coords="88,58,108,75" onclick="pressMenuRemote('4');" />
+	<area title="4" shape="rect" coords="28,85,48,102" onclick="pressMenuRemote('5');" />
+	<area title="5" shape="rect" coords="58,85,78,102" onclick="pressMenuRemote('6');" />
+	<area title="6" shape="rect" coords="88,85,108,102" onclick="pressMenuRemote('7');" />
+	<area title="7" shape="rect" coords="28,112,48,130" onclick="pressMenuRemote('8');" />
+	<area title="8" shape="rect" coords="58,112,78,130" onclick="pressMenuRemote('9');" />
+	<area title="9" shape="rect" coords="88,112,108,130" onclick="pressMenuRemote('10');" />
+	<area title="MENU" shape="rect" coords="28,142,48,157" onclick="pressMenuRemote('139');" />
+	<area title="0" shape="rect" coords="58,142,78,157" onclick="pressMenuRemote('11');" />
+	<area title="TEXT" shape="rect" coords="88,142,108,157" onclick="pressMenuRemote('388');" />
+	<area title="VOL -" shape="poly" coords="49,173,51,171,51,190,29,187" onclick="pressMenuRemote('114');" />
+	<area title="P+" shape="poly" coords="60,172,80,172,81,191,58,191" onclick="pressMenuRemote('402');" />
+	<area title="VOL +" shape="poly" coords="88,172,109,172,110,186,88,189" onclick="pressMenuRemote('115');" />
+	<area title="MUTE" shape="poly" coords="30,205,47,204,47,220,30,220" onclick="pressMenuRemote('113');" />
+	<area title="P-" shape="poly" coords="58,200,81,200,80,220,60,220" onclick="pressMenuRemote('403');" />
+	<area title="I" shape="poly" coords="91,204,109,205,109,220,92,220" onclick="pressMenuRemote('358');" />
+	<area title="Red" shape="rect" coords="30,234,40,254" onclick="pressMenuRemote('398');" />
+	<area title="Green" shape="rect" coords="54,234,63,254" onclick="pressMenuRemote('399');" />
+	<area title="Yellow" shape="rect" coords="77,234,86,254" onclick="pressMenuRemote('400');" />
+	<area title="Blue" shape="rect" coords="99,234,110,254" onclick="pressMenuRemote('401');" />
+	<area title="EPG" shape="poly" coords="31,266,47,266,46,282,31,283" onclick="pressMenuRemote('365');" />
+	<area title="Up" shape="poly" coords="62,266,78,266,81,284,60,284" onclick="pressMenuRemote('103');" />
+	<area title="ARCHIV" shape="poly" coords="92,266,110,266,110,282,94,280" onclick="pressMenuRemote('144');" />
+	<area title="Left" shape="poly" coords="30,299,50,296,50,317,30,314" onclick="pressMenuRemote('105');" />
+	<area title="OK" shape="rect" coords="61,296,80,316" onclick="pressMenuRemote('352');" />
+	<area title="Right" shape="poly" coords="92,296,111,298,111,314,92,317" onclick="pressMenuRemote('106');" />
+	<area title="BACK" shape="poly" coords="30,329,46,331,48,346,30,346" onclick="pressMenuRemote('174');" />
+	<area title="Down" shape="poly" coords="60,328,81,328,78,346,63,346" onclick="pressMenuRemote('108');" />
+	<area title="MEDIA" shape="poly" coords="95,330,110,328,110,346,92,346" onclick="pressMenuRemote('226');" />
+	<area title="Rewind" shape="rect" coords="31,361,48,374" onclick="pressMenuRemote('168');" />
+	<area title="Play" shape="rect" coords="62,361,80,374" onclick="pressMenuRemote('207');" />
+	<area title="Fastforward" shape="rect" coords="93,361,111,374" onclick="pressMenuRemote('208');" />
+	<area title="Pause" shape="rect" coords="31,387,48,399" onclick="pressMenuRemote('119');" />
+	<area title="Record" shape="rect" coords="62,387,80,399" onclick="pressMenuRemote('167');" />
+	<area title="Stop" shape="rect" coords="93,387,111,399" onclick="pressMenuRemote('128');" />
+</map>

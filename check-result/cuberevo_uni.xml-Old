@@ -1,0 +1,56 @@
+<rcs>
+	<rc id="2">
+		<button name="POWER" pos="41,43" />
+		<button name="MUTE" pos="97,43" />
+		<button name="TV/RADIO" pos="55,63" />
+		<button name="WWW" pos="99,63" />
+		<button name="PIP" pos="25,87" />
+		<button name="MOSAIC" pos="55,87" />
+		<button name="PIP_SWAP" pos="84,87" />
+		<button name="SUBCH" pos="112,87" />
+		<button name="CHANNELUP" pos="44,116" />
+		<button name="RECALL" pos="70,116" />
+		<button name="VOLUMEUP" pos="102,116" />
+		<button name="CHANNELDOWN" pos="44,140" />
+		<button name="INFO" pos="70,140" />
+		<button name="VOLUMEDOWN" pos="102,140" />
+		<button name="FAV" pos="25,168" />
+		<button name="MARK" pos="53,168" />
+		<button name="EPG" pos="112,168" />
+		<button name="UP" pos="70,193" />
+		<button name="MENU" pos="25,216" />
+		<button name="LEFT" pos="47,216" />
+		<button name="OK" pos="70,216" />
+		<button name="RIGHT" pos="91,216" />
+		<button name="EXIT" pos="113,216" />
+		<button name="DOWN" pos="70,237" />
+		<button name="RED" pos="28,265" />
+		<button name="GREEN" pos="55,265" />
+		<button name="YELLOW" pos="82,265" />
+		<button name="BLUE" pos="110,265" />
+		<button name="1" pos="35,286" />
+		<button name="2" pos="70,286" />
+		<button name="3" pos="105,286" />
+		<button name="4" pos="35,303" />
+		<button name="5" pos="70,303" />
+		<button name="6" pos="105,303" />
+		<button name="7" pos="35,319" />
+		<button name="8" pos="70,319" />
+		<button name="9" pos="105,319" />
+		<button name="MUSIC" pos="35,336" />
+		<button name="0" pos="70,336" />
+		<button name="PHOTO" pos="105,336" />
+		<button name="RECORD" pos="32,362" />
+		<button name="REWIND" pos="57,362" />
+		<button name="PLAY" pos="81,362" />
+		<button name="FASTFORWARD" pos="105,362" />
+		<button name="AGAIN" pos="32,378" />
+		<button name="SLOW" pos="57,378" />
+		<button name="STOP" pos="81,378" />
+		<button name="PAUSE" pos="105,378" />
+		<button name="F8" pos="32,395" />
+		<button name="SUBTITLE" pos="57,395" />
+		<button name="TEXT" pos="81,395" />
+		<button name="AUDIO" pos="105,395" />
+	</rc>
+</rcs>

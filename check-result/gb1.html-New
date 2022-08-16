@@ -1,0 +1,50 @@
+<img border="0" src="/images/remotes/gb1.png.png" usemap="#map" />
+<map name="map">
+	<area title="Tvrad" shape="circle" coords="22,36,7" onclick="pressMenuRemote('377');" />
+	<area title="Power" shape="rect" coords="40,29,68,44" onclick="pressMenuRemote('116');" />
+	<area title="Mute" shape="circle" coords="84,36,7" onclick="pressMenuRemote('113');" />
+	<area title="Flist" shape="rect" coords="12,71,28,80" onclick="pressMenuRemote('226');" />
+	<area title="Glist" shape="rect" coords="34,71,50,80" onclick="pressMenuRemote('395');" />
+	<area title="Fav" shape="rect" coords="56,71,72,80" onclick="pressMenuRemote('364');" />
+	<area title="Aspect" shape="rect" coords="77,71,93,80" onclick="pressMenuRemote('375');" />
+	<area title="Rewind" shape="rect" coords="34,89,50,98" onclick="pressMenuRemote('168');" />
+	<area title="Forward" shape="rect" coords="56,89,72,98" onclick="pressMenuRemote('208');" />
+	<area title="Timer" shape="rect" coords="12,105,28,114" onclick="pressMenuRemote('362');" />
+	<area title="Stop" shape="rect" coords="34,105,50,114" onclick="pressMenuRemote('128');" />
+	<area title="Playpause" shape="rect" coords="56,105,72,114" onclick="pressMenuRemote('164');" />
+	<area title="Record" shape="rect" coords="78,105,94,114" onclick="pressMenuRemote('167');" />
+	<area title="Volume Up" shape="circle" coords="22,134,8" onclick="pressMenuRemote('115');" />
+	<area title="Channel Up" shape="circle" coords="85,134,8" onclick="pressMenuRemote('402');" />
+	<area title="Epg" shape="circle" coords="54,136,8" onclick="pressMenuRemote('365');" />
+	<area title="Exit" shape="circle" coords="54,169,10" onclick="pressMenuRemote('174');" />
+	<area title="Volume Down" shape="circle" coords="22,174,8" onclick="pressMenuRemote('114');" />
+	<area title="Channel Down" shape="circle" coords="85,174,8" onclick="pressMenuRemote('403');" />
+	<area title="Info" shape="circle" coords="24,203,10" onclick="pressMenuRemote('358');" />
+	<area title="Menu" shape="circle" coords="84,203,10" onclick="pressMenuRemote('139');" />
+	<area title="Up" shape="circle" coords="54,204,9" onclick="pressMenuRemote('103');" />
+	<area title="Left" shape="circle" coords="24,236,9" onclick="pressMenuRemote('105');" />
+	<area title="Ok" shape="circle" coords="54,236,13" onclick="pressMenuRemote('352');" />
+	<area title="Right" shape="circle" coords="84,236,9" onclick="pressMenuRemote('106');" />
+	<area title="Audio" shape="circle" coords="24,267,10" onclick="pressMenuRemote('392');" />
+	<area title="Video" shape="circle" coords="84,267,10" onclick="pressMenuRemote('393');" />
+	<area title="Down" shape="circle" coords="54,269,9" onclick="pressMenuRemote('108');" />
+	<area title="History" shape="rect" coords="13,293,36,303" onclick="pressMenuRemote('361');" />
+	<area title="Opt" shape="rect" coords="41,293,65,303" onclick="pressMenuRemote('138');" />
+	<area title="Text" shape="rect" coords="71,294,94,303" onclick="pressMenuRemote('388');" />
+	<area title="Red" shape="rect" coords="13,310,29,319" onclick="pressMenuRemote('398');" />
+	<area title="Green" shape="rect" coords="35,310,51,319" onclick="pressMenuRemote('399');" />
+	<area title="Yellow" shape="rect" coords="57,310,73,319" onclick="pressMenuRemote('400');" />
+	<area title="Blue" shape="rect" coords="78,310,94,319" onclick="pressMenuRemote('401');" />
+	<area title="1" shape="rect" coords="13,329,36,345" onclick="pressMenuRemote('2');" />
+	<area title="2" shape="rect" coords="42,329,65,345" onclick="pressMenuRemote('3');" />
+	<area title="3" shape="rect" coords="71,329,94,345" onclick="pressMenuRemote('4');" />
+	<area title="4" shape="rect" coords="13,351,36,367" onclick="pressMenuRemote('5');" />
+	<area title="5" shape="rect" coords="42,351,65,367" onclick="pressMenuRemote('6');" />
+	<area title="6" shape="rect" coords="71,351,94,367" onclick="pressMenuRemote('7');" />
+	<area title="7" shape="rect" coords="13,374,36,390" onclick="pressMenuRemote('8');" />
+	<area title="8" shape="rect" coords="42,374,65,390" onclick="pressMenuRemote('9');" />
+	<area title="9" shape="rect" coords="71,374,94,390" onclick="pressMenuRemote('10');" />
+	<area title="Previous" shape="rect" coords="13,397,36,413" onclick="pressMenuRemote('412');" />
+	<area title="0" shape="rect" coords="42,397,65,413" onclick="pressMenuRemote('11');" />
+	<area title="Next" shape="rect" coords="71,397,94,413" onclick="pressMenuRemote('407');" />
+</map>

@@ -1,0 +1,42 @@
+<rcs>
+	<rc id="2">
+		<button name="TV" pos="27,26" />
+		<button name="POWER" pos="89,26" />
+		<!-- <button name="" pos="27,54" /> -->
+		<!-- <button name="" pos="58,54" /> -->
+		<!-- <button name="" pos="89,54" /> -->
+		<button name="MUTE" pos="58,80" />
+		<button name="KEY_B" pos="27,92" />
+		<button name="KEY_D" pos="58,92" />
+		<button name="KEY_X" pos="36,109" />
+		<button name="KEY_A" pos="27,121" />
+		<button name="KEY_E" pos="89,121" />
+		<!-- <button name="" pos="34,162" /> -->
+		<!-- <button name="" pos="84,162" /> -->
+		<button name="UP" pos="59,187" />
+		<button name="LEFT" pos="32,214" />
+		<button name="OK" pos="60,214" />
+		<button name="RIGHT" pos="87,214" />
+		<button name="DOWN" pos="60,241" />
+		<button name="REWIND" pos="29,266" />
+		<button name="PLAY" pos="59,271" />
+		<button name="FASTFORWARD" pos="89,266" />
+		<button name="RECORD" pos="31,294" />
+		<button name="STOP" pos="60,296" />
+		<button name="PAUSE" pos="89,294" />
+		<button name="PREVIOUS" pos="43,317" />
+		<button name="NEXT" pos="76,317" />
+		<button name="1" pos="29,346" />
+		<button name="2" pos="59,346" />
+		<button name="3" pos="89,346" />
+		<button name="4" pos="29,373" />
+		<button name="5" pos="59,373" />
+		<button name="6" pos="89,373" />
+		<button name="7" pos="38,400" />
+		<button name="8" pos="49,400" />
+		<button name="9" pos="89,400" />
+		<button name="SAT" pos="31,428" />
+		<button name="0" pos="59,428" />
+		<!-- <button name="" pos="89,428" /> -->
+	</rc>
+</rcs>

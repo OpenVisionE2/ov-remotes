@@ -1,0 +1,55 @@
+<rcs>
+	<rc id="2">
+		<button name="POWER" pos="26,24" />
+		<button name="MUTE" pos="98,24" />
+		<button name="1" pos="28,51" />
+		<button name="2" pos="62,51" />
+		<button name="3" pos="96,51" />
+		<button name="4" pos="28,73" />
+		<button name="5" pos="62,73" />
+		<button name="6" pos="96,73" />
+		<button name="7" pos="28,95" />
+		<button name="8" pos="62,95" />
+		<button name="9" pos="96,95" />
+		<button name="&LT;PREV" pos="28,116" />
+		<button name="0" pos="62,116" />
+		<button name="NEXT&GT;" pos="96,116" />
+		<button name="BACK" pos="25,140" />
+		<button name="INFO" pos="99,140" />
+		<button name="UP" pos="62,156" />
+		<button name="LEFT" pos="35,184" />
+		<button name="OK" pos="62,184" />
+		<button name="RIGHT" pos="89,184" />
+		<button name="DOWN" pos="62,212" />
+		<button name="EXIT" pos="25,227" />
+		<button name="EPG" pos="99,227" />
+		<button name="VOL +" pos="28,256" />
+		<button name="MENU" pos="62,256" />
+		<button name="CH/PAGE +" pos="96,257" />
+		<button name="VOL -" pos="28,292" />
+		<button name="FILE LIST" pos="62,293" />
+		<button name="CH/PAGE -" pos="96,292" />
+		<button name="TEXT" pos="28,315" />
+		<button name="AUDIO" pos="62,315" />
+		<button name="SUBTITLE" pos="96,315" />
+		<button name="TV" pos="28,335" />
+		<button id="KEY_CONTEXT_MENU" remap="KEY_BOOKMARKS" name="PORTAL" pos="62,335" />
+		<button name="RADIO" pos="96,335" />
+		<button name="RED" pos="24,357" />
+		<button name="GREEN" pos="49,357" />
+		<button name="YELLOW" pos="75,357" />
+		<button name="BLUE" pos="100,357" />
+		<button name="RECORD" pos="28,379" />
+		<button name="STOP" pos="61,379" />
+		<button name="PLAY/PAUSE" pos="96,379" />
+		<button name="PREVIOUS SONG" pos="28,401" />
+		<button name="NEXT SONG" pos="61,401" />
+		<button name="TIMER" pos="96,401" />
+		<button name="REWIND" pos="28,423" />
+		<button name="FAST FORWARD" pos="61,423" />
+		<button name="SLEEP" pos="96,423" />
+		<button name="V.MODE" pos="28,446" />
+		<button name="FAV" pos="61,446" />
+		<button name="HELP" pos="96,446" />
+	</rc>
+</rcs>

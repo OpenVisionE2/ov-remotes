@@ -1,0 +1,54 @@
+<rcs>
+	<rc image="/images/remotes/ini5.png.png">
+		<button id="KEY_POWER" label="POWER" pos="55,30" title="Power" shape="circle" coords="55,30,12" />
+		<button id="KEY_1" label="1" pos="23,58" title="1" shape="circle" coords="23,58,12" />
+		<button id="KEY_2" label="2" pos="55,58" title="2" shape="circle" coords="55,58,12" />
+		<button id="KEY_3" label="3" pos="87,58" title="3" shape="circle" coords="87,58,12" />
+		<button id="KEY_4" label="4" pos="23,78" title="4" shape="circle" coords="23,78,12" />
+		<button id="KEY_5" label="5" pos="55,78" title="5" shape="circle" coords="55,78,12" />
+		<button id="KEY_6" label="6" pos="87,78" title="6" shape="circle" coords="87,78,12" />
+		<button id="KEY_7" label="7" pos="23,98" title="7" shape="circle" coords="23,98,12" />
+		<button id="KEY_8" label="8" pos="55,98" title="8" shape="circle" coords="55,98,12" />
+		<button id="KEY_9" label="9" pos="87,98" title="9" shape="circle" coords="87,98,12" />
+		<button id="KEY_PREVIOUS" label="ARROWLEFT" pos="23,117" title="Previous" shape="circle" coords="23,117,12" />
+		<button id="KEY_0" label="0" pos="55,117" title="0" shape="circle" coords="55,117,12" />
+		<button id="KEY_NEXT" label="ARROWRIGHT" pos="87,117" title="Next" shape="circle" coords="87,117,12" />
+		<button id="KEY_EPG" label="EPG" pos="19,147" title="Epg" shape="circle" coords="19,147,12" />
+		<button id="KEY_FAVORITES" label="FAV" pos="92,147" title="Fav" shape="circle" coords="92,147,12" />
+		<button id="KEY_UP" label="UP" pos="55,155" title="Up" shape="circle" coords="55,155,12" />
+		<button id="KEY_LEFT" label="LEFT" pos="30,180" title="Left" shape="circle" coords="30,180,12" />
+		<button id="KEY_OK" label="OK" pos="55,180" title="OK" shape="circle" coords="55,180,15" />
+		<button id="KEY_RIGHT" label="RIGHT" pos="81,180" title="Right" shape="circle" coords="81,180,12" />
+		<button id="KEY_DOWN" label="DOWN" pos="55,205" title="Down" shape="circle" coords="55,205,12" />
+		<button id="KEY_MENU" label="MENU" pos="19,213" title="Menu" shape="circle" coords="19,213,12" />
+		<button id="KEY_EXIT" label="EXIT" pos="92,213" title="Exit" shape="circle" coords="92,213,12" />
+		<button id="KEY_INFO" label="INFO" pos="22,244" title="Info" shape="circle" coords="22,244,12" />
+		<button id="KEY_MEDIA" label="MEDIA" pos="55,244" title="Media" shape="circle" coords="55,244,15" />
+		<button id="KEY_LAST" label="BACK" pos="89,244" title="Back" shape="circle" coords="89,244,12" />
+		<button id="KEY_VOLUMEUP" label="VOL+" pos="22,272" title="Volume Up" shape="circle" coords="22,272,12" />
+		<button id="KEY_CHANNELUP" label="BOUQUET+" pos="88,272" title="Channel Up" shape="circle" coords="88,272,12" />
+		<button id="KEY_MUTE" label="MUTE" pos="55,287" title="Mute" shape="circle" coords="55,287,10" />
+		<button id="KEY_VOLUMEDOWN" label="VOL-" pos="22,304" title="Volume Down" shape="circle" coords="22,304,12" />
+		<button id="KEY_CHANNELDOWN" label="BOUQUET-" pos="88,304" title="Channel Down" shape="circle" coords="88,304,12" />
+		<button id="KEY_RED" label="RED" pos="19,332" title="Red" shape="circle" coords="19,332,10" />
+		<button id="KEY_GREEN" label="GREEN" pos="43,332" title="Green" shape="circle" coords="43,332,10" />
+		<button id="KEY_YELLOW" label="YELLOW" pos="67,332" title="Yellow" shape="circle" coords="67,332,10" />
+		<button id="KEY_BLUE" label="BLUE" pos="91,332" title="Blue" shape="circle" coords="91,332,10" />
+		<button id="KEY_REWIND" label="REWIND" pos="19,352" title="Rewind" shape="circle" coords="19,352,10" />
+		<button id="KEY_PLAYPAUSE" label="PLAYPAUSE" pos="43,352" title="Playpause" shape="circle" coords="43,352,10" />
+		<button id="KEY_STOP" label="STOP" pos="67,352" title="Stop" shape="circle" coords="67,352,10" />
+		<button id="KEY_FASTFORWARD" label="FASTFORWARD" pos="91,352" title="Forward" shape="circle" coords="91,352,10" />
+		<button id="KEY_RECORD" label="RECORD" pos="19,370" title="Record" shape="circle" coords="19,370,10" />
+		<button id="KEY_PROGRAM" label="TIMER" pos="43,370" title="Timer" shape="circle" coords="43,370,10" />
+		<button id="KEY_SEARCH" label="WWW" pos="67,370" title="Web" shape="circle" coords="67,370,10" />
+		<button id="KEY_BOOKMARKS" label="PLUGIN" pos="91,370" title="Plugin" shape="circle" coords="91,370,10" />
+		<button id="KEY_AUDIO" label="AUDIO" pos="19,398" title="Audio" shape="circle" coords="19,398,10" />
+		<button id="KEY_SCREEN" label="SCREEN" pos="43,398" title="Pip" shape="circle" coords="43,398,10" />
+		<button id="KEY_SUBTITLE" label="SUBTITLE" pos="67,398" title="Subtitle" shape="circle" coords="67,398,10" />
+		<button id="KEY_SLEEP" label="SLEEP" pos="91,398" title="Sleep" shape="circle" coords="91,398,10" />
+		<button id="KEY_TEXT" label="TEXT" pos="19,416" title="Text" shape="circle" coords="19,416,10" />
+		<button id="KEY_TV" label="TV" pos="43,416" title="Tv" shape="circle" coords="43,416,10" />
+		<button id="KEY_RADIO" label="RADIO" pos="67,416" title="Radio" shape="circle" coords="67,416,10" />
+		<button id="KEY_HELP" label="HELP" pos="91,416" title="Help" shape="circle" coords="91,416,10" />
+	</rc>
+</rcs>

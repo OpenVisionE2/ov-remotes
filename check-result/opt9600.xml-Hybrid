@@ -1,0 +1,47 @@
+<rcs>
+	<rc id="2" image="/images/remotes/opt9600.png.png">
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="31,35" />
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="96,35" />
+		<button id="KEY_HELP" name="HELP" label="HELP" pos="29,61" />
+		<button id="KEY_ZOOM" name="TV_FORMAT" label="TV_FORMAT" pos="52,61" />
+		<button id="KEY_TV2" name="TVRADIO" label="TVRADIO" pos="76,61" />
+		<button id="KEY_SWITCHVIDEOMODE" name="MODE" label="MODE" pos="100,61" />
+		<button id="KEY_1" name="1" label="1" pos="31,85" />
+		<button id="KEY_2" name="2" label="2" pos="64,85" />
+		<button id="KEY_3" name="3" label="3" pos="98,85" />
+		<button id="KEY_4" name="4" label="4" pos="31,105" />
+		<button id="KEY_5" name="5" label="5" pos="64,105" />
+		<button id="KEY_6" name="6" label="6" pos="98,105" />
+		<button id="KEY_7" name="7" label="7" pos="31,125" />
+		<button id="KEY_8" name="8" label="8" pos="64,125" />
+		<button id="KEY_9" name="9" label="9" pos="98,125" />
+		<button id="KEY_MENU" name="MENU" label="MENU" pos="31,145" />
+		<button id="KEY_0" name="0" label="0" pos="64,145" />
+		<button id="KEY_BACK" name="RECALL" label="RECALL" pos="98,145" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="29,176" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="52,176" />
+		<button id="KEY_PLAYPAUSE" name="PLAYPAUSE" label="PLAYPAUSE" pos="76,176" />
+		<button id="KEY_FASTFORWARD" name="FASTFORWARD" label="FASTFORWARD" pos="100,176" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="29,203" />
+		<button id="KEY_UP" name="UP" label="UP" pos="64,206" />
+		<button id="KEY_EXIT" name="EXIT" label="EXIT" pos="100,203" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="30,240" />
+		<button id="KEY_OK" name="OK" label="OK" pos="64,240" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="99,240" />
+		<button id="KEY_INFO" name="INFO" label="INFO" pos="29,278" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="64,276" />
+		<button id="KEY_EPG" name="EPG" label="EPG" pos="101,278" />
+		<button id="KEY_FILE" name="ARCHIVE" label="ARCHIVE" pos="29,300" />
+		<button id="KEY_SLOW" name="SLOW" label="SLOW" pos="53,300" />
+		<button id="KEY_PREVIOUS" name="PREVIOUS" label="PREVIOUS" pos="76,300" />
+		<button id="KEY_NEXT" name="NEXT" label="NEXT" pos="100,300" />
+		<button id="KEY_RED" name="RED" label="RED" pos="29,324" />
+		<button id="KEY_GREEN" name="GREEN" label="GREEN" pos="53,324" />
+		<button id="KEY_YELLOW" name="YELLOW" label="YELLOW" pos="76,324" />
+		<button id="KEY_BLUE" name="BLUE" label="BLUE" pos="100,324" />
+		<button id="KEY_FAVORITES" name="FAV" label="FAV" pos="29,362" />
+		<button id="KEY_AUX" name="STATUS" label="STATUS" pos="53,362" />
+		<button id="KEY_OPTION" name="OPTION" label="OPTION" pos="76,362" />
+		<button id="KEY_PROGRAM" name="FIND" label="FIND" pos="100,362" />
+	</rc>
+</rcs>

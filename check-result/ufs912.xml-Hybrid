@@ -1,0 +1,43 @@
+<rcs>
+	<rc id="2" image="/images/remotes/ufs912.png.png">
+		<button id="KEY_HELP" name="HELP" label="HELP" pos="38,38" title="?" shape="rect" coords="28,34,48,42" />
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="83,37" title="On/off" shape="rect" coords="57,34,108,42" />
+		<button id="KEY_1" name="1" label="1" pos="39,66" title="1" shape="rect" coords="28,58,48,75" />
+		<button id="KEY_2" name="2" label="2" pos="70,66" title="2" shape="rect" coords="58,58,78,75" />
+		<button id="KEY_3" name="3" label="3" pos="99,66" title="3" shape="rect" coords="88,58,108,75" />
+		<button id="KEY_4" name="4" label="4" pos="39,99" title="4" shape="rect" coords="28,85,48,102" />
+		<button id="KEY_5" name="5" label="5" pos="70,99" title="5" shape="rect" coords="58,85,78,102" />
+		<button id="KEY_6" name="6" label="6" pos="99,99" title="6" shape="rect" coords="88,85,108,102" />
+		<button id="KEY_7" name="7" label="7" pos="39,120" title="7" shape="rect" coords="28,112,48,130" />
+		<button id="KEY_8" name="8" label="8" pos="70,120" title="8" shape="rect" coords="58,112,78,130" />
+		<button id="KEY_9" name="9" label="9" pos="99,120" title="9" shape="rect" coords="88,112,108,130" />
+		<button id="KEY_MENU" name="MENU" label="MENU" pos="40,150" title="MENU" shape="rect" coords="28,142,48,157" />
+		<button id="KEY_0" name="0" label="0" pos="70,149" title="0" shape="rect" coords="58,142,78,157" />
+		<button id="KEY_TEXT" name="TEXT" label="TEXT" pos="98,150" title="TEXT" shape="rect" coords="88,142,108,157" />
+		<button id="KEY_VOLUMEDOWN" name="VOLUMEDOWN" label="VOLUMEDOWN" pos="39,180" title="VOL -" shape="poly" coords="49,173,51,171,51,190,29,187" />
+		<button id="KEY_CHANNELUP" name="CHANNELUP" label="CHANNELUP" pos="69,182" title="P+" shape="poly" coords="60,172,80,172,81,191,58,191" />
+		<button id="KEY_VOLUMEUP" name="VOLUMEUP" label="VOLUMEUP" pos="98,180" title="VOL +" shape="poly" coords="88,172,109,172,110,186,88,189" />
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="42,212" title="MUTE" shape="poly" coords="30,205,47,204,47,220,30,220" />
+		<button id="KEY_CHANNELDOWN" name="CHANNELDOWN" label="CHANNELDOWN" pos="69,209" title="P-" shape="poly" coords="58,200,81,200,80,220,60,220" />
+		<button id="KEY_INFO" name="INFO" label="INFO" pos="101,210" title="I" shape="poly" coords="91,204,109,205,109,220,92,220" />
+		<button id="KEY_RED" name="RED" label="RED" pos="35,243" title="Red" shape="rect" coords="30,234,40,254" />
+		<button id="KEY_GREEN" name="GREEN" label="GREEN" pos="59,243" title="Green" shape="rect" coords="54,234,63,254" />
+		<button id="KEY_YELLOW" name="YELLOW" label="YELLOW" pos="82,243" title="Yellow" shape="rect" coords="77,234,86,254" />
+		<button id="KEY_BLUE" name="BLUE" label="BLUE" pos="106,243" title="Blue" shape="rect" coords="99,234,110,254" />
+		<button id="KEY_EPG" name="EPG" label="EPG" pos="38,273" title="EPG" shape="poly" coords="31,266,47,266,46,282,31,283" />
+		<button id="KEY_UP" name="UP" label="UP" pos="70,274" title="Up" shape="poly" coords="62,266,78,266,81,284,60,284" />
+		<button id="KEY_FILE" name="ARCHIV" label="ARCHIV" pos="102,274" title="ARCHIV" shape="poly" coords="92,266,110,266,110,282,94,280" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="39,306" title="Left" shape="poly" coords="30,299,50,296,50,317,30,314" />
+		<button id="KEY_OK" name="OK" label="OK" pos="70,306" title="OK" shape="rect" coords="61,296,80,316" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="101,306" title="Right" shape="poly" coords="92,296,111,298,111,314,92,317" />
+		<button id="KEY_EXIT" name="BACK" label="BACK" pos="38,337" title="BACK" shape="poly" coords="30,329,46,331,48,346,30,346" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="70,338" title="Down" shape="poly" coords="60,328,81,328,78,346,63,346" />
+		<button id="KEY_MEDIA" name="MEDIA" label="MEDIA" pos="102,337" title="MEDIA" shape="poly" coords="95,330,110,328,110,346,92,346" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="41,367" title="Rewind" shape="rect" coords="31,361,48,374" />
+		<button id="KEY_PLAY" name="PLAY" label="PLAY" pos="71,367" title="Play" shape="rect" coords="62,361,80,374" />
+		<button id="KEY_FASTFORWARD" name="FASTFORWARD" label="FASTFORWARD" pos="102,367" title="Fastforward" shape="rect" coords="93,361,111,374" />
+		<button id="KEY_PAUSE" name="PAUSE" label="PAUSE" pos="39,393" title="Pause" shape="rect" coords="31,387,48,399" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="71,393" title="Record" shape="rect" coords="62,387,80,399" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="103,393" title="Stop" shape="rect" coords="93,387,111,399" />
+	</rc>
+</rcs>

@@ -1,0 +1,42 @@
+<rcs>
+	<rc id="2" image="/images/remotes/pace7241.png.png">
+		<button id="KEY_TV2" name="TV" label="TV" pos="27,26" />
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="89,26" />
+		<button id="KEY_RESERVED" name="" label="KEY1" pos="27,54" />
+		<button id="KEY_RESERVED" name="" label="KEY2" pos="58,54" />
+		<button id="KEY_RESERVED" name="" label="KEY3" pos="89,54" />
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="58,80" />
+		<button id="KEY_B" name="KEY_B" label="KEY_B" pos="27,92" />
+		<button id="KEY_D" name="KEY_D" label="KEY_D" pos="58,92" />
+		<button id="KEY_X" name="KEY_X" label="KEY_X" pos="36,109" />
+		<button id="KEY_A" name="KEY_A" label="KEY_A" pos="27,121" />
+		<button id="KEY_E" name="KEY_E" label="KEY_E" pos="89,121" />
+		<button id="KEY_RESERVED" name="" label="PILOT" pos="34,162" />
+		<button id="KEY_RESERVED" name="" label="PROG" pos="84,162" />
+		<button id="KEY_UP" name="UP" label="UP" pos="59,187" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="32,214" />
+		<button id="KEY_OK" name="OK" label="OK" pos="60,214" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="87,214" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="60,241" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="29,266" />
+		<button id="KEY_PLAY" name="PLAY" label="PLAY" pos="59,271" />
+		<button id="KEY_FASTFORWARD" name="FASTFORWARD" label="FASTFORWARD" pos="89,266" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="31,294" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="60,296" />
+		<button id="KEY_PAUSE" name="PAUSE" label="PAUSE" pos="89,294" />
+		<button id="KEY_PREVIOUS" name="PREVIOUS" label="PREVIOUS" pos="43,317" />
+		<button id="KEY_NEXT" name="NEXT" label="NEXT" pos="76,317" />
+		<button id="KEY_1" name="1" label="1" pos="29,346" />
+		<button id="KEY_2" name="2" label="2" pos="59,346" />
+		<button id="KEY_3" name="3" label="3" pos="89,346" />
+		<button id="KEY_4" name="4" label="4" pos="29,373" />
+		<button id="KEY_5" name="5" label="5" pos="59,373" />
+		<button id="KEY_6" name="6" label="6" pos="89,373" />
+		<button id="KEY_7" name="7" label="7" pos="38,400" />
+		<button id="KEY_8" name="8" label="8" pos="49,400" />
+		<button id="KEY_9" name="9" label="9" pos="89,400" />
+		<button id="KEY_SAT" name="SAT" label="SAT" pos="31,428" />
+		<button id="KEY_0" name="0" label="0" pos="59,428" />
+		<button id="KEY_RESERVED" name="" label="KEY_HD" pos="89,428" />
+	</rc>
+</rcs>

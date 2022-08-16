@@ -1,0 +1,53 @@
+<rcs>
+	<rc id="2">
+		<button name="POWER" pos="24,59" />
+		<button name="MUTE" pos="101,59" />
+		<button name="F1" pos="20,84" />
+		<button name="F2" pos="49,84" />
+		<button name="HELP" pos="77,84" />
+		<!-- <button name="" pos="106,84" /> -->
+		<button name="1" pos="23,103" />
+		<button name="2" pos="62,103" />
+		<button name="3" pos="102,103" />
+		<button name="4" pos="23,122" />
+		<button name="5" pos="62,122" />
+		<button name="6" pos="102,122" />
+		<button name="7" pos="23,142" />
+		<button name="8" pos="62,142" />
+		<button name="9" pos="102,142" />
+		<button name="ARROW LEFT" pos="23,161" />
+		<button name="0" pos="62,161" />
+		<button name="ARROW RIGHT" pos="102,161" />
+		<button name="VOL +" pos="22,190" />
+		<button name="CH +" pos="102,190" />
+		<button id="KEY_VIDEO" remap="KEY_FILE" name="PLAYLIST" pos="62,191" />
+		<button name="VOL -" pos="22,224" />
+		<button name="EPG" pos="62,224" />
+		<button name="CH -" pos="102,224" />
+		<button name="MENU" pos="23,257" />
+		<button name="UP" pos="62,257" />
+		<button name="EXIT" pos="102,257" />
+		<button name="OK" pos="62,294" />
+		<button name="LEFT" pos="23,295" />
+		<button name="RIGHT" pos="102,295" />
+		<button name="INFO" pos="23,333" />
+		<button name="DOWN" pos="62,333" />
+		<button name="RECALL" pos="102,333" />
+		<button name="RED" pos="19,361" />
+		<button name="GREEN" pos="48,361" />
+		<button name="YELLOW" pos="76,361" />
+		<button name="BLUE" pos="105,361" />
+		<button name="REWIND" pos="20,387" />
+		<button name="PLAY" pos="48,387" />
+		<button name="PAUSE" pos="76,387" />
+		<button name="FAST FORWARD" pos="104,387" />
+		<button name="AUDIO" pos="20,404" />
+		<button name="STOP" pos="48,404" />
+		<button name="RECORD" pos="76,404" />
+		<button id="KEY_KEYBOARD" remap="KEY_BOOKMARKS" name="CONTEXT" pos="104,404" />
+		<button name="TXT" pos="20,422" />
+		<button name="SUBT" pos="48,422" />
+		<button name="TV/RADIO" pos="76,422" />
+		<button name="FAV" pos="104,422" />
+	</rc>
+</rcs>

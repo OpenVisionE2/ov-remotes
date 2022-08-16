@@ -1,0 +1,57 @@
+<rcs>
+	<rc id="2">
+		<button name="TV/STB" pos="36,50" />
+		<button name="POWER" pos="73,35" />
+		<button name="MUTE" pos="112,50" />
+		<button name="TEXT" pos="36,71" />
+		<button name="SUBTITLE" pos="73,68" />
+		<button name="SIGNAL" pos="110,71" />
+		<button name="CAPTURE" pos="37,89" />
+		<button name="BOOK_M" pos="73,86" />
+		<button name="BOOK_J" pos="110,89" />
+		<button name="PREVIOUS" pos="32,125" />
+		<button name="REWIND" pos="59,116" />
+		<button name="FASTFORWARD" pos="87,116" />
+		<button name="NEXT" pos="115,125" />
+		<button name="REPEAT" pos="32,149" />
+		<button name="PLAY/PAUSE" pos="59,138" />
+		<button name="STOP" pos="87,138" />
+		<button name="RECORD" pos="115,149" />
+		<button name="MENU" pos="53,168" />
+		<button name="EXIT" pos="93,168" />
+		<button name="CHUP" pos="28,192" />
+		<button name="UP" pos="73,186" />
+		<button name="VOLUP" pos="116,192" />
+		<button name="LEFT" pos="47,211" />
+		<button name="OK" pos="73,211" />
+		<button name="RIGHT" pos="97,211" />
+		<button name="CHDOWN" pos="24,221" />
+		<button name="VOLDOWN" pos="121,221" />
+		<button name="DOWN" pos="73,236" />
+		<button name="INFO" pos="38,250" />
+		<button name="EPG" pos="73,255" />
+		<button name="RECALL" pos="105,250" />
+		<button name="FAV" pos="37,279" />
+		<button name="SAT" pos="72,282" />
+		<button name="MOSAIC" pos="106,279" />
+		<button name="FEED" pos="47,329" />
+		<button name="TV/RADIO" pos="71,303" />
+		<button name="PLAYLIST" pos="106,302" />
+		<button name="RED" pos="33,330" />
+		<button name="GREEN" pos="58,337" />
+		<button name="YELLOW" pos="84,337" />
+		<button name="BLUE" pos="109,330" />
+		<button name="1" pos="37,359" />
+		<button name="2" pos="72,362" />
+		<button name="3" pos="104,359" />
+		<button name="4" pos="38,382" />
+		<button name="5" pos="71,384" />
+		<button name="6" pos="104,382" />
+		<button name="7" pos="38,404" />
+		<button name="8" pos="71,406" />
+		<button name="9" pos="103,404" />
+		<button name="F1" pos="40,427" />
+		<button name="0" pos="72,429" />
+		<button name="F2" pos="102,427" />
+	</rc>
+</rcs>

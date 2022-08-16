@@ -1,0 +1,56 @@
+<rcs>
+	<rc id="2" image="/images/remotes/hl101.png.png">
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="91,29" />
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="33,29" />
+		<button id="KEY_ZOOM" name="V.FORMAT" label="V.FORMAT" pos="63,44" />
+		<button id="KEY_SWITCHVIDEOMODE" name="RESOLUTION" label="RESOLUTION" pos="89,52" />
+		<button id="KEY_1" name="1" label="1" pos="32,53" />
+		<button id="KEY_2" name="2" label="2" pos="61,53" />
+		<button id="KEY_3" name="3" label="3" pos="89,53" />
+		<button id="KEY_4" name="4" label="4" pos="31,76" />
+		<button id="KEY_5" name="5" label="5" pos="61,76" />
+		<button id="KEY_6" name="6" label="6" pos="91,76" />
+		<button id="KEY_7" name="7" label="7" pos="30,98" />
+		<button id="KEY_8" name="8" label="8" pos="61,98" />
+		<button id="KEY_9" name="9" label="9" pos="92,98" />
+		<button id="KEY_HELP" remap="KEY_INFO" name="INFO" label="INFO" pos="99,376" />
+		<button id="KEY_0" name="0" label="0" pos="61,120" />
+		<button id="KEY_BACK" name="RECALL" label="RECALL" pos="97,236" />
+		<button id="KEY_VOLUMEUP" name="VOLUMEUP" label="VOLUMEUP" pos="26,261" />
+		<button id="KEY_MENU" name="MENU" label="MENU" pos="27,208" />
+		<button id="KEY_CHANNELUP" name="CHANNELUP" label="CHANNELUP" pos="98,261" />
+		<button id="KEY_VOLUMEDOWN" name="VOLUMEDOWN" label="VOLUMEDOWN" pos="28,285" />
+		<button id="KEY_EXIT" name="EXIT" label="EXIT" pos="97,208" />
+		<button id="KEY_CHANNELDOWN" name="CHANNELDOWN" label="CHANNELDOWN" pos="98,285" />
+		<button id="KEY_UP" name="UP" label="UP" pos="62,141" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="36,168" />
+		<button id="KEY_OK" name="OK" label="OK" pos="62,168" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="88,168" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="62,194" />
+		<button id="KEY_PAGEUP" name="PAGEUP" label="PAGEUP" pos="28,376" />
+		<button id="KEY_EPG" name="EPG" label="EPG" pos="63,236" />
+		<button id="KEY_PAGEDOWN" name="PAGEDOWN" label="PAGEDOWN" pos="51,376" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="29,310" />
+		<button id="KEY_PLAY" name="PLAY" label="PLAY" pos="63,259" />
+		<button id="KEY_FASTFORWARD" name="FASTFORWARD" label="FASTFORWARD" pos="98,310" />
+		<button id="KEY_PREVIOUS" name="PREVIOUS" label="PREVIOUS" pos="29,330" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="64,330" />
+		<button id="KEY_NEXT" name="NEXT" label="NEXT" pos="98,330" />
+		<button id="KEY_FILE" name="PLAYLIST" label="PLAYLIST" pos="63,217" />
+		<button id="KEY_PAUSE" name="PAUSE" label="PAUSE" pos="63,287" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="63,310" />
+		<button id="KEY_HELP" name="CHECK" label="CHECK" pos="90,358" />
+		<button id="KEY_RED" name="RED" label="RED" pos="27,351" />
+		<button id="KEY_GREEN" name="GREEN" label="GREEN" pos="51,351" />
+		<button id="KEY_YELLOW" name="YELLOW" label="YELLOW" pos="75,351" />
+		<button id="KEY_BLUE" name="BLUE" label="BLUE" pos="99,351" />
+		<button id="KEY_SCREEN" name="PIP" label="PIP" pos="39,400" />
+		<button id="KEY_GOTO" name="PIP_SWAP" label="PIP_SWAP" pos="63,400" />
+		<button id="KEY_AUX" name="PIP_LIST" label="PIP_LIST" pos="88,400" />
+		<button id="KEY_PROGRAM" name="SLEEP" label="SLEEP" pos="90,391" />
+		<button id="KEY_FAVORITES" name="FAV" label="FAV" pos="27,236" />
+		<button id="KEY_TV2" name="TVRADIO" label="TVRADIO" pos="76,376" />
+		<button id="KEY_SUBTITLE" name="SUBTITLE" label="SUBTITLE" pos="31,120" />
+		<button id="KEY_TEXT" name="TEXT" label="TEXT" pos="94,120" />
+	</rc>
+</rcs>

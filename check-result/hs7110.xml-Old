@@ -1,0 +1,56 @@
+<rcs>
+	<rc id="2">
+		<button name="MUTE" pos="91,29" />
+		<button name="POWER" pos="33,29" />
+		<button name="V.FORMAT" pos="63,44" />
+		<button name="RESOLUTION" pos="89,52" />
+		<button name="1" pos="32,53" />
+		<button name="2" pos="61,53" />
+		<button name="3" pos="89,53" />
+		<button name="4" pos="31,76" />
+		<button name="5" pos="61,76" />
+		<button name="6" pos="91,76" />
+		<button name="7" pos="30,98" />
+		<button name="8" pos="61,98" />
+		<button name="9" pos="92,98" />
+		<button id="KEY_HELP" remap="KEY_INFO" name="INFO" pos="99,376" />
+		<button name="0" pos="61,120" />
+		<button name="RECALL" pos="97,236" />
+		<button name="VOLUMEUP" pos="26,261" />
+		<button name="MENU" pos="27,208" />
+		<button name="CHANNELUP" pos="98,261" />
+		<button name="VOLUMEDOWN" pos="28,285" />
+		<button name="EXIT" pos="97,208" />
+		<button name="CHANNELDOWN" pos="98,285" />
+		<button name="UP" pos="62,141" />
+		<button name="LEFT" pos="36,168" />
+		<button name="OK" pos="62,168" />
+		<button name="RIGHT" pos="88,168" />
+		<button name="DOWN" pos="62,194" />
+		<button name="PAGEUP" pos="28,376" />
+		<button name="EPG" pos="63,236" />
+		<button name="PAGEDOWN" pos="51,376" />
+		<button name="REWIND" pos="29,310" />
+		<button name="PLAY" pos="63,259" />
+		<button name="FASTFORWARD" pos="98,310" />
+		<button name="PREVIOUS" pos="29,330" />
+		<button name="RECORD" pos="64,330" />
+		<button name="NEXT" pos="98,330" />
+		<button name="PLAYLIST" pos="63,217" />
+		<button name="PAUSE" pos="63,287" />
+		<button name="STOP" pos="63,310" />
+		<button name="CHECK" pos="90,358" />
+		<button name="RED" pos="27,351" />
+		<button name="GREEN" pos="51,351" />
+		<button name="YELLOW" pos="75,351" />
+		<button name="BLUE" pos="99,351" />
+		<button name="PIP" pos="39,400" />
+		<button name="PIP_SWAP" pos="63,400" />
+		<button name="PIP_LIST" pos="88,400" />
+		<button name="SLEEP" pos="90,391" />
+		<button name="FAV" pos="27,236" />
+		<button name="TVRADIO" pos="76,376" />
+		<button name="SUBTITLE" pos="31,120" />
+		<button name="TEXT" pos="94,120" />
+	</rc>
+</rcs>
