@@ -17690,3 +17690,11 @@ Processing remote control filename './rc/fusionhd'.
     Note: Remote control keyid KEY_PROGRAM (362) attribute 'pos' with a value of [103, 93] is being added.
 
 Processing complete.
+[master 8768d1b] Check remote files
+ 1 file changed, 263 deletions(-)
+
+-e Check time was 0 minutes and 8 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
