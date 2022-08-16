@@ -1,0 +1,19 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/dinobot2.xml'.
+  Loading remote control XML definition file './rc/dinobot2.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Warning: Button 35 with id 'KEY_PAUSE' (119) is a duplicate position (67,351) with button 34 with id 'KEY_PLAY' (207)!
+  42 buttons loaded, 42 buttons verified and written to the XML file.
+
+Processing complete.

@@ -1,0 +1,28 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/beyonwiz2.xml'.
+  Loading remote control XML definition file './rc/beyonwiz2.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Warning: Button 6 with id 'KEY_SWITCHVIDEOMODE' (227) is a duplicate position (75,84) with button 5 with id 'KEY_SWITCHVIDEOMODE' (227)!
+    Warning: Button 23 with id 'KEY_CHANNELUP' (402) is a duplicate position (101,194) with button 22 with id 'KEY_CHANNELUP' (402)!
+    Warning: Button 26 with id 'KEY_CHANNELDOWN' (403) is a duplicate position (101,224) with button 25 with id 'KEY_CHANNELDOWN' (403)!
+    Warning: Button 44 with id 'KEY_PAUSE' (119) is a duplicate position (75,389) with button 43 with id 'KEY_PLAYPAUSE' (164)!
+    Warning: Button 6 with id 'KEY_SWITCHVIDEOMODE' (227) is a duplicate id with button 5!
+    Warning: Button 23 with id 'KEY_CHANNELUP' (402) is a duplicate id with button 22!
+    Warning: Button 26 with id 'KEY_CHANNELDOWN' (403) is a duplicate id with button 25!
+    Warning: Button 6 with id 'KEY_SWITCHVIDEOMODE' (227) is a duplicate label (VMODE) with button 5 with id 'KEY_SWITCHVIDEOMODE' (227)!
+    Warning: Button 23 with id 'KEY_CHANNELUP' (402) is a duplicate label (BOUQUET+) with button 22 with id 'KEY_CHANNELUP' (402)!
+    Warning: Button 26 with id 'KEY_CHANNELDOWN' (403) is a duplicate label (BOUQUET-) with button 25 with id 'KEY_CHANNELDOWN' (403)!
+  53 buttons loaded, 53 buttons verified and written to the XML file.
+
+Processing complete.

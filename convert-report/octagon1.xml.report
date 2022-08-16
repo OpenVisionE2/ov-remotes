@@ -1,0 +1,21 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/octagon1.xml'.
+  Loading remote control XML definition file './rc/octagon1.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Information: Button 'KEY_VIDEO' (393) remapped to 'KEY_FILE' (144) and labelled 'Playlist' and titled 'Playlist'.
+    Information: Button 'KEY_KEYBOARD' (374) remapped to 'KEY_BOOKMARKS' (156) and labelled 'Context' and titled 'Context / Plugins'.
+    Warning: Button 17 with id 'KEY_0' (11) is a duplicate label (0) with button 15 with id 'KEY_9' (10)!
+  57 buttons loaded, 57 buttons verified and written to the XML file.
+
+Processing complete.

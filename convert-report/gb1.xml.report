@@ -1,0 +1,22 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/gb1.xml'.
+  Loading remote control XML definition file './rc/gb1.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Warning: Button 47 with id 'KEY_PREVIOUS' (412) is a duplicate id with button 8!
+    Warning: Button 49 with id 'KEY_NEXT' (407) is a duplicate id with button 11!
+    Warning: Button 47 with id 'KEY_PREVIOUS' (412) is a duplicate label (ARROWLEFT) with button 8 with id 'KEY_PREVIOUS' (412)!
+    Warning: Button 49 with id 'KEY_NEXT' (407) is a duplicate label (ARROWRIGHT) with button 11 with id 'KEY_NEXT' (407)!
+  49 buttons loaded, 49 buttons verified and written to the XML file.
+
+Processing complete.

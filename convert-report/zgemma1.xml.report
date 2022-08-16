@@ -1,0 +1,21 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/zgemma1.xml'.
+  Loading remote control XML definition file './rc/zgemma1.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Warning: Button 14 with id 'KEY_TEXT' (388) is a duplicate position (26,143) with button 13 with id 'KEY_PREVIOUS' (412)!
+    Warning: Button 16 with id 'KEY_AUDIO' (392) is a duplicate position (63,143) with button 15 with id 'KEY_0' (11)!
+    Warning: Button 37 with id 'KEY_PAUSE' (119) is a duplicate position (76,359) with button 36 with id 'KEY_PLAY' (207)!
+  42 buttons loaded, 42 buttons verified and written to the XML file.
+
+Processing complete.

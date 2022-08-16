@@ -1,0 +1,22 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/gb3.xml'.
+  Loading remote control XML definition file './rc/gb3.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Information: Button 'KEY_SCREEN' (375) remapped to 'KEY_SWITCHVIDEOMODE' (227) and labelled 'ASPECT' and titled 'Aspect'.
+    Information: Button 'KEY_F1' (59) remapped to 'KEY_HELP' (138) and labelled 'F1/HELP' and titled 'F1 / Help'.
+    Information: Button 'KEY_F2' (60) remapped to 'KEY_SCREEN' (375) and labelled 'PIP' and titled 'PIP'.
+    Warning: Button 52 with id 'KEY_HELP' (138) is a duplicate position (26,409) with button 51 with id 'KEY_AUX' (227)!
+  54 buttons loaded, 54 buttons verified and written to the XML file.
+
+Processing complete.

@@ -1,0 +1,26 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/edision2.xml'.
+  Loading remote control XML definition file './rc/edision2.xml'.
+  Remote control id is undefined so '2' will be assumed.
+    Warning: Button 4 with id 'KEY_RADIO' (385) is a duplicate position (29,71) with button 3 with id 'KEY_TV' (377)!
+    Warning: Button 18 with id 'KEY_CHANNELUP' (402) is a duplicate position (105,189) with button 17 with id 'KEY_CHANNELUP' (402)!
+    Warning: Button 23 with id 'KEY_CHANNELDOWN' (403) is a duplicate position (110,218) with button 22 with id 'KEY_CHANNELDOWN' (403)!
+    Warning: Button 32 with id 'KEY_PAUSE' (119) is a duplicate position (65,290) with button 31 with id 'KEY_PLAY' (207)!
+    Warning: Button 18 with id 'KEY_CHANNELUP' (402) is a duplicate id with button 17!
+    Warning: Button 23 with id 'KEY_CHANNELDOWN' (403) is a duplicate id with button 22!
+    Warning: Button 18 with id 'KEY_CHANNELUP' (402) is a duplicate label (BOUQUET+) with button 17 with id 'KEY_CHANNELUP' (402)!
+    Warning: Button 23 with id 'KEY_CHANNELDOWN' (403) is a duplicate label (BOUQUET-) with button 22 with id 'KEY_CHANNELDOWN' (403)!
+  51 buttons loaded, 51 buttons verified and written to the XML file.
+
+Processing complete.

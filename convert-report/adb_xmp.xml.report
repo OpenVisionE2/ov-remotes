@@ -1,0 +1,62 @@
+ConvertRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in button position order.
+Labels will be capitalised.
+Titles will be capitalised.
+
+Processing remote control filename './rc/adb_xmp.xml'.
+  Loading remote control XML definition file './rc/adb_xmp.xml'.
+  Remote control id defined as '2'.
+    Error: The keyId can't be derived from the name 'POWER'!
+    Error: The keyId can't be derived from the name 'VOD'!
+    Error: The keyId can't be derived from the name 'RECALL'!
+    Error: The keyId can't be derived from the name 'EPG'!
+    Error: The keyId can't be derived from the name 'HOME'!
+    Error: The keyId can't be derived from the name 'INFO'!
+    Error: The keyId can't be derived from the name 'APP'!
+    Error: The keyId can't be derived from the name 'OPT'!
+    Error: The keyId can't be derived from the name 'VOLUMEUP'!
+    Error: The keyId can't be derived from the name 'CHUP'!
+    Error: The keyId can't be derived from the name 'LEFT'!
+    Error: The keyId can't be derived from the name 'OK'!
+    Error: The keyId can't be derived from the name 'RIGHT'!
+    Error: The keyId can't be derived from the name 'UP'!
+    Error: The keyId can't be derived from the name 'VOLUMEDOWN'!
+    Error: The keyId can't be derived from the name 'CHDOWN'!
+    Error: The keyId can't be derived from the name 'DOWN'!
+    Error: The keyId can't be derived from the name 'HOME'!
+    Error: The keyId can't be derived from the name 'STOP'!
+    Error: The keyId can't be derived from the name 'REWIND'!
+    Error: The keyId can't be derived from the name 'FASTFORWARD'!
+    Error: The keyId can't be derived from the name 'PLAY'!
+    Error: The keyId can't be derived from the name 'PAUSE'!
+    Error: The keyId can't be derived from the name 'RECORD'!
+    Error: The keyId can't be derived from the name 'MUTE'!
+    Error: The keyId can't be derived from the name 'ATSIGN'!
+    Error: The keyId can't be derived from the name 'TEXT'!
+    Error: The keyId can't be derived from the name 'LIST'!
+    Error: The keyId can't be derived from the name 'RED'!
+    Error: The keyId can't be derived from the name 'GREEN'!
+    Error: The keyId can't be derived from the name 'YELLOW'!
+    Error: The keyId can't be derived from the name 'BLUE'!
+    Error: The keyId can't be derived from the name '1'!
+    Error: The keyId can't be derived from the name '2'!
+    Error: The keyId can't be derived from the name '3'!
+    Error: The keyId can't be derived from the name '4'!
+    Error: The keyId can't be derived from the name '5'!
+    Error: The keyId can't be derived from the name '6'!
+    Error: The keyId can't be derived from the name '7'!
+    Error: The keyId can't be derived from the name '8'!
+    Error: The keyId can't be derived from the name '9'!
+    Error: The keyId can't be derived from the name 'SETUP'!
+    Error: The keyId can't be derived from the name '0'!
+    Error: The keyId can't be derived from the name 'STAR'!
+  0 buttons loaded, 0 buttons verified and written to the XML file.
+
+Processing complete.
