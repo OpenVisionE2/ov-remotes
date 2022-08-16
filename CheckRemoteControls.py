@@ -76,14 +76,12 @@ FORMATS = [
 	"uppercased"
 ]
 
-ALLIANCE_IMAGE_PATH = "/static/remotes/"
 REMOTE_IMAGE_PATH = "/images/remotes/"
 
 LOG_LEVEL = LOG_INFORMATION
 SORT_ORDER = SORT_SEQUENCE_XML
 FORMAT_LABELS = FORMAT_CAPITALISE
 FORMAT_TITLES = FORMAT_CAPITALISE
-USE_ALLIANCE_PATH = False
 TOLERANCE = 0
 
 KEYIDS = {
@@ -856,8 +854,7 @@ def loadRemoteXML(filename, rcButtons):
 		rcButtons["id"] = 2
 	image = rc.attrib.get("image")
 	if image:
-		if not USE_ALLIANCE_PATH and image.startswith(ALLIANCE_IMAGE_PATH):
-			image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
+		image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
 		rcButtons["xmlImage"] = image
 	placeHolder = 0
 	found = 0
@@ -1001,8 +998,7 @@ def loadRemoteHTML(filename, rcButtons):
 	else:
 		image = img.attrib.get("src")
 		if image:
-			if not USE_ALLIANCE_PATH and image.startswith(ALLIANCE_IMAGE_PATH):
-				image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
+			image = pathjoin(REMOTE_IMAGE_PATH, "%s.png" % image.split("/")[3])
 			rcButtons["htmlImage"] = image
 	map = domHTML.find("map")
 	if map is None:
