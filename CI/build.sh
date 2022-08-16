@@ -5,7 +5,7 @@
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
-  git config --global user.name "Open Vision remote bot"
+  git config --global user.name "Open Vision rc bot"
 }
 
 commit_files() {
