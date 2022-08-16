@@ -31,7 +31,7 @@ from os.path import isfile, join as pathjoin
 from sys import argv
 from xml.etree.cElementTree import ParseError, parse, fromstring
 
-VERSION = "1.2  -  9-Jul-2021"
+VERSION = "1.21  -  16-Aug-2022"
 
 LOG_SILENT = 0
 LOG_PROGRAM = 1
@@ -1126,7 +1126,7 @@ def buildXML(filename, buttonList, rcButtons):
 
 
 def saveFile(filename, content):
-	filename = "%s.new.xml" % filename
+	filename = "%s-new" % filename
 	try:
 		with open(filename, "w") as fd:
 			for line in content:

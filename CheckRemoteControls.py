@@ -31,7 +31,7 @@ from os.path import dirname, isfile, join as pathjoin, splitext
 from sys import argv
 from xml.etree.cElementTree import ParseError, parse, fromstring
 
-VERSION = "1.20  -  26-Jul-2021"
+VERSION = "1.21  -  16-Aug-2022"
 
 LOG_SILENT = 0
 LOG_PROGRAM = 1
@@ -1382,9 +1382,13 @@ def buildXML(filename, type, keyIds, rcButtons):
 			attribs.append("label=\"%s\"" % value.get("label", ""))
 		attribs.append("pos=\"%s\"" % ",".join([str(x) for x in value.get("pos", "")]))
 		if type in ("Hybrid", "New"):
-			attribs.append("title=\"%s\"" % value.get("title", ""))
-			attribs.append("shape=\"%s\"" % value.get("shape", ""))
-			attribs.append("coords=\"%s\"" % ",".join([str(x) for x in value.get("coords", "")]))
+			title = value.get("title", "")
+			shape = value.get("shape", "")
+			coords = value.get("coords", "")
+			if title and shape and coords:
+				attribs.append("title=\"%s\"" % title)
+				attribs.append("shape=\"%s\"" % shape)
+				attribs.append("coords=\"%s\"" % ",".join([str(x) for x in coords]))
 		if type == "Old" and key < 0:
 			xml.append("\t\t<!-- <button %s /> -->" % " ".join(attribs))
 		else:
@@ -1409,9 +1413,13 @@ def buildHTML(filename, keyIds, rcButtons):
 		keyId = value.get("keyId", 0)
 		if key != keyId:
 			logMessage(LOG_ERROR, "Sort key '%d' does not match the key id '%d'!" % (key, keyId))
-		attribs.append("title=\"%s\"" % value.get("title", ""))
-		attribs.append("shape=\"%s\"" % value.get("shape", ""))
-		attribs.append("coords=\"%s\"" % ",".join([str(x) for x in value.get("coords", "")]))
+		title = value.get("title", "")
+		shape = value.get("shape", "")
+		coords = value.get("coords", "")
+		if title and shape and coords:
+			attribs.append("title=\"%s\"" % title)
+			attribs.append("shape=\"%s\"" % shape)
+			attribs.append("coords=\"%s\"" % ",".join([str(x) for x in coords]))
 		if key > 0:
 			attribs.append("onclick=\"pressMenuRemote('%d');\"" % keyId)
 		html.append("\t<area %s />" % " ".join(attribs))
