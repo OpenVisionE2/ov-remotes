@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 #
 # 	CheckRemoteControl.py
 #
@@ -400,6 +401,16 @@ KEYIDS = {
 	"KEY_DEL_LINE": 451,
 	"KEY_ASCII": 510,
 	"KEY_MAX": 511,
+	"KEY_TVSAT": 512,
+	"KEY_PICASA": 513,
+	"KEY_SHOUTCAST": 514,
+	"KEY_YOUTUBE": 515,
+	"KEY_SPARK": 516,
+	"KEY_RECALL": 517,
+	"KEY_PLAYMODE": 518,
+	"KEY_USB": 519,
+	"KEY_PORTAL": 520,
+	"KEY_FAST": 521,
 	"KEY_TOUCHPAD_TOGGLE": 530,
 	"KEY_MOUSE": 530,
 	"KEY_VOD": 627
@@ -409,6 +420,7 @@ KNOWN_ALISAES = {
 	227: ("KEY_SWITCHVIDEOMODE", "KEY_VMODE"),
 	530: ("KEY_MOUSE", "KEY_TOUCHPAD_TOGGLE")
 }
+
 
 def invertKeyIds():
 	invKeyIds = {}

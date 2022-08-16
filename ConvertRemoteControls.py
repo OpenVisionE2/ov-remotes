@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 #
 # 	ConvertRemoteControl.py
 #
@@ -397,6 +398,16 @@ KEYIDS = {
 	"KEY_DEL_LINE": 451,
 	"KEY_ASCII": 510,
 	"KEY_MAX": 511,
+	"KEY_TVSAT": 512,
+	"KEY_PICASA": 513,
+	"KEY_SHOUTCAST": 514,
+	"KEY_YOUTUBE": 515,
+	"KEY_SPARK": 516,
+	"KEY_RECALL": 517,
+	"KEY_PLAYMODE": 518,
+	"KEY_USB": 519,
+	"KEY_PORTAL": 520,
+	"KEY_FAST": 521,
 	"KEY_TOUCHPAD_TOGGLE": 530,
 	"KEY_MOUSE": 530,
 	"KEY_VOD": 627
@@ -406,6 +417,7 @@ KNOWN_ALISAES = {
 	227: ("KEY_SWITCHVIDEOMODE", "KEY_VMODE"),
 	530: ("KEY_MOUSE", "KEY_TOUCHPAD_TOGGLE")
 }
+
 
 def invertKeyIds():
 	invKeyIds = {}
@@ -1049,7 +1061,7 @@ def checkShape(shape, coords, keyId, id):
 def sortButtons(sortOrder, rcButtons):
 	buttonOrder = []
 	nonButtons = []
-	if rcButtons:
+	try:
 		for sequence in rcButtons.keys():
 			try:
 				sequence = int(sequence)
@@ -1063,6 +1075,8 @@ def sortButtons(sortOrder, rcButtons):
 					buttonOrder["%s%04d" % (rcButtons[sequence].get("label", "ZZZZZZ"), sequence)] = sequence
 			except ValueError:
 				nonButtons.append((sequence, rcButtons[sequence]))
+	except:
+		pass
 	buttonList = []
 	for button in sorted(buttonOrder):
 		sequence = int(button[-4:])
@@ -1099,13 +1113,12 @@ def findDuplicates(buttonList, rcButtons):
 def buildXML(filename, buttonList, rcButtons):
 	xml = []
 	xml.append("<rcs>")
-	if rcButtons:
-		id = rcButtons.get("id", 2)
-		image = rcButtons.get("image")
-	if image:
-		xml.append("\t<rc image=\"%s\">" % image)
-	else:
-		xml.append("\t<rc image=\"%s\">" % "\t<rc>")
+	id = rcButtons.get("id", 2)
+	image = rcButtons.get("image")
+	try:
+		xml.append("\t<rc image=\"%s\">" % image if image else "\t<rc>")
+	except:
+		pass
 	for button in buttonList:
 		attribs = []
 		id = rcButtons[button].get("id", "KEY_RESERVED")
@@ -1128,8 +1141,10 @@ def buildXML(filename, buttonList, rcButtons):
 		xml.append("\t\t<button %s />" % " ".join(attribs))
 	xml.append("\t</rc>")
 	xml.append("</rcs>")
-	if rcButtons:
+	try:
 		logMessage(LOG_REPORT, "%d buttons loaded, %d buttons verified and written to the XML file." % (len(rcButtons.get("buttons")), len(buttonList)))
+	except:
+		pass
 	saveFile(filename, xml)
 	return
 
@@ -1180,7 +1195,9 @@ for filename in sorted(args):
 	rcButtons = loadRemoteXML(filename)
 	buttonList = sortButtons(SORT_ORDER, rcButtons)
 	findDuplicates(buttonList, rcButtons)
-	if rcButtons:
+	try:
 		buildXML(filename, buttonList, rcButtons)
+	except:
+		pass
 logMessage(LOG_PROGRAM, "\nProcessing complete.")
 exit(0)
