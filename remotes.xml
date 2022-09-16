@@ -357,6 +357,7 @@
 	<remote model="hd60" rcType="27" codeName="hd60" displayName="Mutant HD60" />
 	<remote model="hd66se" rcType="27" codeName="hd66se" displayName="Mutant HD66 SE" />
 	<remote model="multibox" rcType="27" codeName="maxytec1" displayName="MultiBox" />
+	<remote model="multiboxpro" rcType="27" codeName="maxytec1" displayName="MultiBox Pro" />
 	<remote model="multiboxse" rcType="27" codeName="maxytec1" displayName="MultiBox SE" />
 	<remote model="h7" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H7 - New model" />
 	<remote model="h9" rcType="28" codeName="zgemma6" displayName="AirDigital Zgemma H9 - New model" />
