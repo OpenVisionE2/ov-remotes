@@ -1,0 +1,56 @@
+<rcs>
+	<rc image="/images/remotes/anadol4.png.png">
+		<button id="KEY_RESERVED" label="TV Power" pos="25,30" title="TV Power" shape="circle" coords="25,30,20" />
+		<button id="KEY_POWER" label="POWER" pos="90,31" title="POWER" shape="circle" coords="90,31,12" />
+		<button id="KEY_MUTE" label="MUTE" pos="93,58" title="Mute" shape="rect" coords="85,53,101,63" />
+		<button id="KEY_RESERVED" label="TV A/V" pos="21,59" title="TV A/V" shape="rect" coords="13,54,29,64" />
+		<button id="KEY_AUDIO" label="AUDIO" pos="70,59" title="Audio" shape="rect" coords="62,54,78,64" />
+		<button id="KEY_RESERVED" label="TV Volume -" pos="45,62" title="TV Volume -" shape="rect" coords="37,57,53,67" />
+		<button id="KEY_RESERVED" label="STUDY" pos="21,83" title="STUDY" shape="rect" coords="13,78,29,88" />
+		<button id="KEY_OPTION" label="OPTION" pos="93,83" title="OPTION" shape="rect" coords="85,78,101,88" />
+		<button id="KEY_RESERVED" label="TV Volume +" pos="45,84" title="TV Volume +" shape="rect" coords="37,79,53,89" />
+		<button id="KEY_SUBTITLE" label="SUBTITLE" pos="70,84" title="Subtitle" shape="rect" coords="62,79,78,89" />
+		<button id="KEY_F10" label="F10" pos="21,101" title="F10" shape="rect" coords="13,96,29,106" />
+		<button id="KEY_PLAYER" label="KODI" pos="45,101" title="KODI" shape="rect" coords="37,96,53,106" />
+		<button id="KEY_TV" label="WEBTV" pos="70,101" title="WEBTV" shape="rect" coords="62,96,78,106" />
+		<button id="KEY_RECORD" label="RECORD" pos="93,101" title="Record" shape="rect" coords="85,96,101,106" />
+		<button id="KEY_RED" label="RED" pos="21,122" title="Red" shape="rect" coords="13,117,29,127" />
+		<button id="KEY_GREEN" label="GREEN" pos="45,122" title="Green" shape="rect" coords="37,117,53,127" />
+		<button id="KEY_YELLOW" label="YELLOW" pos="70,122" title="Yellow" shape="rect" coords="62,117,78,127" />
+		<button id="KEY_BLUE" label="BLUE" pos="93,122" title="Blue" shape="rect" coords="85,117,101,127" />
+		<button id="KEY_REWIND" label="REWIND" pos="23,143" title="Rewind" shape="rect" coords="15,138,31,148" />
+		<button id="KEY_PLAY" label="PLAY" pos="47,143" title="Play" shape="rect" coords="39,138,55,148" />
+		<button id="KEY_STOP" label="STOP" pos="47,143" title="Stop" shape="rect" coords="39,138,55,148" />
+		<button id="KEY_FASTFORWARD" label="FASTFORWARD" pos="96,143" title="Fast Forward" shape="rect" coords="88,138,104,148" />
+		<button id="KEY_PREVIOUS" label="ARROWLEFT" pos="25,163" title="Prev / ArrowLeft" shape="rect" coords="17,158,33,168" />
+		<button id="KEY_NEXT" label="ARROWRIGHT" pos="90,163" title="Next / ArrowRight" shape="rect" coords="82,158,98,168" />
+		<button id="KEY_MP3" label="YOUTUBE" pos="57,165" title="YOUTUBE" shape="rect" coords="49,160,65,170" />
+		<button id="KEY_INFO" label="INFO" pos="25,193" title="Info" shape="rect" coords="17,188,33,198" />
+		<button id="KEY_BACK" label="RECALL" pos="90,193" title="Recall" shape="rect" coords="82,188,98,198" />
+		<button id="KEY_UP" label="UP" pos="57,198" title="Up" shape="rect" coords="38,188,76,208" />
+		<button id="KEY_LEFT" label="LEFT" pos="31,223" title="Left" shape="rect" coords="21,205,41,241" />
+		<button id="KEY_OK" label="OK" pos="57,223" title="OK" shape="circle" coords="57,223,17" />
+		<button id="KEY_RIGHT" label="RIGHT" pos="86,223" title="Right" shape="rect" coords="76,205,96,241" />
+		<button id="KEY_DOWN" label="DOWN" pos="57,249" title="Down" shape="rect" coords="38,239,76,259" />
+		<button id="KEY_MENU" label="MENU" pos="25,256" title="Menu" shape="circle" coords="25,256,12" />
+		<button id="KEY_EXIT" label="EXIT" pos="90,256" title="Exit" shape="circle" coords="90,256,12" />
+		<button id="KEY_VOLUMEUP" label="VOL+" pos="25,284" title="Volume +" shape="rect" coords="17,279,33,289" />
+		<button id="KEY_FAVORITES" label="FAV" pos="57,284" title="Favorites" shape="rect" coords="49,279,65,289" />
+		<button id="KEY_CHANNELUP" label="BOUQUET+" pos="90,284" title="Channel +" shape="rect" coords="82,279,98,289" />
+		<button id="KEY_VOLUMEDOWN" label="VOL-" pos="25,310" title="Volume -" shape="rect" coords="17,305,33,315" />
+		<button id="KEY_EPG" label="EPG" pos="56,310" title="EPG" shape="rect" coords="44,302,68,318" />
+		<button id="KEY_CHANNELDOWN" label="BOUQUET-" pos="90,310" title="Channel -" shape="rect" coords="82,305,98,315" />
+		<button id="KEY_1" label="1" pos="25,334" title="1" shape="rect" coords="17,329,33,339" />
+		<button id="KEY_2" label="2" pos="57,334" title="2 (ABC)" shape="rect" coords="49,329,65,339" />
+		<button id="KEY_3" label="3" pos="90,334" title="3 (DEF)" shape="rect" coords="82,329,98,339" />
+		<button id="KEY_4" label="4" pos="25,356" title="4 (GHI)" shape="rect" coords="17,351,33,361" />
+		<button id="KEY_5" label="5" pos="57,356" title="5 (JKL)" shape="rect" coords="49,351,65,361" />
+		<button id="KEY_6" label="6" pos="90,356" title="6 (MNO)" shape="rect" coords="82,351,98,361" />
+		<button id="KEY_7" label="7" pos="25,375" title="7 (PQRS)" shape="rect" coords="17,370,33,380" />
+		<button id="KEY_8" label="8" pos="57,375" title="8 (TUV)" shape="rect" coords="49,370,65,380" />
+		<button id="KEY_9" label="9" pos="90,375" title="9 (WXYZ)" shape="rect" coords="82,370,98,380" />
+		<button id="KEY_TEXT" label="TEXT" pos="25,395" title="Text" shape="rect" coords="17,390,33,400" />
+		<button id="KEY_0" label="0" pos="57,395" title="0" shape="rect" coords="49,390,65,400" />
+		<button id="KEY_VIDEO" label="VIDEO" pos="90,395" title="Playlist" shape="rect" coords="82,390,98,400" />
+	</rc>
+</rcs>

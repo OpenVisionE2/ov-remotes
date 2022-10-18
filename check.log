@@ -17872,3 +17872,21 @@ Processing remote control filename './rc/gb0'.
     Note: Remote control keyid KEY_PROGRAM (362) attribute 'pos' with a value of [25, 96] is being added.
 
 Processing complete.
+[master 66073ba] Check remote files
+ 13 files changed, 11524 insertions(+), 10718 deletions(-)
+ create mode 100644 check-report/anadol4.xml.report
+ create mode 100644 check-report/gb5.xml.report
+ create mode 100644 check-result/anadol4.html-New
+ create mode 100644 check-result/anadol4.xml-Hybrid
+ create mode 100644 check-result/anadol4.xml-New
+ create mode 100644 check-result/anadol4.xml-Old
+ create mode 100644 check-result/gb5.html-New
+ create mode 100644 check-result/gb5.xml-Hybrid
+ create mode 100644 check-result/gb5.xml-New
+ create mode 100644 check-result/gb5.xml-Old
+
+-e Check time was 0 minutes and 9 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
