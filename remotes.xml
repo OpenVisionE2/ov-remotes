@@ -102,6 +102,7 @@
 	<remote model="gbx3" rcType="0" codeName="gb0" displayName="GigaBlue X3" />
 	<remote model="gbx34k" rcType="0" codeName="gb3" displayName="GigaBlue 34K" />
 	<remote model="gbx3h" rcType="0" codeName="gb2" displayName="GigaBlue 3H" />
+	<remote model="ip8" rcType="0" codeName="anadol4" displayName="Anadol IP8 4K" />
 	<remote model="ipbox55" rcType="0" codeName="cuberevo_uni" displayName="IP Box 55" />
 	<remote model="ipbox99" rcType="0" codeName="cuberevo_uni" displayName="IP Box 99" />
 	<remote model="ipbox9900" rcType="0" codeName="cuberevo_uni" displayName="IP Box 9900" />
