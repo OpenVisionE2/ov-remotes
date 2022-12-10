@@ -15,115 +15,92 @@ Processing remote control filename './rc/octagon3'.
   Loading remote control XML definition file './rc/octagon3.xml'.
   Remote control id defined as '2'.
   Loading remote control HTML definition file './rc/octagon3.html'.
-  Warning: Remote control HTML file './rc/octagon3.html' does not exist!
-    Warning: Remote control HTML is undefined!
+    Warning: Remote control keyid None (-2) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[23, 51] coords=[11, 43, 34, 59] center=[22, 51])
+    Warning: Remote control keyid None (-3) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[48, 51] coords=[36, 43, 59, 59] center=[47, 51])
+    Warning: Remote control keyid None (-4) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[74, 51] coords=[62, 43, 85, 59] center=[73, 51])
+    Warning: Remote control keyid None (-5) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[99, 51] coords=[87, 43, 110, 59] center=[98, 51])
+    Warning: Remote control keyid KEY_MUTE (113) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[23, 179] coords=[11, 171, 34, 187] center=[22, 179])
+    Warning: Remote control keyid KEY_AUDIO (392) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[48, 179] coords=[36, 171, 59, 187] center=[47, 179])
+    Warning: Remote control keyid KEY_SUBTITLE (370) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[74, 179] coords=[62, 171, 85, 187] center=[73, 179])
+    Warning: Remote control keyid KEY_TEXT (388) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[99, 179] coords=[87, 171, 110, 187] center=[98, 179])
+    Warning: Remote control keyid KEY_RED (398) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[23, 198] coords=[11, 190, 34, 206] center=[22, 198])
+    Warning: Remote control keyid KEY_GREEN (399) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[48, 198] coords=[36, 190, 59, 206] center=[47, 198])
+    Warning: Remote control keyid KEY_YELLOW (400) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[74, 198] coords=[62, 190, 85, 206] center=[73, 198])
+    Warning: Remote control keyid KEY_BLUE (401) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[99, 198] coords=[87, 190, 110, 206] center=[98, 198])
+    Warning: Remote control keyid KEY_LEFT (105) Y axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[31, 253] coords=[21, 235, 41, 270] center=[31, 252])
+    Warning: Remote control keyid KEY_RIGHT (106) Y axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[86, 253] coords=[76, 235, 96, 270] center=[86, 252])
+    Warning: Remote control keyid KEY_FAVORITES (364) XML 'title' value doesn't match HTML value!  ('Favorites' != 'Fav')
+    Warning: Remote control keyid KEY_REWIND (168) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[23, 367] coords=[11, 359, 34, 375] center=[22, 367])
+    Warning: Remote control keyid KEY_FASTFORWARD (208) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[48, 367] coords=[36, 359, 59, 375] center=[47, 367])
+    Warning: Remote control keyid KEY_PREVIOUS (412) XML 'title' value doesn't match HTML value!  ('Previous' != 'Previous Song')
+    Warning: Remote control keyid KEY_PREVIOUS (412) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[73, 367] coords=[61, 359, 84, 375] center=[72, 367])
+    Warning: Remote control keyid KEY_NEXT (407) XML 'title' value doesn't match HTML value!  ('Next' != 'Next Song')
+    Warning: Remote control keyid KEY_SAT (381) XML 'title' value doesn't match HTML value!  ('Sat' != 'SAT')
+    Warning: Remote control keyid KEY_PLAYPAUSE (164) XML 'title' value doesn't match HTML value!  ('Play / Pause' != 'PlayPause')
+    Warning: Remote control keyid KEY_VIDEO (393) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[24, 405] coords=[13, 397, 34, 413] center=[23, 405])
+    Warning: Remote control keyid KEY_VOD (627) X axis value exceeds tolerance of 0 pixels!  (shape='rect' pos=[96, 405] coords=[85, 397, 106, 413] center=[95, 405])
+    Warning: Remote control keyid KEY_SWITCHVIDEOMODE (227) XML 'keyName' value doesn't match HTML value!  ('KEY_VMODE' != 'KEY_SWITCHVIDEOMODE')
+    Warning: Remote control keyid KEY_SWITCHVIDEOMODE (227) XML 'title' value doesn't match HTML value!  ('VFormat' != 'V Format')
     Note: Remote control keyid KEY_RESERVED (-1) attribute 'label' with a value of 'TV Power' is being added.
-    Note: Remote control keyid KEY_RESERVED (-1) attribute 'coords' with a value of [25, 30, 12] is being added.
-    Note: Remote control keyid KEY_POWER (116) attribute 'name' with a value of 'POWER' is being added.
-    Note: Remote control keyid KEY_POWER (116) attribute 'coords' with a value of [90, 31, 12] is being added.
-    Note: Remote control keyid KEY_RESERVED (-2) attribute 'label' with a value of 'TV A/V' is being added.
-    Note: Remote control keyid KEY_RESERVED (-2) attribute 'coords' with a value of [15, 53, 27, 65] is being added.
-    Note: Remote control keyid KEY_RESERVED (-3) attribute 'label' with a value of 'STUDY' is being added.
-    Note: Remote control keyid KEY_RESERVED (-3) attribute 'coords' with a value of [15, 77, 27, 89] is being added.
-    Note: Remote control keyid KEY_RESERVED (-4) attribute 'label' with a value of 'TV Volume -' is being added.
-    Note: Remote control keyid KEY_RESERVED (-4) attribute 'coords' with a value of [39, 56, 51, 68] is being added.
-    Note: Remote control keyid KEY_RESERVED (-5) attribute 'label' with a value of 'TV Volume +' is being added.
-    Note: Remote control keyid KEY_RESERVED (-5) attribute 'coords' with a value of [39, 78, 51, 90] is being added.
-    Note: Remote control keyid KEY_AUDIO (392) attribute 'name' with a value of 'AUDIO' is being added.
-    Note: Remote control keyid KEY_AUDIO (392) attribute 'coords' with a value of [64, 53, 76, 65] is being added.
-    Note: Remote control keyid KEY_MUTE (113) attribute 'name' with a value of 'MUTE' is being added.
-    Note: Remote control keyid KEY_MUTE (113) attribute 'coords' with a value of [87, 52, 99, 64] is being added.
-    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'name' with a value of 'SUBTITLE' is being added.
-    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'coords' with a value of [64, 78, 76, 90] is being added.
-    Note: Remote control keyid KEY_OPTION (357) attribute 'name' with a value of 'OPTION' is being added.
-    Note: Remote control keyid KEY_OPTION (357) attribute 'coords' with a value of [87, 77, 99, 89] is being added.
-    Note: Remote control keyid KEY_F10 (68) attribute 'name' with a value of 'F10' is being added.
-    Note: Remote control keyid KEY_F10 (68) attribute 'coords' with a value of [15, 95, 27, 107] is being added.
-    Note: Remote control keyid KEY_PLAYER (387) attribute 'name' with a value of 'KODI' is being added.
-    Note: Remote control keyid KEY_PLAYER (387) attribute 'coords' with a value of [39, 95, 51, 107] is being added.
-    Note: Remote control keyid KEY_TV (377) attribute 'name' with a value of 'WEBTV' is being added.
-    Note: Remote control keyid KEY_TV (377) attribute 'coords' with a value of [64, 95, 76, 107] is being added.
-    Note: Remote control keyid KEY_RECORD (167) attribute 'name' with a value of 'RECORD' is being added.
-    Note: Remote control keyid KEY_RECORD (167) attribute 'coords' with a value of [87, 95, 99, 107] is being added.
-    Note: Remote control keyid KEY_RED (398) attribute 'name' with a value of 'RED' is being added.
-    Note: Remote control keyid KEY_RED (398) attribute 'coords' with a value of [15, 116, 27, 128] is being added.
-    Note: Remote control keyid KEY_GREEN (399) attribute 'name' with a value of 'GREEN' is being added.
-    Note: Remote control keyid KEY_GREEN (399) attribute 'coords' with a value of [39, 116, 51, 128] is being added.
-    Note: Remote control keyid KEY_YELLOW (400) attribute 'name' with a value of 'YELLOW' is being added.
-    Note: Remote control keyid KEY_YELLOW (400) attribute 'coords' with a value of [64, 116, 76, 128] is being added.
-    Note: Remote control keyid KEY_BLUE (401) attribute 'name' with a value of 'BLUE' is being added.
-    Note: Remote control keyid KEY_BLUE (401) attribute 'coords' with a value of [87, 116, 99, 128] is being added.
-    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'name' with a value of 'FASTFORWARD' is being added.
-    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'coords' with a value of [90, 137, 102, 149] is being added.
-    Note: Remote control keyid KEY_REWIND (168) attribute 'name' with a value of 'REWIND' is being added.
-    Note: Remote control keyid KEY_REWIND (168) attribute 'coords' with a value of [17, 137, 29, 149] is being added.
-    Note: Remote control keyid KEY_PLAY (207) attribute 'name' with a value of 'PLAY' is being added.
-    Note: Remote control keyid KEY_PLAY (207) attribute 'coords' with a value of [41, 137, 53, 149] is being added.
-    Note: Remote control keyid KEY_STOP (128) attribute 'name' with a value of 'STOP' is being added.
-    Note: Remote control keyid KEY_STOP (128) attribute 'coords' with a value of [41, 137, 53, 149] is being added.
-    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'name' with a value of 'ARROWLEFT' is being added.
-    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'coords' with a value of [19, 157, 31, 169] is being added.
-    Note: Remote control keyid KEY_MP3 (391) attribute 'name' with a value of 'YOUTUBE' is being added.
-    Note: Remote control keyid KEY_MP3 (391) attribute 'coords' with a value of [51, 159, 63, 171] is being added.
-    Note: Remote control keyid KEY_NEXT (407) attribute 'name' with a value of 'ARROWRIGHT' is being added.
-    Note: Remote control keyid KEY_NEXT (407) attribute 'coords' with a value of [84, 157, 96, 169] is being added.
-    Note: Remote control keyid KEY_INFO (358) attribute 'name' with a value of 'INFO' is being added.
-    Note: Remote control keyid KEY_INFO (358) attribute 'coords' with a value of [19, 187, 31, 199] is being added.
-    Note: Remote control keyid KEY_BACK (158) attribute 'name' with a value of 'RECALL' is being added.
-    Note: Remote control keyid KEY_BACK (158) attribute 'coords' with a value of [84, 187, 96, 199] is being added.
-    Note: Remote control keyid KEY_UP (103) attribute 'name' with a value of 'UP' is being added.
-    Note: Remote control keyid KEY_UP (103) attribute 'coords' with a value of [51, 192, 63, 204] is being added.
-    Note: Remote control keyid KEY_LEFT (105) attribute 'name' with a value of 'LEFT' is being added.
-    Note: Remote control keyid KEY_LEFT (105) attribute 'coords' with a value of [25, 217, 37, 229] is being added.
-    Note: Remote control keyid KEY_OK (352) attribute 'name' with a value of 'OK' is being added.
-    Note: Remote control keyid KEY_OK (352) attribute 'coords' with a value of [57, 223, 12] is being added.
-    Note: Remote control keyid KEY_RIGHT (106) attribute 'name' with a value of 'RIGHT' is being added.
-    Note: Remote control keyid KEY_RIGHT (106) attribute 'coords' with a value of [80, 217, 92, 229] is being added.
-    Note: Remote control keyid KEY_DOWN (108) attribute 'name' with a value of 'DOWN' is being added.
-    Note: Remote control keyid KEY_DOWN (108) attribute 'coords' with a value of [51, 243, 63, 255] is being added.
-    Note: Remote control keyid KEY_MENU (139) attribute 'name' with a value of 'MENU' is being added.
-    Note: Remote control keyid KEY_MENU (139) attribute 'coords' with a value of [25, 256, 12] is being added.
-    Note: Remote control keyid KEY_EXIT (174) attribute 'name' with a value of 'EXIT' is being added.
-    Note: Remote control keyid KEY_EXIT (174) attribute 'coords' with a value of [90, 256, 12] is being added.
-    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'name' with a value of 'VOL+' is being added.
-    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'coords' with a value of [19, 278, 31, 290] is being added.
-    Note: Remote control keyid KEY_FAVORITES (364) attribute 'name' with a value of 'FAV' is being added.
-    Note: Remote control keyid KEY_FAVORITES (364) attribute 'coords' with a value of [51, 278, 63, 290] is being added.
-    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'name' with a value of 'BOUQUET+' is being added.
-    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'coords' with a value of [84, 278, 96, 290] is being added.
-    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'name' with a value of 'VOL-' is being added.
-    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'coords' with a value of [19, 304, 31, 316] is being added.
-    Note: Remote control keyid KEY_EPG (365) attribute 'name' with a value of 'EPG' is being added.
-    Note: Remote control keyid KEY_EPG (365) attribute 'coords' with a value of [50, 304, 62, 316] is being added.
-    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'name' with a value of 'BOUQUET-' is being added.
-    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'coords' with a value of [84, 304, 96, 316] is being added.
-    Note: Remote control keyid KEY_1 (2) attribute 'name' with a value of '1' is being added.
-    Note: Remote control keyid KEY_1 (2) attribute 'coords' with a value of [19, 328, 31, 340] is being added.
-    Note: Remote control keyid KEY_2 (3) attribute 'name' with a value of '2' is being added.
-    Note: Remote control keyid KEY_2 (3) attribute 'coords' with a value of [51, 328, 63, 340] is being added.
-    Note: Remote control keyid KEY_3 (4) attribute 'name' with a value of '3' is being added.
-    Note: Remote control keyid KEY_3 (4) attribute 'coords' with a value of [84, 328, 96, 340] is being added.
-    Note: Remote control keyid KEY_4 (5) attribute 'name' with a value of '4' is being added.
-    Note: Remote control keyid KEY_4 (5) attribute 'coords' with a value of [19, 350, 31, 362] is being added.
-    Note: Remote control keyid KEY_5 (6) attribute 'name' with a value of '5' is being added.
-    Note: Remote control keyid KEY_5 (6) attribute 'coords' with a value of [51, 350, 63, 362] is being added.
-    Note: Remote control keyid KEY_6 (7) attribute 'name' with a value of '6' is being added.
-    Note: Remote control keyid KEY_6 (7) attribute 'coords' with a value of [84, 350, 96, 362] is being added.
-    Note: Remote control keyid KEY_7 (8) attribute 'name' with a value of '7' is being added.
-    Note: Remote control keyid KEY_7 (8) attribute 'coords' with a value of [19, 369, 31, 381] is being added.
-    Note: Remote control keyid KEY_8 (9) attribute 'name' with a value of '8' is being added.
-    Note: Remote control keyid KEY_8 (9) attribute 'coords' with a value of [51, 369, 63, 381] is being added.
-    Note: Remote control keyid KEY_9 (10) attribute 'name' with a value of '9' is being added.
-    Note: Remote control keyid KEY_9 (10) attribute 'coords' with a value of [84, 369, 96, 381] is being added.
-    Note: Remote control keyid KEY_TEXT (388) attribute 'name' with a value of 'TEXT' is being added.
-    Note: Remote control keyid KEY_TEXT (388) attribute 'coords' with a value of [19, 389, 31, 401] is being added.
-    Note: Remote control keyid KEY_0 (11) attribute 'name' with a value of '0' is being added.
-    Note: Remote control keyid KEY_0 (11) attribute 'coords' with a value of [51, 389, 63, 401] is being added.
-    Note: Remote control keyid KEY_VIDEO (393) attribute 'name' with a value of 'VIDEO' is being added.
-    Note: Remote control keyid KEY_VIDEO (393) attribute 'coords' with a value of [84, 389, 96, 401] is being added.
-  52 buttons found and written to old format XML file.
-  52 buttons found and written to new format XML file.
-  52 buttons found and written to hybrid format XML file.
-  52 buttons found and written to HTML file.
+    Note: Remote control keyid KEY_POWER (116) attribute 'label' with a value of 'POWER' is being added.
+    Note: Remote control keyid KEY_RESERVED (-2) attribute 'label' with a value of 'TV Volume -' is being added.
+    Note: Remote control keyid KEY_RESERVED (-3) attribute 'label' with a value of 'TV Volume +' is being added.
+    Note: Remote control keyid KEY_RESERVED (-4) attribute 'label' with a value of 'TV Set / IR Learning' is being added.
+    Note: Remote control keyid KEY_RESERVED (-5) attribute 'label' with a value of 'TV A/V' is being added.
+    Note: Remote control keyid KEY_1 (2) attribute 'label' with a value of '1' is being added.
+    Note: Remote control keyid KEY_2 (3) attribute 'label' with a value of '2' is being added.
+    Note: Remote control keyid KEY_3 (4) attribute 'label' with a value of '3' is being added.
+    Note: Remote control keyid KEY_4 (5) attribute 'label' with a value of '4' is being added.
+    Note: Remote control keyid KEY_5 (6) attribute 'label' with a value of '5' is being added.
+    Note: Remote control keyid KEY_6 (7) attribute 'label' with a value of '6' is being added.
+    Note: Remote control keyid KEY_7 (8) attribute 'label' with a value of '7' is being added.
+    Note: Remote control keyid KEY_8 (9) attribute 'label' with a value of '8' is being added.
+    Note: Remote control keyid KEY_9 (10) attribute 'label' with a value of '9' is being added.
+    Note: Remote control keyid KEY_OPTION (357) attribute 'label' with a value of 'OPTION' is being added.
+    Note: Remote control keyid KEY_0 (11) attribute 'label' with a value of '0' is being added.
+    Note: Remote control keyid KEY_RESERVED (-6) attribute 'label' with a value of 'IPTV' is being added.
+    Note: Remote control keyid KEY_MUTE (113) attribute 'label' with a value of 'MUTE' is being added.
+    Note: Remote control keyid KEY_AUDIO (392) attribute 'label' with a value of 'AUDIO' is being added.
+    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'label' with a value of 'SUBTITLE' is being added.
+    Note: Remote control keyid KEY_TEXT (388) attribute 'label' with a value of 'TEXT' is being added.
+    Note: Remote control keyid KEY_RED (398) attribute 'label' with a value of 'RED' is being added.
+    Note: Remote control keyid KEY_GREEN (399) attribute 'label' with a value of 'GREEN' is being added.
+    Note: Remote control keyid KEY_YELLOW (400) attribute 'label' with a value of 'YELLOW' is being added.
+    Note: Remote control keyid KEY_BLUE (401) attribute 'label' with a value of 'BLUE' is being added.
+    Note: Remote control keyid KEY_INFO (358) attribute 'label' with a value of 'INFO' is being added.
+    Note: Remote control keyid KEY_BACK (158) attribute 'label' with a value of 'RECALL' is being added.
+    Note: Remote control keyid KEY_UP (103) attribute 'label' with a value of 'UP' is being added.
+    Note: Remote control keyid KEY_LEFT (105) attribute 'label' with a value of 'LEFT' is being added.
+    Note: Remote control keyid KEY_OK (352) attribute 'label' with a value of 'OK' is being added.
+    Note: Remote control keyid KEY_RIGHT (106) attribute 'label' with a value of 'RIGHT' is being added.
+    Note: Remote control keyid KEY_DOWN (108) attribute 'label' with a value of 'DOWN' is being added.
+    Note: Remote control keyid KEY_MENU (139) attribute 'label' with a value of 'MENU' is being added.
+    Note: Remote control keyid KEY_EXIT (174) attribute 'label' with a value of 'EXIT' is being added.
+    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'label' with a value of 'VOL+' is being added.
+    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'label' with a value of 'BOUQUET+' is being added.
+    Note: Remote control keyid KEY_FAVORITES (364) attribute 'label' with a value of 'FAV' is being added.
+    Note: Remote control keyid KEY_EPG (365) attribute 'label' with a value of 'EPG' is being added.
+    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'label' with a value of 'VOL-' is being added.
+    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'label' with a value of 'BOUQUET-' is being added.
+    Note: Remote control keyid KEY_REWIND (168) attribute 'label' with a value of 'REWIND' is being added.
+    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'label' with a value of 'FASTFORWARD' is being added.
+    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'label' with a value of 'PREVIOUS' is being added.
+    Note: Remote control keyid KEY_NEXT (407) attribute 'label' with a value of 'NEXT' is being added.
+    Note: Remote control keyid KEY_SAT (381) attribute 'label' with a value of 'SAT' is being added.
+    Note: Remote control keyid KEY_PLAYPAUSE (164) attribute 'label' with a value of 'PLAYPAUSE' is being added.
+    Note: Remote control keyid KEY_STOP (128) attribute 'label' with a value of 'STOP' is being added.
+    Note: Remote control keyid KEY_RECORD (167) attribute 'label' with a value of 'RECORD' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'label' with a value of 'VOD' is being added.
+    Note: Remote control keyid KEY_RESERVED (-7) attribute 'label' with a value of 'Series' is being added.
+    Note: Remote control keyid KEY_MP3 (391) attribute 'label' with a value of 'YOUTUBE' is being added.
+    Note: Remote control keyid KEY_VOD (627) attribute 'label' with a value of 'WEBTV' is being added.
+    Note: Remote control keyid KEY_TV2 (378) attribute 'label' with a value of 'TV' is being added.
+    Note: Remote control keyid KEY_SWITCHVIDEOMODE (227) attribute 'label' with a value of 'VMODE' is being added.
+    Note: Remote control keyid KEY_MODE (373) attribute 'label' with a value of 'MODE' is being added.
+    Note: Remote control keyid KEY_SLEEP (142) attribute 'label' with a value of 'SLEEP' is being added.
+  57 buttons found and written to old format XML file.
+  57 buttons found and written to new format XML file.
+  57 buttons found and written to hybrid format XML file.
+  57 buttons found and written to HTML file.
 
 Processing complete.

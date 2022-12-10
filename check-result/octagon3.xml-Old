@@ -1,56 +1,61 @@
 <rcs>
 	<rc id="2">
-		<!-- <button name="" pos="25,30" /> -->
-		<button name="POWER" pos="90,31" />
-		<!-- <button name="" pos="21,59" /> -->
-		<!-- <button name="" pos="21,83" /> -->
-		<!-- <button name="" pos="45,62" /> -->
-		<!-- <button name="" pos="45,84" /> -->
-		<button name="AUDIO" pos="70,59" />
-		<button name="MUTE" pos="93,58" />
-		<button name="SUBTITLE" pos="70,84" />
-		<button name="OPTION" pos="93,83" />
-		<button name="F10" pos="21,101" />
-		<button name="KODI" pos="45,101" />
-		<button name="WEBTV" pos="70,101" />
-		<button name="RECORD" pos="93,101" />
-		<button name="RED" pos="21,122" />
-		<button name="GREEN" pos="45,122" />
-		<button name="YELLOW" pos="70,122" />
-		<button name="BLUE" pos="93,122" />
-		<button name="FASTFORWARD" pos="96,143" />
-		<button name="REWIND" pos="23,143" />
-		<button name="PLAY" pos="47,143" />
-		<button name="STOP" pos="47,143" />
-		<button name="ARROWLEFT" pos="25,163" />
-		<button name="YOUTUBE" pos="57,165" />
-		<button name="ARROWRIGHT" pos="90,163" />
-		<button name="INFO" pos="25,193" />
-		<button name="RECALL" pos="90,193" />
-		<button name="UP" pos="57,198" />
-		<button name="LEFT" pos="31,223" />
-		<button name="OK" pos="57,223" />
-		<button name="RIGHT" pos="86,223" />
-		<button name="DOWN" pos="57,249" />
-		<button name="MENU" pos="25,256" />
-		<button name="EXIT" pos="90,256" />
-		<button name="VOL+" pos="25,284" />
-		<button name="FAV" pos="57,284" />
-		<button name="BOUQUET+" pos="90,284" />
-		<button name="VOL-" pos="25,310" />
-		<button name="EPG" pos="56,310" />
-		<button name="BOUQUET-" pos="90,310" />
-		<button name="1" pos="25,334" />
-		<button name="2" pos="57,334" />
-		<button name="3" pos="90,334" />
-		<button name="4" pos="25,356" />
-		<button name="5" pos="57,356" />
-		<button name="6" pos="90,356" />
-		<button name="7" pos="25,375" />
-		<button name="8" pos="57,375" />
-		<button name="9" pos="90,375" />
-		<button name="TEXT" pos="25,395" />
-		<button name="0" pos="57,395" />
-		<button name="VIDEO" pos="90,395" />
+		<!-- <button name="" pos="25,27" /> -->
+		<button name="POWER" pos="95,27" />
+		<!-- <button name="" pos="23,51" /> -->
+		<!-- <button name="" pos="48,51" /> -->
+		<!-- <button name="" pos="74,51" /> -->
+		<!-- <button name="" pos="99,51" /> -->
+		<button name="1" pos="25,74" />
+		<button name="2" pos="60,74" />
+		<button name="3" pos="95,74" />
+		<button name="4" pos="25,102" />
+		<button name="5" pos="60,102" />
+		<button name="6" pos="95,102" />
+		<button name="7" pos="25,130" />
+		<button name="8" pos="60,130" />
+		<button name="9" pos="95,130" />
+		<button name="OPTION" pos="25,157" />
+		<button name="0" pos="60,157" />
+		<!-- <button name="" pos="95,157" /> -->
+		<button name="MUTE" pos="23,179" />
+		<button name="AUDIO" pos="48,179" />
+		<button name="SUBTITLE" pos="74,179" />
+		<button name="TEXT" pos="99,179" />
+		<button name="RED" pos="23,198" />
+		<button name="GREEN" pos="48,198" />
+		<button name="YELLOW" pos="74,198" />
+		<button name="BLUE" pos="99,198" />
+		<button name="INFO" pos="20,222" />
+		<button name="RECALL" pos="100,222" />
+		<button name="UP" pos="59,225" />
+		<button name="LEFT" pos="31,253" />
+		<button name="OK" pos="59,253" />
+		<button name="RIGHT" pos="86,253" />
+		<button name="DOWN" pos="59,280" />
+		<button name="MENU" pos="22,287" />
+		<button name="EXIT" pos="98,287" />
+		<button name="VOL+" pos="27,315" />
+		<button name="BOUQUET+" pos="92,315" />
+		<button name="FAV" pos="60,316" />
+		<button name="EPG" pos="60,342" />
+		<button name="VOL-" pos="27,344" />
+		<button name="BOUQUET-" pos="92,344" />
+		<button name="REWIND" pos="23,367" />
+		<button name="FASTFORWARD" pos="48,367" />
+		<button name="PREVIOUS" pos="73,367" />
+		<button name="NEXT" pos="97,367" />
+		<button name="SAT" pos="23,386" />
+		<button name="PLAYPAUSE" pos="47,386" />
+		<button name="STOP" pos="72,386" />
+		<button name="RECORD" pos="96,386" />
+		<button name="VOD" pos="24,405" />
+		<!-- <button name="" pos="47,405" /> -->
+		<button name="YOUTUBE" pos="72,405" />
+		<button name="WEBTV" pos="96,405" />
+		<button name="TV" pos="24,423" />
+		<button name="VMODE" pos="47,423" />
+		<button name="MODE" pos="72,423" />
+		<button name="SLEEP" pos="95,423" />
 	</rc>
 </rcs>
