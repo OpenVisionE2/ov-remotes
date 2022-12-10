@@ -190,6 +190,7 @@
 	<remote model="spycatmini" rcType="0" codeName="xcore1" displayName="Spycat Mini" />
 	<remote model="spycatminiplus" rcType="0" codeName="xcore1" displayName="Spycat Mini Plus" />
 	<remote model="su980" rcType="0" codeName="dmm1" displayName="SU 980" />
+	<remote model="sx88v2" rcType="0" codeName="octagon3" displayName="SX88V2 4K DUAL OS" />
 	<remote model="sx988" rcType="0" codeName="octagon2" displayName="SX988 4K DUAL OS" />
 	<remote model="t2cable" rcType="0" codeName="evo4" displayName="T2 Cable" />
 	<remote model="tiviaraplus" rcType="0" codeName="tiviar1" displayName="Tiviara Plus" />
@@ -358,9 +359,9 @@
 	<remote model="protek4k" rcType="26" codeName="protek2" displayName="Protek X1 4K UHD" />
 	<remote model="hd60" rcType="27" codeName="hd60" displayName="Mutant HD60" />
 	<remote model="hd66se" rcType="27" codeName="hd66se" displayName="Mutant HD66 SE" />
-	<remote model="multibox" rcType="27" codeName="maxytec1" displayName="MultiBox" />
-	<remote model="multiboxpro" rcType="27" codeName="maxytec1" displayName="MultiBox Pro" />
-	<remote model="multiboxse" rcType="27" codeName="maxytec1" displayName="MultiBox SE" />
+	<remote model="multibox" rcType="27" codeName="maxytec1" displayName="MultiBox 4K" />
+	<remote model="multiboxpro" rcType="27" codeName="maxytec1" displayName="MultiBox 4K Pro" />
+	<remote model="multiboxse" rcType="27" codeName="maxytec1" displayName="MultiBox 4K SE" />
 	<remote model="h7" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H7 - New model" />
 	<remote model="h9" rcType="28" codeName="zgemma6" displayName="AirDigital Zgemma H9 - New model" />
 	<remote model="h9combo" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H9 Combo" />
