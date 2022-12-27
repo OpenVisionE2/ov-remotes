@@ -2909,3 +2909,19 @@ Processing remote control filename './rc/spark.html'.
   XML Parse Error: '^               '
 
 Processing complete.
+[master ac02d18] Convert remote files
+ 21 files changed, 970 insertions(+), 695 deletions(-)
+ create mode 100644 convert-report/dmm3.xml.report
+ create mode 100644 convert-report/vu1.xml.report
+ create mode 100644 convert-report/vu5.xml.report
+ create mode 100644 convert-report/vu6.xml.report
+ create mode 100644 convert-result/dmm3.xml-new
+ create mode 100644 convert-result/vu1.xml-new
+ create mode 100644 convert-result/vu5.xml-new
+ create mode 100644 convert-result/vu6.xml-new
+
+-e Convert time was 0 minutes and 6 seconds.
+-e Fast converting would be less than 1 minute.
+
+Convert Done!
+
