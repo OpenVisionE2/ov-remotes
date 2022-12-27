@@ -17996,3 +17996,15 @@ Processing remote control filename './rc/spark'.
     Note: Remote control keyid KEY_PREVIOUSSONG (165) attribute 'pos' with a value of [21, 390] is being added.
 
 Processing complete.
+[master 0606f85] Check remote files
+ 10 files changed, 12937 insertions(+), 12369 deletions(-)
+ create mode 100644 check-report/dmm3.xml.report
+ create mode 100644 check-report/vu1.xml.report
+ create mode 100644 check-report/vu5.xml.report
+ create mode 100644 check-report/vu6.xml.report
+
+-e Check time was 0 minutes and 7 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+

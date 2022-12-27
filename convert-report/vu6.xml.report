@@ -10,9 +10,9 @@ Output files will be sorted in button position order.
 Labels will be capitalised.
 Titles will be capitalised.
 
-Processing remote control filename './rc/vu3.xml'.
-  Loading remote control XML definition file './rc/vu3.xml'.
+Processing remote control filename './rc/vu6.xml'.
+  Loading remote control XML definition file './rc/vu6.xml'.
   Remote control id is undefined so '2' will be assumed.
-  45 buttons loaded, 45 buttons verified and written to the XML file.
+  44 buttons loaded, 44 buttons verified and written to the XML file.
 
 Processing complete.

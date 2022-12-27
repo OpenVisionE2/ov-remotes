@@ -13,6 +13,8 @@ Titles will be capitalised.
 Processing remote control filename './rc/vu4.xml'.
   Loading remote control XML definition file './rc/vu4.xml'.
   Remote control id is undefined so '2' will be assumed.
-  44 buttons loaded, 44 buttons verified and written to the XML file.
+    Warning: Button 5 with id 'KEY_PAUSE' (119) is a duplicate position (76,98) with button 4 with id 'KEY_PLAYPAUSE' (164)!
+    Warning: Button 6 with id 'KEY_PLAY' (207) is a duplicate position (76,98) with button 4 with id 'KEY_PLAYPAUSE' (164)!
+  43 buttons loaded, 43 buttons verified and written to the XML file.
 
 Processing complete.

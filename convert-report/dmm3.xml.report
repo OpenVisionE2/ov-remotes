@@ -10,9 +10,11 @@ Output files will be sorted in button position order.
 Labels will be capitalised.
 Titles will be capitalised.
 
-Processing remote control filename './rc/vu3.xml'.
-  Loading remote control XML definition file './rc/vu3.xml'.
+Processing remote control filename './rc/dmm3.xml'.
+  Loading remote control XML definition file './rc/dmm3.xml'.
   Remote control id is undefined so '2' will be assumed.
-  45 buttons loaded, 45 buttons verified and written to the XML file.
+    Error: The id 'MIC' appears invalid!
+    Warning: Button 2 with id 'KEY_MUTE' (113) is a duplicate id with button 1!
+  39 buttons loaded, 39 buttons verified and written to the XML file.
 
 Processing complete.
