@@ -1,0 +1,155 @@
+CheckRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in XML file entry order.
+XML labels will be capitalised.
+HTML titles will be capitalised.
+If both XML and HTML data is valid but different the HTML attributes will be used except for 'pos'.
+
+Processing remote control filename './rc/vu5'.
+  Loading remote control XML definition file './rc/vu5.xml'.
+  Remote control id is undefined so '2' will be assumed.
+  Loading remote control HTML definition file './rc/vu5.html'.
+  Warning: Remote control HTML file './rc/vu5.html' does not exist!
+    Warning: Remote control HTML is undefined!
+    Error: No image reference can be found for this remote control!
+    Information: An image file for this remote control appears to be available.
+    Note: Remote control keyid KEY_POWER (116) attribute 'name' with a value of 'POWER' is being added.
+    Note: Remote control keyid KEY_POWER (116) attribute 'title' with a value of 'POWER' is being added.
+    Note: Remote control keyid KEY_POWER (116) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_TEXT (388) attribute 'name' with a value of 'TEXT' is being added.
+    Note: Remote control keyid KEY_TEXT (388) attribute 'title' with a value of 'TEXT' is being added.
+    Note: Remote control keyid KEY_TEXT (388) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'name' with a value of 'SUBTITLE' is being added.
+    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'title' with a value of 'SUBTITLE' is being added.
+    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_HELP (138) attribute 'name' with a value of 'HELP' is being added.
+    Note: Remote control keyid KEY_HELP (138) attribute 'title' with a value of 'HELP' is being added.
+    Note: Remote control keyid KEY_HELP (138) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_1 (2) attribute 'name' with a value of '1' is being added.
+    Note: Remote control keyid KEY_1 (2) attribute 'title' with a value of '1' is being added.
+    Note: Remote control keyid KEY_1 (2) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_2 (3) attribute 'name' with a value of '2' is being added.
+    Note: Remote control keyid KEY_2 (3) attribute 'title' with a value of '2' is being added.
+    Note: Remote control keyid KEY_2 (3) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_3 (4) attribute 'name' with a value of '3' is being added.
+    Note: Remote control keyid KEY_3 (4) attribute 'title' with a value of '3' is being added.
+    Note: Remote control keyid KEY_3 (4) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_4 (5) attribute 'name' with a value of '4' is being added.
+    Note: Remote control keyid KEY_4 (5) attribute 'title' with a value of '4' is being added.
+    Note: Remote control keyid KEY_4 (5) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_5 (6) attribute 'name' with a value of '5' is being added.
+    Note: Remote control keyid KEY_5 (6) attribute 'title' with a value of '5' is being added.
+    Note: Remote control keyid KEY_5 (6) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_6 (7) attribute 'name' with a value of '6' is being added.
+    Note: Remote control keyid KEY_6 (7) attribute 'title' with a value of '6' is being added.
+    Note: Remote control keyid KEY_6 (7) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_7 (8) attribute 'name' with a value of '7' is being added.
+    Note: Remote control keyid KEY_7 (8) attribute 'title' with a value of '7' is being added.
+    Note: Remote control keyid KEY_7 (8) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_8 (9) attribute 'name' with a value of '8' is being added.
+    Note: Remote control keyid KEY_8 (9) attribute 'title' with a value of '8' is being added.
+    Note: Remote control keyid KEY_8 (9) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_9 (10) attribute 'name' with a value of '9' is being added.
+    Note: Remote control keyid KEY_9 (10) attribute 'title' with a value of '9' is being added.
+    Note: Remote control keyid KEY_9 (10) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'name' with a value of 'ARROWLEFT' is being added.
+    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'title' with a value of 'ARROWLEFT' is being added.
+    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_0 (11) attribute 'name' with a value of '0' is being added.
+    Note: Remote control keyid KEY_0 (11) attribute 'title' with a value of '0' is being added.
+    Note: Remote control keyid KEY_0 (11) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_NEXT (407) attribute 'name' with a value of 'ARROWRIGHT' is being added.
+    Note: Remote control keyid KEY_NEXT (407) attribute 'title' with a value of 'ARROWRIGHT' is being added.
+    Note: Remote control keyid KEY_NEXT (407) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_RED (398) attribute 'name' with a value of 'RED' is being added.
+    Note: Remote control keyid KEY_RED (398) attribute 'title' with a value of 'RED' is being added.
+    Note: Remote control keyid KEY_RED (398) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_GREEN (399) attribute 'name' with a value of 'GREEN' is being added.
+    Note: Remote control keyid KEY_GREEN (399) attribute 'title' with a value of 'GREEN' is being added.
+    Note: Remote control keyid KEY_GREEN (399) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_YELLOW (400) attribute 'name' with a value of 'YELLOW' is being added.
+    Note: Remote control keyid KEY_YELLOW (400) attribute 'title' with a value of 'YELLOW' is being added.
+    Note: Remote control keyid KEY_YELLOW (400) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_BLUE (401) attribute 'name' with a value of 'BLUE' is being added.
+    Note: Remote control keyid KEY_BLUE (401) attribute 'title' with a value of 'BLUE' is being added.
+    Note: Remote control keyid KEY_BLUE (401) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'name' with a value of 'VIDEO' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'title' with a value of 'VIDEO' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_MENU (139) attribute 'name' with a value of 'MENU' is being added.
+    Note: Remote control keyid KEY_MENU (139) attribute 'title' with a value of 'MENU' is being added.
+    Note: Remote control keyid KEY_MENU (139) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_UP (103) attribute 'name' with a value of 'UP' is being added.
+    Note: Remote control keyid KEY_UP (103) attribute 'title' with a value of 'UP' is being added.
+    Note: Remote control keyid KEY_UP (103) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_LEFT (105) attribute 'name' with a value of 'LEFT' is being added.
+    Note: Remote control keyid KEY_LEFT (105) attribute 'title' with a value of 'LEFT' is being added.
+    Note: Remote control keyid KEY_LEFT (105) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_OK (352) attribute 'name' with a value of 'OK' is being added.
+    Note: Remote control keyid KEY_OK (352) attribute 'title' with a value of 'OK' is being added.
+    Note: Remote control keyid KEY_OK (352) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_RIGHT (106) attribute 'name' with a value of 'RIGHT' is being added.
+    Note: Remote control keyid KEY_RIGHT (106) attribute 'title' with a value of 'RIGHT' is being added.
+    Note: Remote control keyid KEY_RIGHT (106) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_DOWN (108) attribute 'name' with a value of 'DOWN' is being added.
+    Note: Remote control keyid KEY_DOWN (108) attribute 'title' with a value of 'DOWN' is being added.
+    Note: Remote control keyid KEY_DOWN (108) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_INFO (358) attribute 'name' with a value of 'INFO' is being added.
+    Note: Remote control keyid KEY_INFO (358) attribute 'title' with a value of 'INFO' is being added.
+    Note: Remote control keyid KEY_INFO (358) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_EXIT (174) attribute 'name' with a value of 'EXIT' is being added.
+    Note: Remote control keyid KEY_EXIT (174) attribute 'title' with a value of 'EXIT' is being added.
+    Note: Remote control keyid KEY_EXIT (174) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_AUDIO (392) attribute 'name' with a value of 'AUDIO' is being added.
+    Note: Remote control keyid KEY_AUDIO (392) attribute 'title' with a value of 'AUDIO' is being added.
+    Note: Remote control keyid KEY_AUDIO (392) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'name' with a value of 'VOL+' is being added.
+    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'title' with a value of 'VOL+' is being added.
+    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'name' with a value of 'BOUQUET+' is being added.
+    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'title' with a value of 'BOUQUET+' is being added.
+    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_MUTE (113) attribute 'name' with a value of 'MUTE' is being added.
+    Note: Remote control keyid KEY_MUTE (113) attribute 'title' with a value of 'MUTE' is being added.
+    Note: Remote control keyid KEY_MUTE (113) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'name' with a value of 'VOL-' is being added.
+    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'title' with a value of 'VOL-' is being added.
+    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'name' with a value of 'BOUQUET-' is being added.
+    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'title' with a value of 'BOUQUET-' is being added.
+    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_PROGRAM (362) attribute 'name' with a value of 'TIMER' is being added.
+    Note: Remote control keyid KEY_PROGRAM (362) attribute 'title' with a value of 'TIMER' is being added.
+    Note: Remote control keyid KEY_PROGRAM (362) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_REWIND (168) attribute 'name' with a value of 'REWIND' is being added.
+    Note: Remote control keyid KEY_REWIND (168) attribute 'title' with a value of 'REWIND' is being added.
+    Note: Remote control keyid KEY_REWIND (168) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_PLAY (207) attribute 'name' with a value of 'PLAY' is being added.
+    Note: Remote control keyid KEY_PLAY (207) attribute 'title' with a value of 'PLAY' is being added.
+    Note: Remote control keyid KEY_PLAY (207) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_PAUSE (119) attribute 'name' with a value of 'PAUSE' is being added.
+    Note: Remote control keyid KEY_PAUSE (119) attribute 'title' with a value of 'PAUSE' is being added.
+    Note: Remote control keyid KEY_PAUSE (119) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'name' with a value of 'FASTFORWARD' is being added.
+    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'title' with a value of 'FASTFORWARD' is being added.
+    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'name' with a value of 'TV' is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'title' with a value of 'TV' is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_RECORD (167) attribute 'name' with a value of 'RECORD' is being added.
+    Note: Remote control keyid KEY_RECORD (167) attribute 'title' with a value of 'RECORD' is being added.
+    Note: Remote control keyid KEY_RECORD (167) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_STOP (128) attribute 'name' with a value of 'STOP' is being added.
+    Note: Remote control keyid KEY_STOP (128) attribute 'title' with a value of 'STOP' is being added.
+    Note: Remote control keyid KEY_STOP (128) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_RADIO (385) attribute 'name' with a value of 'RADIO' is being added.
+    Note: Remote control keyid KEY_RADIO (385) attribute 'title' with a value of 'RADIO' is being added.
+    Note: Remote control keyid KEY_RADIO (385) attribute 'coords' with a value of None is being added.
+
+Processing complete.
