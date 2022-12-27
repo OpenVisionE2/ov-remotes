@@ -25,4 +25,5 @@ jobs:
           sudo apt-get install python2-dev
           sudo apt-get install dos2unix
           pip install --upgrade pip autopep8 future
+          pip3 install Pillow
           ./CI/build.sh

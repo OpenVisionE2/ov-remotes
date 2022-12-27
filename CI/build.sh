@@ -20,6 +20,7 @@ commit_files() {
   ./CI/futurize.sh
   ./CI/check.sh > check.log
   ./CI/convert.sh > convert.log
+  ./CI/preview.sh
 }
 
 upload_files() {
