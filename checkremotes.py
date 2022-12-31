@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 
 
 for f in listdir("./rc/"):
-    if "png" in f:
+    if "png" in f and not "preview" in f:
         xmlFile = f.replace(".png", ".xml")
         if not isfile(join("./rc", xmlFile)):
             print("**ERROR: '%s' is missing**\n" % xmlFile)

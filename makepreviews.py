@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 
 
 for f in listdir("./rc/"):
-    if "png" in f and isfile(join("./rc", f.replace(".png", ".xml"))):
+    if "png" in f and not "preview" in f and isfile(join("./rc", f.replace(".png", ".xml"))):
         with Image.open(join("./rc", f)) as im:
             dst = Image.new('RGBA', (154, 500))
             dst.paste((255, 255, 255), [0, 0, dst.size[0], dst.size[1]])
