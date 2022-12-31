@@ -17996,3 +17996,16 @@ Processing remote control filename './rc/spark'.
     Note: Remote control keyid KEY_PREVIOUSSONG (165) attribute 'pos' with a value of [21, 390] is being added.
 
 Processing complete.
+[master c00ff0a] Check remote files
+ 6 files changed, 398 insertions(+), 12 deletions(-)
+ create mode 100644 check-report/zgemma8.xml.report
+ create mode 100644 check-result/zgemma8.html-New
+ create mode 100644 check-result/zgemma8.xml-Hybrid
+ create mode 100644 check-result/zgemma8.xml-New
+ create mode 100644 check-result/zgemma8.xml-Old
+
+-e Check time was 0 minutes and 9 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
