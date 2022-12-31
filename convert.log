@@ -2909,3 +2909,13 @@ Processing remote control filename './rc/spark.html'.
   XML Parse Error: '^               '
 
 Processing complete.
+[master bbc29bc] Convert remote files
+ 4 files changed, 87 insertions(+), 16 deletions(-)
+ create mode 100644 convert-report/zgemma8.xml.report
+ create mode 100644 convert-result/zgemma8.xml-new
+
+-e Convert time was 0 minutes and 8 seconds.
+-e Fast converting would be less than 1 minute.
+
+Convert Done!
+
