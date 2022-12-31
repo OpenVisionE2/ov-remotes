@@ -1,0 +1,55 @@
+<rcs>
+	<rc id="2" image="/images/remotes/zgemma8.png.png">
+		<button id="KEY_POWER" name="POWER" label="POWER" pos="26,24" />
+		<button id="KEY_MUTE" name="MUTE" label="MUTE" pos="98,24" />
+		<button id="KEY_1" name="1" label="1" pos="28,51" />
+		<button id="KEY_2" name="2" label="2" pos="62,51" />
+		<button id="KEY_3" name="3" label="3" pos="96,51" />
+		<button id="KEY_4" name="4" label="4" pos="28,73" />
+		<button id="KEY_5" name="5" label="5" pos="62,73" />
+		<button id="KEY_6" name="6" label="6" pos="96,73" />
+		<button id="KEY_7" name="7" label="7" pos="28,95" />
+		<button id="KEY_8" name="8" label="8" pos="62,95" />
+		<button id="KEY_9" name="9" label="9" pos="96,95" />
+		<button id="KEY_PREVIOUS" name="&LT;PREV" label="&lt;PREV" pos="28,116" />
+		<button id="KEY_0" name="0" label="0" pos="62,116" />
+		<button id="KEY_NEXT" name="NEXT&GT;" label="NEXT&gt;" pos="96,116" />
+		<button id="KEY_BACK" name="BACK" label="BACK" pos="25,140" />
+		<button id="KEY_INFO" name="INFO" label="INFO" pos="99,140" />
+		<button id="KEY_UP" name="UP" label="UP" pos="62,156" />
+		<button id="KEY_LEFT" name="LEFT" label="LEFT" pos="35,184" />
+		<button id="KEY_OK" name="OK" label="OK" pos="62,184" />
+		<button id="KEY_RIGHT" name="RIGHT" label="RIGHT" pos="89,184" />
+		<button id="KEY_DOWN" name="DOWN" label="DOWN" pos="62,212" />
+		<button id="KEY_EXIT" name="EXIT" label="EXIT" pos="25,227" />
+		<button id="KEY_EPG" name="EPG" label="EPG" pos="99,227" />
+		<button id="KEY_VOLUMEUP" name="VOL +" label="VOL +" pos="28,256" />
+		<button id="KEY_MENU" name="MENU" label="MENU" pos="62,256" />
+		<button id="KEY_CHANNELUP" name="CH/PAGE +" label="CH/PAGE +" pos="96,257" />
+		<button id="KEY_VOLUMEDOWN" name="VOL -" label="VOL -" pos="28,292" />
+		<button id="KEY_VIDEO" name="FILE LIST" label="FILE LIST" pos="62,293" />
+		<button id="KEY_CHANNELDOWN" name="CH/PAGE -" label="CH/PAGE -" pos="96,292" />
+		<button id="KEY_TEXT" name="TEXT" label="TEXT" pos="28,315" />
+		<button id="KEY_AUDIO" name="AUDIO" label="AUDIO" pos="62,315" />
+		<button id="KEY_SUBTITLE" name="SUBTITLE" label="SUBTITLE" pos="96,315" />
+		<button id="KEY_TV" name="TV" label="TV" pos="28,335" />
+		<button id="KEY_CONTEXT_MENU" remap="KEY_BOOKMARKS" name="PORTAL" label="PORTAL" pos="62,335" />
+		<button id="KEY_RADIO" name="RADIO" label="RADIO" pos="96,335" />
+		<button id="KEY_RED" name="RED" label="RED" pos="24,357" />
+		<button id="KEY_GREEN" name="GREEN" label="GREEN" pos="49,357" />
+		<button id="KEY_YELLOW" name="YELLOW" label="YELLOW" pos="75,357" />
+		<button id="KEY_BLUE" name="BLUE" label="BLUE" pos="100,357" />
+		<button id="KEY_RECORD" name="RECORD" label="RECORD" pos="28,379" />
+		<button id="KEY_STOP" name="STOP" label="STOP" pos="61,379" />
+		<button id="KEY_PLAYPAUSE" name="PLAY/PAUSE" label="PLAY/PAUSE" pos="96,379" />
+		<button id="KEY_PREVIOUSSONG" name="PREVIOUS SONG" label="PREVIOUS SONG" pos="28,401" />
+		<button id="KEY_NEXTSONG" name="NEXT SONG" label="NEXT SONG" pos="61,401" />
+		<button id="KEY_PROGRAM" name="TIMER" label="TIMER" pos="96,401" />
+		<button id="KEY_REWIND" name="REWIND" label="REWIND" pos="28,423" />
+		<button id="KEY_FASTFORWARD" name="FAST FORWARD" label="FAST FORWARD" pos="61,423" />
+		<button id="KEY_SLEEP" name="SLEEP" label="SLEEP" pos="96,423" />
+		<button id="KEY_SWITCHVIDEOMODE" name="V.MODE" label="V.MODE" pos="28,446" />
+		<button id="KEY_FAVORITES" name="FAV" label="FAV" pos="61,446" />
+		<button id="KEY_HELP" name="HELP" label="HELP" pos="96,446" />
+	</rc>
+</rcs>
