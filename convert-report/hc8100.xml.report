@@ -10,58 +10,56 @@ Output files will be sorted in button position order.
 Labels will be capitalised.
 Titles will be capitalised.
 
-Processing remote control filename './rc/atemio520.xml'.
-  Loading remote control XML definition file './rc/atemio520.xml'.
+Processing remote control filename './rc/hc8100.xml'.
+  Loading remote control XML definition file './rc/hc8100.xml'.
   Remote control id defined as '2'.
     Error: The id 'POWER' appears invalid!
-    Error: The id '1' appears invalid!
-    Error: The id '2' appears invalid!
-    Error: The id '3' appears invalid!
-    Error: The id '4' appears invalid!
-    Error: The id '5' appears invalid!
-    Error: The id '6' appears invalid!
-    Error: The id '7' appears invalid!
-    Error: The id '8' appears invalid!
-    Error: The id '9' appears invalid!
-    Error: The id 'FAV' appears invalid!
-    Error: The id '0' appears invalid!
+    Error: The id 'TV_RADIO' appears invalid!
     Error: The id 'TEXT' appears invalid!
+    Error: The id '1BUTTON' appears invalid!
+    Error: The id '2BUTTON' appears invalid!
+    Error: The id '3BUTTON' appears invalid!
+    Error: The id '4BUTTON' appears invalid!
+    Error: The id '5BUTTON' appears invalid!
+    Error: The id '6BUTTON' appears invalid!
+    Error: The id '7BUTTON' appears invalid!
+    Error: The id '8BUTTON' appears invalid!
+    Error: The id '9BUTTON' appears invalid!
+    Error: The id 'BACK' appears invalid!
+    Error: The id '0BUTTON' appears invalid!
+    Error: The id 'MUTE' appears invalid!
     Error: The id 'RED' appears invalid!
     Error: The id 'GREEN' appears invalid!
     Error: The id 'YELLOW' appears invalid!
     Error: The id 'BLUE' appears invalid!
+    Error: The id 'MENU' appears invalid!
     Error: The id 'EPG' appears invalid!
-    Error: The id 'UP' appears invalid!
     Error: The id 'INFO' appears invalid!
+    Error: The id 'UP' appears invalid!
     Error: The id 'LEFT' appears invalid!
     Error: The id 'OK' appears invalid!
     Error: The id 'RIGHT' appears invalid!
-    Error: The id 'EXIT' appears invalid!
     Error: The id 'DOWN' appears invalid!
-    Error: The id 'RECALL' appears invalid!
-    Error: The id 'MUTE' appears invalid!
-    Error: The id 'MENU' appears invalid!
-    Error: The id 'TVRADIO' appears invalid!
     Error: The id 'VOLUMEUP' appears invalid!
-    Error: The id 'FILELIST' appears invalid!
     Error: The id 'CHANNELUP' appears invalid!
+    Error: The id 'EXIT' appears invalid!
     Error: The id 'VOLUMEDOWN' appears invalid!
-    Error: The id 'PLUGIN' appears invalid!
     Error: The id 'CHANNELDOWN' appears invalid!
-    Error: The id 'REWIND' appears invalid!
+    Error: The id 'PAUSE' appears invalid!
     Error: The id 'PLAY' appears invalid!
+    Error: The id 'REWIND' appears invalid!
+    Error: The id 'STOP' appears invalid!
     Error: The id 'FASTFORWARD' appears invalid!
     Error: The id 'RECORD' appears invalid!
-    Error: The id 'STOP' appears invalid!
-    Error: The id 'PAUSE' appears invalid!
+    Error: The id 'SLOW' appears invalid!
+    Error: The id 'LIST' appears invalid!
+    Error: The id 'REPEAT' appears invalid!
+    Error: The id 'MARK' appears invalid!
+    Error: The id 'JUMP' appears invalid!
     Error: The id 'PIP' appears invalid!
-    Error: The id 'FIND' appears invalid!
-    Error: The id 'AUDIO' appears invalid!
-    Error: The id 'SHOOT' appears invalid!
-    Error: The id 'WWW' appears invalid!
-    Error: The id 'HELP' appears invalid!
+    Error: The id 'PIP_SWAP' appears invalid!
+    Error: The id 'PIP_MOVE' appears invalid!
     Error: The id 'SLEEP' appears invalid!
-    Error: The id 'MODE' appears invalid!
   0 buttons loaded, 0 buttons verified and written to the XML file.
 
 Processing complete.

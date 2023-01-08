@@ -13,48 +13,48 @@ Titles will be capitalised.
 Processing remote control filename './rc/amiko6.xml'.
   Loading remote control XML definition file './rc/amiko6.xml'.
   Remote control id defined as '2'.
-    Error: The keyId can't be derived from the name 'POWER'!
-    Error: The keyId can't be derived from the name '1'!
-    Error: The keyId can't be derived from the name '2'!
-    Error: The keyId can't be derived from the name '3'!
-    Error: The keyId can't be derived from the name '4'!
-    Error: The keyId can't be derived from the name '5'!
-    Error: The keyId can't be derived from the name '6'!
-    Error: The keyId can't be derived from the name '7'!
-    Error: The keyId can't be derived from the name '8'!
-    Error: The keyId can't be derived from the name '9'!
-    Error: The keyId can't be derived from the name 'ARROWLEFT'!
-    Error: The keyId can't be derived from the name '0'!
-    Error: The keyId can't be derived from the name 'ARROWRIGHT'!
-    Error: The keyId can't be derived from the name 'VOL+'!
-    Error: The keyId can't be derived from the name 'VOL-'!
-    Error: The keyId can't be derived from the name 'MUTE'!
-    Error: The keyId can't be derived from the name 'EXIT'!
-    Error: The keyId can't be derived from the name 'BOUQUET+'!
-    Error: The keyId can't be derived from the name 'BOUQUET-'!
-    Error: The keyId can't be derived from the name 'INFO'!
-    Error: The keyId can't be derived from the name 'MENU'!
-    Error: The keyId can't be derived from the name 'OK'!
-    Error: The keyId can't be derived from the name 'UP'!
-    Error: The keyId can't be derived from the name 'DOWN'!
-    Error: The keyId can't be derived from the name 'LEFT'!
-    Error: The keyId can't be derived from the name 'RIGHT'!
-    Error: The keyId can't be derived from the name 'AUDIO'!
-    Error: The keyId can't be derived from the name 'RED'!
-    Error: The keyId can't be derived from the name 'GREEN'!
-    Error: The keyId can't be derived from the name 'YELLOW'!
-    Error: The keyId can't be derived from the name 'BLUE'!
-    Error: The keyId can't be derived from the name 'TV'!
-    Error: The keyId can't be derived from the name 'RADIO'!
-    Error: The keyId can't be derived from the name 'TEXT'!
-    Error: The keyId can't be derived from the name 'HELP'!
-    Error: The keyId can't be derived from the name 'PVR'!
-    Error: The keyId can't be derived from the name 'RECORD'!
-    Error: The keyId can't be derived from the name 'PLAY'!
-    Error: The keyId can't be derived from the name 'PAUSE'!
-    Error: The keyId can't be derived from the name 'REWIND'!
-    Error: The keyId can't be derived from the name 'FASTFORWARD'!
-    Error: The keyId can't be derived from the name 'STOP'!
+    Error: The id 'POWER' appears invalid!
+    Error: The id '1' appears invalid!
+    Error: The id '2' appears invalid!
+    Error: The id '3' appears invalid!
+    Error: The id '4' appears invalid!
+    Error: The id '5' appears invalid!
+    Error: The id '6' appears invalid!
+    Error: The id '7' appears invalid!
+    Error: The id '8' appears invalid!
+    Error: The id '9' appears invalid!
+    Error: The id 'ARROWLEFT' appears invalid!
+    Error: The id '0' appears invalid!
+    Error: The id 'ARROWRIGHT' appears invalid!
+    Error: The id 'VOL+' appears invalid!
+    Error: The id 'VOL-' appears invalid!
+    Error: The id 'MUTE' appears invalid!
+    Error: The id 'EXIT' appears invalid!
+    Error: The id 'BOUQUET+' appears invalid!
+    Error: The id 'BOUQUET-' appears invalid!
+    Error: The id 'INFO' appears invalid!
+    Error: The id 'MENU' appears invalid!
+    Error: The id 'OK' appears invalid!
+    Error: The id 'UP' appears invalid!
+    Error: The id 'DOWN' appears invalid!
+    Error: The id 'LEFT' appears invalid!
+    Error: The id 'RIGHT' appears invalid!
+    Error: The id 'AUDIO' appears invalid!
+    Error: The id 'RED' appears invalid!
+    Error: The id 'GREEN' appears invalid!
+    Error: The id 'YELLOW' appears invalid!
+    Error: The id 'BLUE' appears invalid!
+    Error: The id 'TV' appears invalid!
+    Error: The id 'RADIO' appears invalid!
+    Error: The id 'TEXT' appears invalid!
+    Error: The id 'HELP' appears invalid!
+    Error: The id 'PVR' appears invalid!
+    Error: The id 'RECORD' appears invalid!
+    Error: The id 'PLAY' appears invalid!
+    Error: The id 'PAUSE' appears invalid!
+    Error: The id 'REWIND' appears invalid!
+    Error: The id 'FASTFORWARD' appears invalid!
+    Error: The id 'STOP' appears invalid!
   0 buttons loaded, 0 buttons verified and written to the XML file.
 
 Processing complete.
