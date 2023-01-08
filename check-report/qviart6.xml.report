@@ -15,7 +15,6 @@ Processing remote control filename './rc/qviart6'.
   Loading remote control XML definition file './rc/qviart6.xml'.
   Remote control id defined as '2'.
   Loading remote control HTML definition file './rc/qviart6.html'.
-    Alert: Remote control XML image value doesn't match HTML value!  ('/images/remotes/qviart6.png' != '/images/remotes/qviart6.png.png')
     Note: Remote control keyid KEY_RESERVED (-1) attribute 'label' with a value of 'TV Power' is being added.
     Note: Remote control keyid KEY_POWER (116) attribute 'label' with a value of 'POWER' is being added.
     Note: Remote control keyid KEY_RESERVED (-2) attribute 'label' with a value of 'TV A/V' is being added.
@@ -68,5 +67,9 @@ Processing remote control filename './rc/qviart6'.
     Note: Remote control keyid KEY_TEXT (388) attribute 'label' with a value of 'TEXT' is being added.
     Note: Remote control keyid KEY_0 (11) attribute 'label' with a value of '0' is being added.
     Note: Remote control keyid KEY_VIDEO (393) attribute 'label' with a value of 'VIDEO' is being added.
+  52 buttons found and written to old format XML file.
+  52 buttons found and written to new format XML file.
+  52 buttons found and written to hybrid format XML file.
+  52 buttons found and written to HTML file.
 
 Processing complete.

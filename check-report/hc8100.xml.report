@@ -11,60 +11,58 @@ XML labels will be capitalised.
 HTML titles will be capitalised.
 If both XML and HTML data is valid but different the HTML attributes will be used except for 'pos'.
 
-Processing remote control filename './rc/atemio520'.
-  Loading remote control XML definition file './rc/atemio520.xml'.
+Processing remote control filename './rc/hc8100'.
+  Loading remote control XML definition file './rc/hc8100.xml'.
   Remote control id defined as '2'.
     Error: The keyName 'POWER' appears invalid!
-    Error: The keyName '1' appears invalid!
-    Error: The keyName '2' appears invalid!
-    Error: The keyName '3' appears invalid!
-    Error: The keyName '4' appears invalid!
-    Error: The keyName '5' appears invalid!
-    Error: The keyName '6' appears invalid!
-    Error: The keyName '7' appears invalid!
-    Error: The keyName '8' appears invalid!
-    Error: The keyName '9' appears invalid!
-    Error: The keyName 'FAV' appears invalid!
-    Error: The keyName '0' appears invalid!
+    Error: The keyName 'TV_RADIO' appears invalid!
     Error: The keyName 'TEXT' appears invalid!
+    Error: The keyName '1BUTTON' appears invalid!
+    Error: The keyName '2BUTTON' appears invalid!
+    Error: The keyName '3BUTTON' appears invalid!
+    Error: The keyName '4BUTTON' appears invalid!
+    Error: The keyName '5BUTTON' appears invalid!
+    Error: The keyName '6BUTTON' appears invalid!
+    Error: The keyName '7BUTTON' appears invalid!
+    Error: The keyName '8BUTTON' appears invalid!
+    Error: The keyName '9BUTTON' appears invalid!
+    Error: The keyName 'BACK' appears invalid!
+    Error: The keyName '0BUTTON' appears invalid!
+    Error: The keyName 'MUTE' appears invalid!
     Error: The keyName 'RED' appears invalid!
     Error: The keyName 'GREEN' appears invalid!
     Error: The keyName 'YELLOW' appears invalid!
     Error: The keyName 'BLUE' appears invalid!
+    Error: The keyName 'MENU' appears invalid!
     Error: The keyName 'EPG' appears invalid!
-    Error: The keyName 'UP' appears invalid!
     Error: The keyName 'INFO' appears invalid!
+    Error: The keyName 'UP' appears invalid!
     Error: The keyName 'LEFT' appears invalid!
     Error: The keyName 'OK' appears invalid!
     Error: The keyName 'RIGHT' appears invalid!
-    Error: The keyName 'EXIT' appears invalid!
     Error: The keyName 'DOWN' appears invalid!
-    Error: The keyName 'RECALL' appears invalid!
-    Error: The keyName 'MUTE' appears invalid!
-    Error: The keyName 'MENU' appears invalid!
-    Error: The keyName 'TVRADIO' appears invalid!
     Error: The keyName 'VOLUMEUP' appears invalid!
-    Error: The keyName 'FILELIST' appears invalid!
     Error: The keyName 'CHANNELUP' appears invalid!
+    Error: The keyName 'EXIT' appears invalid!
     Error: The keyName 'VOLUMEDOWN' appears invalid!
-    Error: The keyName 'PLUGIN' appears invalid!
     Error: The keyName 'CHANNELDOWN' appears invalid!
-    Error: The keyName 'REWIND' appears invalid!
+    Error: The keyName 'PAUSE' appears invalid!
     Error: The keyName 'PLAY' appears invalid!
+    Error: The keyName 'REWIND' appears invalid!
+    Error: The keyName 'STOP' appears invalid!
     Error: The keyName 'FASTFORWARD' appears invalid!
     Error: The keyName 'RECORD' appears invalid!
-    Error: The keyName 'STOP' appears invalid!
-    Error: The keyName 'PAUSE' appears invalid!
+    Error: The keyName 'SLOW' appears invalid!
+    Error: The keyName 'LIST' appears invalid!
+    Error: The keyName 'REPEAT' appears invalid!
+    Error: The keyName 'MARK' appears invalid!
+    Error: The keyName 'JUMP' appears invalid!
     Error: The keyName 'PIP' appears invalid!
-    Error: The keyName 'FIND' appears invalid!
-    Error: The keyName 'AUDIO' appears invalid!
-    Error: The keyName 'SHOOT' appears invalid!
-    Error: The keyName 'WWW' appears invalid!
-    Error: The keyName 'HELP' appears invalid!
+    Error: The keyName 'PIP_SWAP' appears invalid!
+    Error: The keyName 'PIP_MOVE' appears invalid!
     Error: The keyName 'SLEEP' appears invalid!
-    Error: The keyName 'MODE' appears invalid!
-  Loading remote control HTML definition file './rc/atemio520.html'.
-  Warning: Remote control HTML file './rc/atemio520.html' does not exist!
+  Loading remote control HTML definition file './rc/hc8100.html'.
+  Warning: Remote control HTML file './rc/hc8100.html' does not exist!
     Warning: Remote control HTML is undefined!
     Error: No image reference can be found for this remote control!
     Information: An image file for this remote control appears to be available.
