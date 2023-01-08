@@ -1,0 +1,52 @@
+<rcs>
+	<!-- Homecast HC8100 & HC9000 series -->
+	<rc id="2">
+		<button id="POWER"           pos="46,44" />	<!-- KEY_POWER -->
+		<button id="TV_RADIO"        pos="76,46" />	<!-- KEY_TV2 -->
+		<button id="TEXT"            pos="102,46" />	<!-- KEY_TEXT -->
+		<button id="1BUTTON"         pos="46,70" />	<!-- KEY_1 -->
+		<button id="2BUTTON"         pos="75,69" />	<!-- KEY_2 -->
+		<button id="3BUTTON"         pos="104,68" />	<!-- KEY_3 -->
+		<button id="4BUTTON"         pos="46,87" />	<!-- KEY_4 -->
+		<button id="5BUTTON"         pos="75,90" />	<!-- KEY_5 -->
+		<button id="6BUTTON"         pos="104,90" />	<!-- KEY_6 -->
+		<button id="7BUTTON"         pos="46,90" />	<!-- KEY_7 -->
+		<button id="8BUTTON"         pos="75,90" />	<!-- KEY_8 -->
+		<button id="9BUTTON"         pos="104,90" />	<!-- KEY_9 -->
+		<button id="BACK"            pos="46,134" />	<!-- KEY_BACK -->
+		<button id="0BUTTON"         pos="75,134" />	<!-- KEY_0 -->
+		<button id="MUTE"            pos="104,134" />	<!-- KEY_MUTE -->
+		<button id="RED"             pos="39,168" />	<!-- KEY_RED -->
+		<button id="GREEN"           pos="62,161" />	<!-- KEY_GREEN -->
+		<button id="YELLOW"          pos="87,161" />	<!-- KEY_YELLOW -->
+		<button id="BLUE"            pos="111,168" />	<!-- KEY_BLUE -->
+		<button id="MENU"            pos="44,185" />	<!-- KEY_MENU -->
+		<button id="EPG"             pos="75,178" />	<!-- KEY_EPG -->
+		<button id="INFO"            pos="107,185" />	<!-- KEY_INFO -->
+		<button id="UP"              pos="75,204" />	<!-- KEY_UP -->
+		<button id="LEFT"            pos="45,223" />	<!-- KEY_LEFT -->
+		<button id="OK"              pos="75,223" />	<!-- KEY_OK -->
+		<button id="RIGHT"           pos="105,223" />	<!-- KEY_RIGHT -->
+		<button id="DOWN"            pos="75,243" />	<!-- KEY_DOWN -->
+		<button id="VOLUMEUP"        pos="42,264" />	<!-- KEY_VOLUMEUP -->
+		<button id="CHANNELUP"       pos="108,264" />	<!-- KEY_CHANNELUP -->
+		<button id="EXIT"            pos="75,276" />	<!-- KEY_EXIT -->
+		<button id="VOLUMEDOWN"      pos="42,288" />	<!-- KEY_VOLUMEDOWN -->
+		<button id="CHANNELDOWN"     pos="108,288" />	<!-- KEY_CHANNELDOWN -->
+		<button id="PAUSE"           pos="58,317" />	<!-- KEY_PAUSE -->
+		<button id="PLAY"            pos="93,317" />	<!-- KEY_PLAY -->
+		<button id="REWIND"          pos="47,341" />	<!-- KEY_REWIND -->
+		<button id="STOP"            pos="75,341" />	<!-- KEY_STOP -->
+		<button id="FASTFORWARD"     pos="105,341" />	<!-- KEY_FASTFORWARD -->
+		<button id="RECORD"          pos="46,364" />	<!-- KEY_RECORD -->
+		<button id="SLOW"            pos="75,364" />	<!-- KEY_SLOW -->
+		<button id="LIST"            pos="105,364" />	<!-- KEY_FILE -->
+		<button id="REPEAT"          pos="46,386" />	<!-- KEY_REPEAT -->
+		<button id="MARK"            pos="75,386" />	<!-- KEY_HELP -->
+		<button id="JUMP"            pos="105,386" />	<!-- KEY_GOTO -->
+		<button id="PIP"             pos="44,413" />	<!-- KEY_SCREEN -->
+		<button id="PIP_SWAP"        pos="65,413" />	<!-- KEY_GOTO -->
+		<button id="PIP_MOVE"        pos="87,413" />	<!-- KEY_GOTO -->
+		<button id="SLEEP"           pos="109,413" />	<!-- KEY_PROGRAM -->
+	</rc>
+</rcs>

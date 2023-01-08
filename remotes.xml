@@ -72,8 +72,8 @@
 	<remote model="dm820" rcType="0" codeName="dmm2" displayName="Dream Multimedia 820" />
 	<remote model="dm900" rcType="0" codeName="dmm2" displayName="Dream Multimedia 900" />
 	<remote model="dm920" rcType="0" codeName="dmm2" displayName="Dream Multimedia 920" />
-	<remote model="dreamone" rcType="0" codeName="dmm2" displayName="Dream Multimedia One" />
-	<remote model="dreamtwo" rcType="0" codeName="dmm2" displayName="Dream Multimedia Two" />
+	<remote model="dreamone" rcType="0" codeName="dmm3" displayName="Dream Multimedia One" />
+	<remote model="dreamtwo" rcType="0" codeName="dmm3" displayName="Dream Multimedia Two" />
 	<remote model="dual" rcType="0" codeName="qviart5" displayName="Dual" />
 	<remote model="e4hdcombo" rcType="0" codeName="e4hdcombo" displayName="E4HD Combo" />
 	<remote model="e4hdhybrid" rcType="0" codeName="e4hd" displayName="E4HD Hybrid" />
@@ -160,6 +160,7 @@
 	<remote model="h9" rcType="25" codeName="zgemma8" displayName="AirDigital Zgemma H9 - Old model" />
 	<remote model="h9" rcType="28" codeName="zgemma6" displayName="AirDigital Zgemma H9 - New model" />
 	<remote model="h9se" rcType="28" codeName="zgemma3" displayName="AirDigital Zgemma H9 SE" />
+	<remote model="hc8100" rcType="23" codeName="hc8100" displayName="HomeCast HC8100" />
 	<remote model="hd1100" rcType="16" codeName="hd1100" displayName="Mutant HD1100" />
 	<remote model="hd11" rcType="16" codeName="hd1100" displayName="Mutant HD11" />
 	<remote model="hd1200" rcType="16" codeName="hd1100" displayName="Mutant HD1200" />
