@@ -2909,3 +2909,11 @@ Processing remote control filename './rc/dmm1.html'.
   XML Parse Error: '^               '
 
 Processing complete.
+[master 22c71be] Convert remote files
+ 2 files changed, 469 insertions(+), 469 deletions(-)
+
+-e Convert time was 0 minutes and 7 seconds.
+-e Fast converting would be less than 1 minute.
+
+Convert Done!
+
