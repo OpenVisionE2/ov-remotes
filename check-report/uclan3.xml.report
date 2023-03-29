@@ -1,0 +1,140 @@
+CheckRemoteControl version 1.21  -  16-Aug-2022
+Copyright (C) 2021  IanSav  -  All rights reserved.
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See source code and GNUv3 for details.
+
+Running at logging level 7 (Information).
+Output files will be sorted in XML file entry order.
+XML labels will be capitalised.
+HTML titles will be capitalised.
+If both XML and HTML data is valid but different the HTML attributes will be used except for 'pos'.
+
+Processing remote control filename './rc/uclan3'.
+  Loading remote control XML definition file './rc/uclan3.xml'.
+  Remote control id defined as '2'.
+    Error: The keyId can't be derived from the name 'TV2'!
+    Error: The keyId can't be derived from the name 'MP3'!
+    Error: The keyId can't be derived from the name 'VOD'!
+    Note: Auto correcting button name 'FAVORITES' to 'FAV'.
+    Note: Auto correcting button name 'MODE' to 'VMODE'.
+  Loading remote control HTML definition file './rc/uclan3.html'.
+    Error: These buttons are in the XML file but not the HTML file!
+	Button keyid 'KEY_SLEEP' (142) named 'SLEEP'.
+	Button keyid 'KEY_SWITCHVIDEOMODE' (227) named 'VMODE'.
+	Button keyid 'KEY_OPTION' (357) named 'OPTION'.
+	Button keyid 'KEY_SAT' (381) named 'SAT'.
+	Button keyid 'KEY_VIDEO' (393) named 'VIDEO'.
+    Error: These buttons are in the HTML file but not the XML file!
+	Button keyid 'KEY_F1' (59) titled 'F1'.
+	Button keyid 'KEY_F2' (60) titled 'F2'.
+	Button keyid 'KEY_HELP' (138) titled 'Help'.
+	Button keyid 'KEY_FILE' (144) titled 'Filelist'.
+	Button keyid 'KEY_BOOKMARKS' (156) titled 'Portal'.
+	Button keyid 'KEY_TV' (377) titled 'Tv'.
+    Error: Remote control XML and HTML buttons are mismatched so the validation is incomplete and may be in inaccurate!
+    Warning: Remote control keyid KEY_POWER (116) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[95, 26] coords=[25, 56, 12] center=[25, 56])
+    Warning: Remote control keyid KEY_1 (2) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 70] coords=[23, 101, 12] center=[23, 101])
+    Warning: Remote control keyid KEY_2 (3) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 70] coords=[62, 101, 12] center=[62, 101])
+    Warning: Remote control keyid KEY_3 (4) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[95, 70] coords=[100, 101, 12] center=[100, 101])
+    Warning: Remote control keyid KEY_4 (5) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 98] coords=[23, 120, 12] center=[23, 120])
+    Warning: Remote control keyid KEY_5 (6) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 98] coords=[62, 120, 12] center=[62, 120])
+    Warning: Remote control keyid KEY_6 (7) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[95, 98] coords=[100, 120, 12] center=[100, 120])
+    Warning: Remote control keyid KEY_7 (8) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 126] coords=[23, 140, 12] center=[23, 140])
+    Warning: Remote control keyid KEY_8 (9) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 126] coords=[62, 140, 12] center=[62, 140])
+    Warning: Remote control keyid KEY_9 (10) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[95, 126] coords=[100, 140, 12] center=[100, 140])
+    Warning: Remote control keyid KEY_MUTE (113) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 154] coords=[95, 56, 10] center=[95, 56])
+    Warning: Remote control keyid KEY_0 (11) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 154] coords=[62, 158, 12] center=[62, 158])
+    Warning: Remote control keyid KEY_SUBTITLE (370) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[48, 176] coords=[49, 419, 12] center=[49, 419])
+    Warning: Remote control keyid KEY_AUDIO (392) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[96, 176] coords=[20, 401, 12] center=[20, 401])
+    Warning: Remote control keyid KEY_INFO (358) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[21, 214] coords=[22, 254, 10] center=[22, 254])
+    Warning: Remote control keyid KEY_BACK (158) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[100, 228] coords=[99, 254, 10] center=[99, 254])
+    Warning: Remote control keyid KEY_UP (103) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[62, 224] coords=[61, 259, 12] center=[61, 259])
+    Warning: Remote control keyid KEY_LEFT (105) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[34, 260] coords=[25, 293, 12] center=[25, 293])
+    Warning: Remote control keyid KEY_OK (352) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[62, 262] coords=[61, 293, 15] center=[61, 293])
+    Warning: Remote control keyid KEY_RIGHT (106) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[86, 260] coords=[97, 293, 12] center=[97, 293])
+    Warning: Remote control keyid KEY_DOWN (108) Y axis value exceeds tolerance of 0 pixels!  (shape='circle' pos=[61, 282] coords=[61, 327, 12] center=[61, 327])
+    Warning: Remote control keyid KEY_MENU (139) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[24, 294] coords=[22, 332, 10] center=[22, 332])
+    Warning: Remote control keyid KEY_EXIT (174) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[97, 294] coords=[99, 332, 10] center=[99, 332])
+    Warning: Remote control keyid KEY_VOLUMEUP (115) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 312] coords=[23, 191, 12] center=[23, 191])
+    Warning: Remote control keyid KEY_CHANNELUP (402) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[93, 312] coords=[101, 192, 12] center=[101, 192])
+    Warning: Remote control keyid KEY_FAVORITES (364) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 312] coords=[101, 419, 12] center=[101, 419])
+    Warning: Remote control keyid KEY_EPG (365) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[60, 350] coords=[61, 223, 10] center=[61, 223])
+    Warning: Remote control keyid KEY_VOLUMEDOWN (114) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[26, 334] coords=[23, 219, 12] center=[23, 219])
+    Warning: Remote control keyid KEY_CHANNELDOWN (403) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[93, 345] coords=[101, 220, 12] center=[101, 220])
+    Warning: Remote control keyid KEY_RED (398) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[24, 372] coords=[20, 357, 10] center=[20, 357])
+    Warning: Remote control keyid KEY_GREEN (399) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[48, 372] coords=[49, 357, 10] center=[49, 357])
+    Warning: Remote control keyid KEY_YELLOW (400) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[72, 372] coords=[75, 357, 10] center=[75, 357])
+    Warning: Remote control keyid KEY_BLUE (401) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[96, 372] coords=[102, 357, 10] center=[102, 357])
+    Warning: Remote control keyid KEY_TEXT (388) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[96, 390] coords=[20, 419, 12] center=[20, 419])
+    Warning: Remote control keyid KEY_REWIND (168) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[24, 408] coords=[20, 385, 12] center=[20, 385])
+    Warning: Remote control keyid KEY_FASTFORWARD (208) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[48, 408] coords=[101, 385, 12] center=[101, 385])
+    Warning: Remote control keyid KEY_PREVIOUS (412) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[72, 408] coords=[23, 158, 12] center=[23, 158])
+    Warning: Remote control keyid KEY_NEXT (407) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[96, 408] coords=[100, 158, 12] center=[100, 158])
+    Warning: Remote control keyid KEY_PLAY (207) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[24, 426] coords=[49, 385, 12] center=[49, 385])
+    Warning: Remote control keyid KEY_PAUSE (119) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[48, 426] coords=[76, 385, 12] center=[76, 385])
+    Warning: Remote control keyid KEY_STOP (128) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[72, 426] coords=[49, 401, 12] center=[49, 401])
+    Warning: Remote control keyid KEY_RECORD (167) X axis and Y axis values exceed tolerance of 0 pixels!  (shape='circle' pos=[96, 426] coords=[75, 401, 12] center=[75, 401])
+    Note: Remote control keyid KEY_POWER (116) attribute 'label' with a value of 'POWER' is being added.
+    Note: Remote control keyid KEY_1 (2) attribute 'label' with a value of '1' is being added.
+    Note: Remote control keyid KEY_2 (3) attribute 'label' with a value of '2' is being added.
+    Note: Remote control keyid KEY_3 (4) attribute 'label' with a value of '3' is being added.
+    Note: Remote control keyid KEY_4 (5) attribute 'label' with a value of '4' is being added.
+    Note: Remote control keyid KEY_5 (6) attribute 'label' with a value of '5' is being added.
+    Note: Remote control keyid KEY_6 (7) attribute 'label' with a value of '6' is being added.
+    Note: Remote control keyid KEY_7 (8) attribute 'label' with a value of '7' is being added.
+    Note: Remote control keyid KEY_8 (9) attribute 'label' with a value of '8' is being added.
+    Note: Remote control keyid KEY_9 (10) attribute 'label' with a value of '9' is being added.
+    Note: Remote control keyid KEY_MUTE (113) attribute 'label' with a value of 'MUTE' is being added.
+    Note: Remote control keyid KEY_0 (11) attribute 'label' with a value of '0' is being added.
+    Note: Remote control keyid KEY_SAT (381) attribute 'label' with a value of 'SAT' is being added.
+    Note: Remote control keyid KEY_SAT (381) attribute 'title' with a value of 'SAT' is being added.
+    Note: Remote control keyid KEY_SAT (381) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_SUBTITLE (370) attribute 'label' with a value of 'SUBTITLE' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'label' with a value of 'VIDEO' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'title' with a value of 'VIDEO' is being added.
+    Note: Remote control keyid KEY_VIDEO (393) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_AUDIO (392) attribute 'label' with a value of 'AUDIO' is being added.
+    Note: Remote control keyid KEY_OPTION (357) attribute 'label' with a value of 'OPTION' is being added.
+    Note: Remote control keyid KEY_OPTION (357) attribute 'title' with a value of 'OPTION' is being added.
+    Note: Remote control keyid KEY_OPTION (357) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_INFO (358) attribute 'label' with a value of 'INFO' is being added.
+    Note: Remote control keyid KEY_BACK (158) attribute 'label' with a value of 'RECALL' is being added.
+    Note: Remote control keyid KEY_UP (103) attribute 'label' with a value of 'UP' is being added.
+    Note: Remote control keyid KEY_LEFT (105) attribute 'label' with a value of 'LEFT' is being added.
+    Note: Remote control keyid KEY_OK (352) attribute 'label' with a value of 'OK' is being added.
+    Note: Remote control keyid KEY_RIGHT (106) attribute 'label' with a value of 'RIGHT' is being added.
+    Note: Remote control keyid KEY_DOWN (108) attribute 'label' with a value of 'DOWN' is being added.
+    Note: Remote control keyid KEY_MENU (139) attribute 'label' with a value of 'MENU' is being added.
+    Note: Remote control keyid KEY_EXIT (174) attribute 'label' with a value of 'EXIT' is being added.
+    Note: Remote control keyid KEY_VOLUMEUP (115) attribute 'label' with a value of 'VOL+' is being added.
+    Note: Remote control keyid KEY_CHANNELUP (402) attribute 'label' with a value of 'BOUQUET+' is being added.
+    Note: Remote control keyid KEY_FAVORITES (364) attribute 'label' with a value of 'FAV' is being added.
+    Note: Remote control keyid KEY_EPG (365) attribute 'label' with a value of 'EPG' is being added.
+    Note: Remote control keyid KEY_VOLUMEDOWN (114) attribute 'label' with a value of 'VOL-' is being added.
+    Note: Remote control keyid KEY_CHANNELDOWN (403) attribute 'label' with a value of 'BOUQUET-' is being added.
+    Note: Remote control keyid KEY_RED (398) attribute 'label' with a value of 'RED' is being added.
+    Note: Remote control keyid KEY_GREEN (399) attribute 'label' with a value of 'GREEN' is being added.
+    Note: Remote control keyid KEY_YELLOW (400) attribute 'label' with a value of 'YELLOW' is being added.
+    Note: Remote control keyid KEY_BLUE (401) attribute 'label' with a value of 'BLUE' is being added.
+    Note: Remote control keyid KEY_SLEEP (142) attribute 'label' with a value of 'SLEEP' is being added.
+    Note: Remote control keyid KEY_SLEEP (142) attribute 'title' with a value of 'SLEEP' is being added.
+    Note: Remote control keyid KEY_SLEEP (142) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_SWITCHVIDEOMODE (227) attribute 'label' with a value of 'VMODE' is being added.
+    Note: Remote control keyid KEY_SWITCHVIDEOMODE (227) attribute 'title' with a value of 'VMODE' is being added.
+    Note: Remote control keyid KEY_SWITCHVIDEOMODE (227) attribute 'coords' with a value of None is being added.
+    Note: Remote control keyid KEY_TEXT (388) attribute 'label' with a value of 'TEXT' is being added.
+    Note: Remote control keyid KEY_REWIND (168) attribute 'label' with a value of 'REWIND' is being added.
+    Note: Remote control keyid KEY_FASTFORWARD (208) attribute 'label' with a value of 'FASTFORWARD' is being added.
+    Note: Remote control keyid KEY_PREVIOUS (412) attribute 'label' with a value of 'ARROWLEFT' is being added.
+    Note: Remote control keyid KEY_NEXT (407) attribute 'label' with a value of 'ARROWRIGHT' is being added.
+    Note: Remote control keyid KEY_PLAY (207) attribute 'label' with a value of 'PLAY' is being added.
+    Note: Remote control keyid KEY_PAUSE (119) attribute 'label' with a value of 'PAUSE' is being added.
+    Note: Remote control keyid KEY_STOP (128) attribute 'label' with a value of 'STOP' is being added.
+    Note: Remote control keyid KEY_RECORD (167) attribute 'label' with a value of 'RECORD' is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'name' with a value of 'TV' is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'label' with a value of 'TV' is being added.
+    Note: Remote control keyid KEY_TV (377) attribute 'pos' with a value of [75, 419] is being added.
+
+Processing complete.
