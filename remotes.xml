@@ -134,7 +134,7 @@
 	<remote model="gbquad4k" rcType="0" codeName="gb3" displayName="GigaBlue Quad 4K" />
 	<remote model="gbquadplus" rcType="502" codeName="gb1" displayName="GigaBlue Black" />
 	<remote model="gbquad" rcType="0" codeName="gb0" displayName="GigaBlue Quad" />
-	<remote model="gbtrio4kpro" rcType="0" codeName="gb4" displayName="GigaBlue Trio 4K Pro" />
+	<remote model="gbtrio4kpro" rcType="0" codeName="gb6" displayName="GigaBlue Trio 4K Pro" />
 	<remote model="gbtrio4k" rcType="0" codeName="gb4" displayName="GigaBlue Trio 4K" />
 	<remote model="gbue4k" rcType="0" codeName="gb3" displayName="GigaBlue UHD UE 4K - Old Model" />
 	<remote model="gbue4k" rcType="0" codeName="gb4" displayName="GigaBlue UHD UE 4K - New Model" />
@@ -300,7 +300,7 @@
 	<remote model="sf3038" rcType="503" codeName="sf3038" displayName="SF3038" />
 	<remote model="sf4008" rcType="501" codeName="sf3038" displayName="Octagon SF4008" />
 	<remote model="sf8008m" rcType="0" codeName="sf8008" displayName="SF8008 Mini" />
-	<remote model="sf8008" rcType="0" codeName="sf8008" displayName="SF8008" />
+	<remote model="sf8008" rcType="0" codeName="octagon1" displayName="SF8008" />
 	<remote model="sf98" rcType="0" codeName="sf98" displayName="SF98" />
 	<remote model="sfx6008" rcType="0" codeName="octagon3" displayName="SFX6008" />
 	<remote model="sh1" rcType="20" codeName="zgemma1" displayName="AirDigital Zgemma Star S/2S/H1/H2" />
@@ -345,6 +345,7 @@
 	<remote model="uniboxhde" rcType="0" codeName="uniboxhde" displayName="Unibox HDe" />
 	<remote model="ustym4kottpremium" rcType="0" codeName="uclan2" displayName="Ustym 4K OTT Premium" />
 	<remote model="ustym4kpro" rcType="0" codeName="uclan1" displayName="Ustym 4K Pro" />
+	<remote model="ustym4ks2ottx" rcType="0" codeName="uclan3" displayName="Ustym 4K S2 OTTx" />
 	<remote model="valalinux" rcType="0" codeName="vala" displayName="Vala Linux" />
 	<remote model="ventonhdx" rcType="0" codeName="ini0" displayName="Venton HDx" />
 	<remote model="vip1_v1" rcType="17" codeName="vip_1" displayName="Vip 1 V1" />
