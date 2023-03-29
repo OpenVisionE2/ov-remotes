@@ -18136,3 +18136,17 @@ Processing remote control filename './rc/qviart1'.
     Note: Remote control keyid KEY_PROGRAM (362) attribute 'pos' with a value of [101, 254] is being added.
 
 Processing complete.
+[master a0e5471] Check remote files
+ 7 files changed, 11934 insertions(+), 11332 deletions(-)
+ create mode 100644 check-report/gb6.xml.report
+ create mode 100644 check-report/uclan3.xml.report
+ create mode 100644 check-result/gb6.html-New
+ create mode 100644 check-result/gb6.xml-Hybrid
+ create mode 100644 check-result/gb6.xml-New
+ create mode 100644 check-result/gb6.xml-Old
+
+-e Check time was 0 minutes and 8 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
