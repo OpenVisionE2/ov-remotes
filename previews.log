@@ -1,5 +1,6 @@
 
 **ERROR: 'qviart6.xml' is invalid**
+**ERROR: 'uclan3.xml' is invalid**
 WARNING: 'abcom.png' has not the correct size w=124,h=500
 WARNING: 'adb_xmp.png' has not the correct size w=111,h=500
 WARNING: 'amiko1.png' has not the correct size w=124,h=500
@@ -153,6 +154,7 @@ WARNING: 'gb3.png' has not the correct size w=114,h=500
 WARNING: 'gb3.xml' has no label for 'KEY_CONTEXT_MENU'
 WARNING: 'gb4.png' has not the correct size w=114,h=500
 WARNING: 'gb5.png' has not the correct size w=120,h=500
+WARNING: 'gb6.png' has not the correct size w=121,h=500
 WARNING: 'gi1.png' has not the correct size w=121,h=500
 WARNING: 'hardkernel.png' has not the correct size w=149,h=500
 WARNING: 'hc8100.png' has not the correct size w=151,h=500
@@ -275,6 +277,7 @@ WARNING: 'turing.png' has not the correct size w=137,h=500
 WARNING: 'tyrant.png' has not the correct size w=115,h=500
 WARNING: 'uclan1.png' has not the correct size w=133,h=500
 WARNING: 'uclan2.png' has not the correct size w=119,h=500
+WARNING: 'uclan3.png' has not the correct size w=122,h=500
 WARNING: 'ufs910.png' has not the correct size w=149,h=500
 WARNING: 'ufs912.png' has not the correct size w=137,h=500
 WARNING: 'ufs913.png' has not the correct size w=128,h=500

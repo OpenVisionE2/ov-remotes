@@ -2928,3 +2928,15 @@ Processing remote control filename './rc/qviart1.html'.
   XML Parse Error: '^               '
 
 Processing complete.
+[master 2dbe87d] Convert remote files
+ 6 files changed, 645 insertions(+), 467 deletions(-)
+ create mode 100644 convert-report/gb6.xml.report
+ create mode 100644 convert-report/uclan3.xml.report
+ create mode 100644 convert-result/gb6.xml-new
+ create mode 100644 convert-result/uclan3.xml-new
+
+-e Convert time was 0 minutes and 6 seconds.
+-e Fast converting would be less than 1 minute.
+
+Convert Done!
+
