@@ -2928,3 +2928,11 @@ Processing remote control filename './rc/octagon1.html'.
   XML Parse Error: '^               '
 
 Processing complete.
+[master 56f361b] Convert remote files
+ 2 files changed, 478 insertions(+), 482 deletions(-)
+
+-e Convert time was 0 minutes and 8 seconds.
+-e Fast converting would be less than 1 minute.
+
+Convert Done!
+
