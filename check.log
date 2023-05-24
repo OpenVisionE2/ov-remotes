@@ -18136,3 +18136,11 @@ Processing remote control filename './rc/azboxhd'.
     Note: Remote control keyid KEY_EPG (365) attribute 'pos' with a value of [21, 269] is being added.
 
 Processing complete.
+[master 7ba3361] Check remote files
+ 1 file changed, 11961 insertions(+), 11969 deletions(-)
+
+-e Check time was 0 minutes and 7 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
