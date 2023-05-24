@@ -117,8 +117,11 @@
 	<remote model="forever_9898hd" rcType="23" codeName="hs9510" displayName="Forever 9898HD" />
 	<remote model="forever_nanosmart" rcType="23" codeName="hs9510" displayName="Forever NanoSmart" />
 	<remote model="formuler1" rcType="18" codeName="formuler1" displayName="Formuler F1" />
+	<remote model="formuler1tc" rcType="18" codeName="formuler1" displayName="Formuler F1" />
 	<remote model="formuler3" rcType="18" codeName="formuler1" displayName="Formuler F3" />
+	<remote model="formuler3ip" rcType="18" codeName="formuler1" displayName="Formuler F3" />
 	<remote model="formuler4" rcType="18" codeName="formuler1" displayName="Formuler F4" />
+	<remote model="formuler4ip" rcType="18" codeName="formuler1" displayName="Formuler F4" />
 	<remote model="formuler4turbo" rcType="18" codeName="formuler1" displayName="Formuler F4 Turbo" />
 	<remote model="fortis_hdbox" rcType="7" codeName="fs9000" displayName="Fortis HD Box" />
 	<remote model="fusionhd" rcType="0" codeName="fusionhd" displayName="Fusion HD" />
