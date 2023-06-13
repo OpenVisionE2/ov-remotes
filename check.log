@@ -18136,3 +18136,11 @@ Processing remote control filename './rc/sf98'.
     Note: Remote control keyid KEY_PROGRAM (362) attribute 'pos' with a value of [91, 351] is being added.
 
 Processing complete.
+[master 657ff2c] Check remote files
+ 1 file changed, 11953 insertions(+), 11961 deletions(-)
+
+-e Check time was 0 minutes and 8 seconds.
+-e Fast checking would be less than 1 minute.
+
+Check Done!
+
