@@ -28,9 +28,9 @@
 	<remote model="axashistwinplus" rcType="0" codeName="axas4" displayName="Axashis Twin Plus" />
 	<remote model="axashistwin" rcType="0" codeName="axas3" displayName="Axashis Twin" />
 	<remote model="axodin" rcType="505" codeName="odinm7" displayName="Axodin/OdinM7" />
-	<remote model="azboxhd" rcType="0" codeName="azboxhd" displayName="AZ Box HD" />
-	<remote model="azboxme" rcType="0" codeName="azboxme" displayName="AZ Box ME" />
-	<remote model="azboxminime" rcType="0" codeName="azboxme" displayName="AZ Box Mini ME" />
+	<remote model="azboxhd" rcType="50" codeName="azboxhd" displayName="AZ Box HD" />
+	<remote model="azboxme" rcType="51" codeName="azboxme" displayName="AZ Box ME" />
+	<remote model="azboxminime" rcType="51" codeName="azboxme" displayName="AZ Box Mini ME" />
 	<remote model="beyonwizt2" rcType="0" codeName="ini7" displayName="Beyonwiz T2" />
 	<remote model="beyonwizt3" rcType="0" codeName="ini5" displayName="Beyonwiz T3" />
 	<remote model="beyonwizt4" rcType="0" codeName="ini7" displayName="Beyonwiz T4" />
