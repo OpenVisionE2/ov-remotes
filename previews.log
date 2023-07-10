@@ -1,5 +1,6 @@
 
 **ERROR: 'qviart6.xml' is invalid**
+**ERROR: 'qviart8.xml' is invalid**
 **ERROR: 'uclan3.xml' is invalid**
 WARNING: 'abcom.png' has not the correct size w=124,h=500
 WARNING: 'adb_xmp.png' has not the correct size w=111,h=500
@@ -252,6 +253,8 @@ WARNING: 'qviart3.png' has not the correct size w=125,h=491
 WARNING: 'qviart4.png' has not the correct size w=125,h=491
 WARNING: 'qviart5.png' has not the correct size w=126,h=500
 WARNING: 'qviart6.png' has not the correct size w=119,h=500
+WARNING: 'qviart7.png' has not the correct size w=118,h=493
+WARNING: 'qviart8.png' has not the correct size w=121,h=500
 WARNING: 'red1.png' has not the correct size w=124,h=500
 WARNING: 'red2.png' has not the correct size w=124,h=500
 WARNING: 'relook.png' has not the correct size w=117,h=500
