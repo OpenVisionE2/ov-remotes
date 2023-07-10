@@ -74,7 +74,7 @@
 	<remote model="dm920" rcType="0" codeName="dmm2" displayName="Dream Multimedia 920" />
 	<remote model="dreamone" rcType="0" codeName="dmm3" displayName="Dream Multimedia One" />
 	<remote model="dreamtwo" rcType="0" codeName="dmm3" displayName="Dream Multimedia Two" />
-	<remote model="dual" rcType="0" codeName="qviart5" displayName="Dual" />
+	<remote model="dual" rcType="0" codeName="qviart7" displayName="Dual" />
 	<remote model="e4hdcombo" rcType="0" codeName="e4hdcombo" displayName="E4HD Combo" />
 	<remote model="e4hdhybrid" rcType="0" codeName="e4hd" displayName="E4HD Hybrid" />
 	<remote model="e4hd" rcType="24" codeName="e4hd" displayName="Axas E4HD" />
@@ -252,6 +252,7 @@
 	<remote model="odinplus" rcType="0" codeName="ax1" displayName="Odin Plus" />
 	<remote model="odroidc2" rcType="0" codeName="hardkernel" displayName="Odroid C2" />
 	<remote model="og2ott4k" rcType="0" codeName="qviart6" displayName="OG2 OTT 4K" />
+	<remote model="og2s4k" rcType="0" codeName="qviart8" displayName="OG2 2S 4K" />
 	<remote model="opt9600mini" rcType="21" codeName="opt9600" displayName="Opticum 9600 Mini" />
 	<remote model="opt9600prima" rcType="21" codeName="opt9600" displayName="Opticum 9600 Prima" />
 	<remote model="opt9600" rcType="21" codeName="opt9600" displayName="Opticum 9600" />
